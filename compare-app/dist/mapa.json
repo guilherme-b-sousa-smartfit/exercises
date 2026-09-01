@@ -1,0 +1,1234 @@
+{
+  "Supino Fechado": {
+    "id": "0030",
+    "name": "barbell close-grip bench press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0030-J6Dx1Mu.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0030-J6Dx1Mu.gif"
+  },
+  "Abdominal Máquina Hammer": {
+    "id": "0595",
+    "name": "lever seated crunch (chest pad)",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0595-ZnJHhMk.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0595-ZnJHhMk.gif"
+  },
+  "Remada Polia Triângulo Sentada": {
+    "id": "0213",
+    "name": "cable seated high row (v-bar)",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0213-pwt0pnM.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0213-pwt0pnM.gif"
+  },
+  "Remada Polia Barra Reta Fechada Sentada": {
+    "id": "0861",
+    "name": "cable seated row",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0861-fUBheHs.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0861-fUBheHs.gif"
+  },
+  "Remada Polia Barra Reta Aberta Sentada": {
+    "id": "0239",
+    "name": "cable straight back seated row",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0239-Tq6gbK6.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0239-Tq6gbK6.gif"
+  },
+  "Remada Polia Barra Reta Supinada Sentada": {
+    "id": "0208",
+    "name": "cable reverse-grip straight back seated high row",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0208-PNtsX17.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0208-PNtsX17.gif"
+  },
+  "Gêmeos Sentado Unilateral": {
+    "id": "0400",
+    "name": "dumbbell seated one leg calf raise",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0400-Ia7tumC.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0400-Ia7tumC.gif"
+  },
+  "Rosca Barra W Alta": {
+    "id": "0447",
+    "name": "ez barbell curl",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0447-6TG6x2w.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0447-6TG6x2w.gif"
+  },
+  "Rolinho de Joelhos com TRX'": {
+    "id": "0805",
+    "name": "suspended abdominal fallout",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0805-X3TCNEU.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0805-X3TCNEU.gif"
+  },
+  "Supino Freemotion": {
+    "id": "2144",
+    "name": "cable seated chest press",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2144-nIR4Rwl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2144-nIR4Rwl.gif"
+  },
+  "Supino Livre Declinado": {
+    "id": "0033",
+    "name": "barbell decline bench press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0033-GrO65fd.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0033-GrO65fd.gif"
+  },
+  "Remada Freemotion": {
+    "id": "0234",
+    "name": "cable standing row (v-bar)",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0234-4f8RXP8.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0234-4f8RXP8.gif"
+  },
+  "Abdominal Supra Freemotion": {
+    "id": "0226",
+    "name": "cable standing crunch",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0226-jpgqxiS.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0226-jpgqxiS.gif"
+  },
+  "Agachamento + Desenvolvimento Fechado Alternado com Halter": {
+    "id": "0550",
+    "name": "kettlebell thruster",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0550-yWxMvB5.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0550-yWxMvB5.gif"
+  },
+  "Stiff + Remada Alta com Halter": {
+    "id": "1459",
+    "name": "dumbbell romanian deadlift",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1459-rR0LJzx.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1459-rR0LJzx.gif"
+  },
+  "Rosca 45 no Step'": {
+    "id": "0318",
+    "name": "dumbbell incline curl",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0318-ae9UoXQ.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0318-ae9UoXQ.gif"
+  },
+  "Ondas Alternado Sentado": {
+    "id": "0128",
+    "name": "battling ropes",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0128-RJa4tCo.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0128-RJa4tCo.gif"
+  },
+  "Flexão do Joelho Deitado com Bola": {
+    "id": "1417",
+    "name": "exercise ball one legged diagonal kick hamstring curl",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1417-GOJKFfO.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1417-GOJKFfO.gif"
+  },
+  "Elevação Pélvica com Barra e Step'": {
+    "id": "1409",
+    "name": "barbell glute bridge",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1409-qKBpF7I.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1409-qKBpF7I.gif"
+  },
+  "Flexão de joelho unilateral com caneleira": {
+    "id": "0795",
+    "name": "standing single leg curl",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0795-C5jncD2.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0795-C5jncD2.gif"
+  },
+  "Agachamento Hack Inclinado": {
+    "id": "0743",
+    "name": "sled hack squat",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0743-Qa55kX1.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0743-Qa55kX1.gif"
+  },
+  "Cadeira Extensora Articulada": {
+    "id": "0585",
+    "name": "lever leg extension",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0585-my33uHU.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0585-my33uHU.gif"
+  },
+  "Agachamento com Cinto Articulado": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Agachamento Pêndulo": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Afundo Articulado": {
+    "id": "0768",
+    "name": "smith single leg split squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0768-wWFspEi.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0768-wWFspEi.gif"
+  },
+  "Supino Reto Articulado": {
+    "id": "0577",
+    "name": "lever chest press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0577-T0yTjgW.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0577-T0yTjgW.gif"
+  },
+  "Remada Baixa Articulada": {
+    "id": "1350",
+    "name": "lever seated row",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1350-7I6LNUG.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1350-7I6LNUG.gif"
+  },
+  "Supino Reto Deitado Articulado": {
+    "id": "0576",
+    "name": "lever chest press",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0576-DOoWcnA.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0576-DOoWcnA.gif"
+  },
+  "Supino Inclinado Deitado Articulado": {
+    "id": "1299",
+    "name": "lever incline chest press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1299-jHAnWmT.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1299-jHAnWmT.gif"
+  },
+  "Desenvolvimento Articulado": {
+    "id": "0603",
+    "name": "lever shoulder press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0603-67n3r98.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0603-67n3r98.gif"
+  },
+  "Remada Cavalinho com Suporte": {
+    "id": "0606",
+    "name": "lever t bar row",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0606-aaXr7ld.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0606-aaXr7ld.gif"
+  },
+  "Agachamento Unilateral Hack Inclinado": {
+    "id": "0743",
+    "name": "sled hack squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0743-Qa55kX1.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0743-Qa55kX1.gif"
+  },
+  "Cadeira Extensora Articulada Unilateral": {
+    "id": "0585",
+    "name": "lever leg extension",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0585-my33uHU.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0585-my33uHU.gif"
+  },
+  "Agachamento Sumô com Cinto Articulado": {
+    "id": "3142",
+    "name": "smith sumo squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3142-dzz6BiV.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3142-dzz6BiV.gif"
+  },
+  "Agachamento Sissy": {
+    "id": "1489",
+    "name": "sissy squat",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1489-xdYPUtE.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1489-xdYPUtE.gif"
+  },
+  "Supino Reto Articulado Unilateral": {
+    "id": "0577",
+    "name": "lever chest press",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0577-T0yTjgW.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0577-T0yTjgW.gif"
+  },
+  "Remada Baixa Articulada Fechada": {
+    "id": "0588",
+    "name": "lever narrow grip seated row",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0588-IGjKj1v.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0588-IGjKj1v.gif"
+  },
+  "Remada Baixa Articulada Fechada Unilateral": {
+    "id": "0571",
+    "name": "lever alternating narrow grip seated row",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0571-w2oRpuH.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0571-w2oRpuH.gif"
+  },
+  "Remada Baixa Articulada Supinada": {
+    "id": "1348",
+    "name": "lever reverse grip vertical row",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1348-ZqNOWQ6.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1348-ZqNOWQ6.gif"
+  },
+  "Remada Baixa Articulada Supinada Unilateral": {
+    "id": "1313",
+    "name": "lever unilateral row",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1313-oROuvrX.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1313-oROuvrX.gif"
+  },
+  "Supino Reto Deitado Articulado Unilateral": {
+    "id": "0576",
+    "name": "lever chest press",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0576-DOoWcnA.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0576-DOoWcnA.gif"
+  },
+  "Supino Inclinado Deitado Articulado Unilateral": {
+    "id": "1479",
+    "name": "lever incline chest press v. 2",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1479-o17Jfkt.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1479-o17Jfkt.gif"
+  },
+  "Desenvolvimento Articulado Unilateral": {
+    "id": "0590",
+    "name": "lever one arm shoulder press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0590-2KGnL6M.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0590-2KGnL6M.gif"
+  },
+  "Hiperextensão Máquina": {
+    "id": "0573",
+    "name": "lever back extension",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0573-rUXfn3R.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0573-rUXfn3R.gif"
+  },
+  "Abdução em pé Máquina": {
+    "id": "0597",
+    "name": "lever seated hip abduction",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0597-CHpahtl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif"
+  },
+  "Elevação Pelvica em Pé Articulada": {
+    "id": "2286",
+    "name": "lever hip extension v. 2",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2286-OPqShYN.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif"
+  },
+  "Remada Alta Articulada Supinada": {
+    "id": "0775",
+    "name": "smith upright row",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0775-1DN3iz4.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0775-1DN3iz4.gif"
+  },
+  "Leg Press Horizontal Unilateral Articulado": {
+    "id": "2611",
+    "name": "lever horizontal one leg press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2611-9KU9TYF.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2611-9KU9TYF.gif"
+  },
+  "Agachamento Articulado": {
+    "id": "0770",
+    "name": "smith squat",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0770-jFtipLl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0770-jFtipLl.gif"
+  },
+  "Elevação Pélvica Máquina": {
+    "id": "2286",
+    "name": "lever hip extension v. 2",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2286-OPqShYN.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif"
+  },
+  "Hiperextensão Reversa": {
+    "id": "0593",
+    "name": "lever reverse hyperextension",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0593-Krmb3cB.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0593-Krmb3cB.gif"
+  },
+  "Crucifixo Estação Múltipla": {
+    "id": "0188",
+    "name": "cable middle fly",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0188-xLYSdtg.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0188-xLYSdtg.gif"
+  },
+  "Crucifixo Inverso Estação Multi": {
+    "id": "0154",
+    "name": "cable cross-over revers fly",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0154-aqvSOQE.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0154-aqvSOQE.gif"
+  },
+  "Elevação Lateral Estação Multi": {
+    "id": "0178",
+    "name": "cable lateral raise",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0178-goJ6ezq.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0178-goJ6ezq.gif"
+  },
+  "Remada 45 Guiada": {
+    "id": "1359",
+    "name": "smith bent over row",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1359-ZX9UZmj.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1359-ZX9UZmj.gif"
+  },
+  "Elevação Lateral Articulada": {
+    "id": "0584",
+    "name": "lever lateral raise",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0584-dRTfGZT.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0584-dRTfGZT.gif"
+  },
+  "Cadeira Abdutora Articulada": {
+    "id": "0597",
+    "name": "lever seated hip abduction",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0597-CHpahtl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif"
+  },
+  "Toque de escapula no chão": {
+    "id": "3239",
+    "name": "kneeling plank tap shoulder (male)",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3239-h1ezqSu.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3239-h1ezqSu.gif"
+  },
+  "Agachamento com mãos no tornozelo": {
+    "id": "3119",
+    "name": "potty squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3119-75Bgtjy.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3119-75Bgtjy.gif"
+  },
+  "Afundo com rotação de tronco": {
+    "id": "1688",
+    "name": "lunge with twist",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1688-K9VL0Jq.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1688-K9VL0Jq.gif"
+  },
+  "Sustentação plante flexão tornozelo": {
+    "id": "1387",
+    "name": "one leg floor calf raise",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1387-0jp9Rlz.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1387-0jp9Rlz.gif"
+  },
+  "Sustentação no tornozelo": {
+    "id": "1368",
+    "name": "ankle circles",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1368-uL9CsKm.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1368-uL9CsKm.gif"
+  },
+  "Escorpião": {
+    "id": "3639",
+    "name": "bent knee lying twist (male)",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3639-6sYyrRX.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3639-6sYyrRX.gif"
+  },
+  "Circundução de ombro": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Circundução de punho": {
+    "id": "1428",
+    "name": "wrist circles",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1428-2zNKRUB.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1428-2zNKRUB.gif"
+  },
+  "Gato": {
+    "id": "1363",
+    "name": "spine stretch",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1363-JbC2iaV.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1363-JbC2iaV.gif"
+  },
+  "Abdução de quadril com elástico": {
+    "id": "3006",
+    "name": "resistance band seated hip abduction",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3006-0xDpB4L.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3006-0xDpB4L.gif"
+  },
+  "Elevação Pélvica Mobilidade": {
+    "id": "3013",
+    "name": "low glute bridge on floor",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3013-u0cNiij.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3013-u0cNiij.gif"
+  },
+  "Elevação Pélvica Unilateral Mobilidade": {
+    "id": "3645",
+    "name": "single leg bridge with outstretched leg",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3645-rmEukuS.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3645-rmEukuS.gif"
+  },
+  "Perdigueiro Alternado": {
+    "id": "0276",
+    "name": "dead bug",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0276-iny3m5y.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0276-iny3m5y.gif"
+  },
+  "Rotação de Tronco Tocando os pés": {
+    "id": "1468",
+    "name": "crab twist toe touch",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1468-xgsGFVM.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1468-xgsGFVM.gif"
+  },
+  "Semi Ajoelhado Anteorização de Joelho": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Anteorização Extenção": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Abdução Lateralização": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Abdução de Ombros": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Rotação de Tronco": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Anteorização de Joelho 2 lados": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Perna Oposta Estendida": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Semi Ajoelhado Perna Oposta Estendida Tronco": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Saudação ao Sol": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Rotação Tronco 6 apoios Braços Estendidos": {
+    "id": "2329",
+    "name": "spine twist",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2329-2jl9K55.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2329-2jl9K55.gif"
+  },
+  "Rotação Interna e Externa de Quadril": {
+    "id": "0996",
+    "name": "band seated hip internal rotation",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0996-9gbyYKk.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0996-9gbyYKk.gif"
+  },
+  "Rotação Interna e Externa de Quadril com subida": {
+    "id": "0984",
+    "name": "band lying hip internal rotation",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0984-vIICElP.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0984-vIICElP.gif"
+  },
+  "Rotação de Quadril Perna Estendida": {
+    "id": "1416",
+    "name": "exercise ball one leg prone lower body rotation",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1416-M72BExt.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1416-M72BExt.gif"
+  },
+  "Rotação de Tronco 6 apoios Braço Occipital": {
+    "id": "2329",
+    "name": "spine twist",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2329-2jl9K55.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2329-2jl9K55.gif"
+  },
+  "Flexão de Quadril e Extensão de Quadril": {
+    "id": "1564",
+    "name": "intermediate hip flexor and quad stretch",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1564-tFGKm99.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1564-tFGKm99.gif"
+  },
+  "Flexão e Extensão de Punho": {
+    "id": "1428",
+    "name": "wrist circles",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1428-2zNKRUB.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1428-2zNKRUB.gif"
+  },
+  "Agachamento Profundo isométrico": {
+    "id": "3119",
+    "name": "potty squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3119-75Bgtjy.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3119-75Bgtjy.gif"
+  },
+  "Agachamento Profundo com Balanço": {
+    "id": "3132",
+    "name": "potty squat with support",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3132-b63ZzGe.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3132-b63ZzGe.gif"
+  },
+  "Circundação de Ombro Tocando Calcanhar": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "Circundação de Tornozelo": {
+    "id": "1368",
+    "name": "ankle circles",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1368-uL9CsKm.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1368-uL9CsKm.gif"
+  },
+  "Reverência isométrico": {
+    "id": "3769",
+    "name": "curtsey squat",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3769-gUjqdei.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3769-gUjqdei.gif"
+  },
+  "Crucifixo Inclinado Articulado": {
+    "id": "0596",
+    "name": "lever seated fly",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0596-v3xmPAR.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0596-v3xmPAR.gif"
+  },
+  "Elevação Lateral Unilateral Articulada": {
+    "id": "0584",
+    "name": "lever lateral raise",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0584-dRTfGZT.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0584-dRTfGZT.gif"
+  },
+  "Supino Guiado Declinado": {
+    "id": "0753",
+    "name": "smith decline bench press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0753-ETZfAbZ.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0753-ETZfAbZ.gif"
+  },
+  "Supino Guiado Unilateral Declinado": {
+    "id": "0753",
+    "name": "smith decline bench press",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0753-ETZfAbZ.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0753-ETZfAbZ.gif"
+  },
+  "Supino Guiado Reto": {
+    "id": "0748",
+    "name": "smith bench press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0748-trqKQv2.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0748-trqKQv2.gif"
+  },
+  "Supino Guiado Unilateral Reto": {
+    "id": "0748",
+    "name": "smith bench press",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0748-trqKQv2.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0748-trqKQv2.gif"
+  },
+  "Tríceps Paralela Articulado": {
+    "id": "1451",
+    "name": "lever seated dip",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1451-BRImeP8.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1451-BRImeP8.gif"
+  },
+  "Rosca Scott Articulado": {
+    "id": "0592",
+    "name": "lever preacher curl",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0592-b6hQYMb.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0592-b6hQYMb.gif"
+  },
+  "Agachamento Articulado Invertido": {
+    "id": "0744",
+    "name": "sled lying squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0744-9n2149Z.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0744-9n2149Z.gif"
+  },
+  "Desenvolvimento Guiado": {
+    "id": "0766",
+    "name": "smith shoulder press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0766-903mzG8.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0766-903mzG8.gif"
+  },
+  "Elevação Pélvica Guiada": {
+    "id": "0756",
+    "name": "smith hip raise",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0756-CqhoytW.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0756-CqhoytW.gif"
+  },
+  "Flexão Nortica Articulada": {
+    "id": "0496",
+    "name": "inverse leg curl (bench support)",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0496-ms7tjSG.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0496-ms7tjSG.gif"
+  },
+  "Squat Power": {
+    "id": "0770",
+    "name": "smith squat",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0770-jFtipLl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0770-jFtipLl.gif"
+  },
+  "Gluteo Coice Articulado": {
+    "id": "2286",
+    "name": "lever hip extension v. 2",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2286-OPqShYN.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif"
+  },
+  "Gluteo Coice Máquina": {
+    "id": "2286",
+    "name": "lever hip extension v. 2",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2286-OPqShYN.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif"
+  },
+  "Stiff no Hiperextensão Máquina": {
+    "id": "0573",
+    "name": "lever back extension",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0573-rUXfn3R.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0573-rUXfn3R.gif"
+  },
+  "Cadeira Abdutora 3D": {
+    "id": "0597",
+    "name": "lever seated hip abduction",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0597-CHpahtl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif"
+  },
+  "Subida Máquina": {
+    "id": "0431",
+    "name": "dumbbell step-up",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0431-aXtJhlg.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0431-aXtJhlg.gif"
+  },
+  "Supino Inclinado Guiado": {
+    "id": "0757",
+    "name": "smith incline bench press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0757-5v7KYld.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0757-5v7KYld.gif"
+  },
+  "Glúteo Coice": {
+    "id": "0130",
+    "name": "bench hip extension",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0130-u27Kcdz.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0130-u27Kcdz.gif"
+  },
+  "Glúteo Polia (perna estendida)": {
+    "id": "0228",
+    "name": "cable standing hip extension",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0228-Kpajagk.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0228-Kpajagk.gif"
+  },
+  "Elevação Pelvica em Pé Máquina": {
+    "id": "2286",
+    "name": "lever hip extension v. 2",
+    "conf": "B",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2286-OPqShYN.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif"
+  },
+  "Leg Press 90 no Smith": {
+    "id": "0760",
+    "name": "smith leg press",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0760-7zdxRTl.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0760-7zdxRTl.gif"
+  },
+  "Esteira": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "Bicicleta": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "Escada": {
+    "id": "2311",
+    "name": "walking on stepmill",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2311-j9Q5crt.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2311-j9Q5crt.gif"
+  },
+  "Elíptico": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "Corrida na Rua": {
+    "id": "0685",
+    "name": "run",
+    "conf": "A",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0685-oLrKqDH.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0685-oLrKqDH.gif"
+  },
+  "Bicicleta na Rua": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "Natação": {
+    "id": "",
+    "name": "",
+    "conf": "-",
+    "image": "",
+    "gif": ""
+  },
+  "HIT 10' NÍVEL 1": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 2": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 3": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 4": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 5": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 1": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 2": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 3": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 4": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 5": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 1": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 2": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 3": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 4": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 5": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 25' NÍVEL 0": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 0": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 15' NÍVEL 0": {
+    "id": "3666",
+    "name": "walking on incline treadmill",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3666-rjiM4L3.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif"
+  },
+  "HIT 10' NÍVEL 0 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 10' NÍVEL 1 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 10' NÍVEL 2 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 10' NÍVEL 3 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 10' NÍVEL 4 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 10' NÍVEL 5 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 0 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 1 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 2 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 3 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 4 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 15' NÍVEL 5 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 0 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 1 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 2 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 3 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 4 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 5 - BIKE": {
+    "id": "2138",
+    "name": "stationary bike run v. 3",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2138-H1PESYI.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif"
+  },
+  "HIT 25' NÍVEL 0 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 25' NÍVEL 5 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 25' NÍVEL 4 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 25' NÍVEL 3 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 25' NÍVEL 2 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 25' NÍVEL 1 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 5 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 4 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 3 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 2 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 1 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 15' NÍVEL 0 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 5 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 4 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 3 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 2 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 1 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  },
+  "HIT 10' NÍVEL 0 - ELÍPTICO": {
+    "id": "2141",
+    "name": "walk elliptical cross trainer",
+    "conf": "C",
+    "image": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2141-rjtuP6X.jpg",
+    "gif": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif"
+  }
+}

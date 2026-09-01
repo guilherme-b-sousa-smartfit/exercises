@@ -1,0 +1,34 @@
+{
+  "Saudação ao Sol": {
+    "gif": "https://upload.wikimedia.org/wikipedia/commons/5/53/Suryanamaskar.gif",
+    "image": "",
+    "image_local": "out/midia-externa/saudacao-ao-sol-thumb.jpg",
+    "origem": "wikimedia commons",
+    "licenca": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Suryanamaskar.gif"
+  },
+  "Natação": {
+    "gif": "https://upload.wikimedia.org/wikipedia/commons/6/62/Freestyle_swimming.gif",
+    "image": "",
+    "image_local": "out/midia-externa/natacao-thumb.jpg",
+    "origem": "wikimedia commons",
+    "licenca": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Freestyle_swimming.gif"
+  },
+  "Circundução de ombro": {
+    "gif": "",
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Shoulder_Circles/0.jpg",
+    "image_local": "out/midia-externa/circunducao-de-ombro-thumb.jpg",
+    "origem": "free-exercise-db",
+    "licenca": "Unlicense (domínio público)",
+    "fonte": "https://github.com/yuhonas/free-exercise-db"
+  },
+  "Circundação de Ombro Tocando Calcanhar": {
+    "gif": "",
+    "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Arm_Circles/0.jpg",
+    "image_local": "out/midia-externa/circunducao-ombro-calcanhar-thumb.jpg",
+    "origem": "free-exercise-db",
+    "licenca": "Unlicense (domínio público)",
+    "fonte": "https://github.com/yuhonas/free-exercise-db"
+  }
+}

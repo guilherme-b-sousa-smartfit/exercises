@@ -1,0 +1,172 @@
+exercicio_smartfit,url,dataset_id,dataset_name,equipment,confianca
+Supino Fechado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0030-J6Dx1Mu.gif,0030,barbell close-grip bench press,barbell,A
+Abdominal Máquina Hammer,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0595-ZnJHhMk.gif,0595,lever seated crunch (chest pad),leverage machine,A
+Remada Polia Triângulo Sentada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0213-pwt0pnM.gif,0213,cable seated high row (v-bar),cable,A
+Remada Polia Barra Reta Fechada Sentada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0861-fUBheHs.gif,0861,cable seated row,cable,B
+Remada Polia Barra Reta Aberta Sentada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0239-Tq6gbK6.gif,0239,cable straight back seated row,cable,B
+Remada Polia Barra Reta Supinada Sentada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0208-PNtsX17.gif,0208,cable reverse-grip straight back seated high row,cable,B
+Gêmeos Sentado Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0400-Ia7tumC.gif,0400,dumbbell seated one leg calf raise,dumbbell,B
+Rosca Barra W Alta,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0447-6TG6x2w.gif,0447,ez barbell curl,ez barbell,B
+Rolinho de Joelhos com TRX',https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0805-X3TCNEU.gif,0805,suspended abdominal fallout,body weight,A
+Supino Freemotion,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2144-nIR4Rwl.gif,2144,cable seated chest press,cable,B
+Supino Livre Declinado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0033-GrO65fd.gif,0033,barbell decline bench press,barbell,A
+Remada Freemotion,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0234-4f8RXP8.gif,0234,cable standing row (v-bar),cable,B
+Abdominal Supra Freemotion,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0226-jpgqxiS.gif,0226,cable standing crunch,cable,B
+Flexão de joelho unilateral com caneleira,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0795-C5jncD2.gif,0795,standing single leg curl,body weight,B
+Agachamento Hack Inclinado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0743-Qa55kX1.gif,0743,sled hack squat,sled machine,A
+Cadeira Extensora Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0585-my33uHU.gif,0585,lever leg extension,leverage machine,A
+Agachamento com Cinto Articulado,,,,,-
+Agachamento Pêndulo,,,,,-
+Afundo Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0768-wWFspEi.gif,0768,smith single leg split squat,smith machine,C
+Supino Reto Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0577-T0yTjgW.gif,0577,lever chest press,leverage machine,A
+Remada Baixa Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1350-7I6LNUG.gif,1350,lever seated row,leverage machine,A
+Supino Reto Deitado Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0576-DOoWcnA.gif,0576,lever chest press,leverage machine,B
+Supino Inclinado Deitado Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1299-jHAnWmT.gif,1299,lever incline chest press,leverage machine,A
+Desenvolvimento Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0603-67n3r98.gif,0603,lever shoulder press,leverage machine,A
+Remada Cavalinho com Suporte,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0606-aaXr7ld.gif,0606,lever t bar row,leverage machine,A
+Agachamento Unilateral Hack Inclinado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0743-Qa55kX1.gif,0743,sled hack squat,sled machine,C
+Cadeira Extensora Articulada Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0585-my33uHU.gif,0585,lever leg extension,leverage machine,C
+Agachamento Sumô com Cinto Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3142-dzz6BiV.gif,3142,smith sumo squat,smith machine,C
+Agachamento Sissy,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1489-xdYPUtE.gif,1489,sissy squat,body weight,A
+Supino Reto Articulado Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0577-T0yTjgW.gif,0577,lever chest press,leverage machine,C
+Remada Baixa Articulada Fechada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0588-IGjKj1v.gif,0588,lever narrow grip seated row,leverage machine,A
+Remada Baixa Articulada Fechada Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0571-w2oRpuH.gif,0571,lever alternating narrow grip seated row,leverage machine,B
+Remada Baixa Articulada Supinada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1348-ZqNOWQ6.gif,1348,lever reverse grip vertical row,leverage machine,B
+Remada Baixa Articulada Supinada Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1313-oROuvrX.gif,1313,lever unilateral row,leverage machine,C
+Supino Reto Deitado Articulado Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0576-DOoWcnA.gif,0576,lever chest press,leverage machine,C
+Supino Inclinado Deitado Articulado Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1479-o17Jfkt.gif,1479,lever incline chest press v. 2,leverage machine,C
+Desenvolvimento Articulado Unilateral,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0590-2KGnL6M.gif,0590,lever one arm shoulder press,leverage machine,A
+Hiperextensão Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0573-rUXfn3R.gif,0573,lever back extension,leverage machine,A
+Abdução em pé Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif,0597,lever seated hip abduction,leverage machine,C
+Elevação Pelvica em Pé Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif,2286,lever hip extension v. 2,leverage machine,B
+Remada Alta Articulada Supinada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0775-1DN3iz4.gif,0775,smith upright row,smith machine,C
+Leg Press Horizontal Unilateral Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2611-9KU9TYF.gif,2611,lever horizontal one leg press,leverage machine,A
+Agachamento Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0770-jFtipLl.gif,0770,smith squat,smith machine,B
+Elevação Pélvica Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif,2286,lever hip extension v. 2,leverage machine,B
+Hiperextensão Reversa,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0593-Krmb3cB.gif,0593,lever reverse hyperextension,leverage machine,A
+Crucifixo Estação Múltipla,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0188-xLYSdtg.gif,0188,cable middle fly,cable,A
+Crucifixo Inverso Estação Multi,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0154-aqvSOQE.gif,0154,cable cross-over revers fly,cable,A
+Elevação Lateral Estação Multi,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0178-goJ6ezq.gif,0178,cable lateral raise,cable,A
+Remada 45 Guiada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1359-ZX9UZmj.gif,1359,smith bent over row,smith machine,A
+Elevação Lateral Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0584-dRTfGZT.gif,0584,lever lateral raise,leverage machine,A
+Cadeira Abdutora Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif,0597,lever seated hip abduction,leverage machine,A
+Toque de escapula no chão,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3239-h1ezqSu.gif,3239,kneeling plank tap shoulder (male),body weight,A
+Agachamento com mãos no tornozelo,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3119-75Bgtjy.gif,3119,potty squat,body weight,C
+Afundo com rotação de tronco,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1688-K9VL0Jq.gif,1688,lunge with twist,body weight,A
+Sustentação plante flexão tornozelo,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1387-0jp9Rlz.gif,1387,one leg floor calf raise,body weight,C
+Sustentação no tornozelo,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1368-uL9CsKm.gif,1368,ankle circles,body weight,C
+Escorpião,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3639-6sYyrRX.gif,3639,bent knee lying twist (male),body weight,B
+Circundução de ombro,,,,,-
+Circundução de punho,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1428-2zNKRUB.gif,1428,wrist circles,body weight,A
+Gato,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1363-JbC2iaV.gif,1363,spine stretch,body weight,C
+Abdução de quadril com elástico,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3006-0xDpB4L.gif,3006,resistance band seated hip abduction,resistance band,B
+Elevação Pélvica Mobilidade,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3013-u0cNiij.gif,3013,low glute bridge on floor,body weight,A
+Elevação Pélvica Unilateral Mobilidade,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3645-rmEukuS.gif,3645,single leg bridge with outstretched leg,body weight,A
+Perdigueiro Alternado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0276-iny3m5y.gif,0276,dead bug,body weight,C
+Rotação de Tronco Tocando os pés,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1468-xgsGFVM.gif,1468,crab twist toe touch,body weight,B
+Semi Ajoelhado Anteorização de Joelho,,,,,-
+Semi Ajoelhado Anteorização Extenção,,,,,-
+Semi Ajoelhado Abdução Lateralização,,,,,-
+Semi Ajoelhado Abdução de Ombros,,,,,-
+Semi Ajoelhado Rotação de Tronco,,,,,-
+Semi Ajoelhado Anteorização de Joelho 2 lados,,,,,-
+Semi Ajoelhado Perna Oposta Estendida,,,,,-
+Semi Ajoelhado Perna Oposta Estendida Tronco,,,,,-
+Saudação ao Sol,,,,,-
+Rotação Tronco 6 apoios Braços Estendidos,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2329-2jl9K55.gif,2329,spine twist,body weight,C
+Rotação Interna e Externa de Quadril,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0996-9gbyYKk.gif,0996,band seated hip internal rotation,band,B
+Rotação Interna e Externa de Quadril com subida,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0984-vIICElP.gif,0984,band lying hip internal rotation,band,C
+Rotação de Quadril Perna Estendida,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1416-M72BExt.gif,1416,exercise ball one leg prone lower body rotation,stability ball,C
+Rotação de Tronco 6 apoios Braço Occipital,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2329-2jl9K55.gif,2329,spine twist,body weight,C
+Flexão de Quadril e Extensão de Quadril,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1564-tFGKm99.gif,1564,intermediate hip flexor and quad stretch,rope,C
+Flexão e Extensão de Punho,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1428-2zNKRUB.gif,1428,wrist circles,body weight,C
+Agachamento Profundo isométrico,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3119-75Bgtjy.gif,3119,potty squat,body weight,C
+Agachamento Profundo com Balanço,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3132-b63ZzGe.gif,3132,potty squat with support,body weight,C
+Circundação de Ombro Tocando Calcanhar,,,,,-
+Circundação de Tornozelo,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1368-uL9CsKm.gif,1368,ankle circles,body weight,A
+Reverência isométrico,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3769-gUjqdei.gif,3769,curtsey squat,body weight,B
+Crucifixo Inclinado Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0596-v3xmPAR.gif,0596,lever seated fly,leverage machine,B
+Elevação Lateral Unilateral Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0584-dRTfGZT.gif,0584,lever lateral raise,leverage machine,C
+Supino Guiado Declinado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0753-ETZfAbZ.gif,0753,smith decline bench press,smith machine,A
+Supino Guiado Unilateral Declinado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0753-ETZfAbZ.gif,0753,smith decline bench press,smith machine,C
+Supino Guiado Reto,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0748-trqKQv2.gif,0748,smith bench press,smith machine,A
+Supino Guiado Unilateral Reto,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0748-trqKQv2.gif,0748,smith bench press,smith machine,C
+Tríceps Paralela Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1451-BRImeP8.gif,1451,lever seated dip,leverage machine,A
+Rosca Scott Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0592-b6hQYMb.gif,0592,lever preacher curl,leverage machine,A
+Agachamento Articulado Invertido,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0744-9n2149Z.gif,0744,sled lying squat,sled machine,C
+Desenvolvimento Guiado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0766-903mzG8.gif,0766,smith shoulder press,smith machine,A
+Elevação Pélvica Guiada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0756-CqhoytW.gif,0756,smith hip raise,smith machine,B
+Flexão Nortica Articulada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0496-ms7tjSG.gif,0496,inverse leg curl (bench support),body weight,A
+Squat Power,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0770-jFtipLl.gif,0770,smith squat,smith machine,C
+Gluteo Coice Articulado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif,2286,lever hip extension v. 2,leverage machine,B
+Gluteo Coice Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif,2286,lever hip extension v. 2,leverage machine,B
+Stiff no Hiperextensão Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0573-rUXfn3R.gif,0573,lever back extension,leverage machine,C
+Cadeira Abdutora 3D,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0597-CHpahtl.gif,0597,lever seated hip abduction,leverage machine,C
+Subida Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0431-aXtJhlg.gif,0431,dumbbell step-up,dumbbell,C
+Supino Inclinado Guiado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0757-5v7KYld.gif,0757,smith incline bench press,smith machine,A
+Desenvolvimento Guiado,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0766-903mzG8.gif,0766,smith shoulder press,smith machine,A
+Glúteo Coice,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0130-u27Kcdz.gif,0130,bench hip extension,body weight,B
+Glúteo Polia (perna estendida),https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0228-Kpajagk.gif,0228,cable standing hip extension,cable,A
+Elevação Pelvica em Pé Máquina,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2286-OPqShYN.gif,2286,lever hip extension v. 2,leverage machine,B
+Leg Press 90 no Smith,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0760-7zdxRTl.gif,0760,smith leg press,smith machine,A
+Esteira,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,A
+Bicicleta,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,A
+Escada,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2311-j9Q5crt.gif,2311,walking on stepmill,stepmill machine,A
+Elíptico,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,A
+Corrida na Rua,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0685-oLrKqDH.gif,0685,run,body weight,A
+Bicicleta na Rua,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+Natação,,,,,-
+HIT 10' NÍVEL 1,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 2,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 3,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 4,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 5,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 1,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 2,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 3,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 4,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 5,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 1,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 2,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 3,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 4,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 5,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 25' NÍVEL 0,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 0,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 15' NÍVEL 0,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3666-rjiM4L3.gif,3666,walking on incline treadmill,leverage machine,C
+HIT 10' NÍVEL 0 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 10' NÍVEL 1 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 10' NÍVEL 2 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 10' NÍVEL 3 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 10' NÍVEL 4 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 10' NÍVEL 5 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 0 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 1 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 2 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 3 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 4 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 15' NÍVEL 5 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 0 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 1 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 2 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 3 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 4 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 5 - BIKE,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2138-H1PESYI.gif,2138,stationary bike run v. 3,stationary bike,C
+HIT 25' NÍVEL 0 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 25' NÍVEL 5 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 25' NÍVEL 4 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 25' NÍVEL 3 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 25' NÍVEL 2 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 25' NÍVEL 1 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 5 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 4 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 3 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 2 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 1 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 15' NÍVEL 0 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 5 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 4 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 3 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 2 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 1 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
+HIT 10' NÍVEL 0 - ELÍPTICO,https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2141-rjtuP6X.gif,2141,walk elliptical cross trainer,elliptical machine,C
