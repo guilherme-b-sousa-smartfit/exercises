@@ -41,4 +41,10 @@ Se você regerar o de-para, copie `../out/mapa.json` para `public/mapa.json`.
 ## Fonte externa
 
 Quando a mídia não vem do dataset do GitHub, a coluna C da planilha traz `fonte · licença`.
-Esses cards ganham um badge roxo e o botão **Só fonte externa** isola eles.
+O app quebra esse valor em duas partes e monta o painel **Mídia de fonte externa** com um chip
+por fonte encontrada — nome, quantidade e licença — direto do conteúdo da coluna C. Nada é
+hard-coded: se você escrever uma fonte nova na planilha, o chip dela aparece no próximo ciclo.
+
+Os chips são multi-seleção e combinam com os outros filtros (cobertura, confiança, busca).
+Quando uma fonte tem mais de uma licença entre seus itens, o chip lista todas.
+No card, o badge roxo é a fonte e o cinza ao lado é a licença daquele item específico.

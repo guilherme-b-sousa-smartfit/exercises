@@ -18,6 +18,7 @@ export type ExerciseRow = {
   gifUrl: string;
   gifSugerido: string;
   origem: string;
+  licenca: string;
   datasetId: string;
   datasetName: string;
   confidence: Confidence;
@@ -42,7 +43,12 @@ export type Filters = {
   search: string;
   status: StatusFilter;
   confidences: Confidence[];
-  soExterna: boolean;
+  origens: string[];
 };
 
 export type Totals = Record<Coverage, number> & { total: number };
+
+export type OrigemContagem = {
+  origem: string;
+  total: number;
+};

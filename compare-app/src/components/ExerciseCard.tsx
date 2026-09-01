@@ -47,7 +47,12 @@ export const ExerciseCard = ({ row }: Props) => (
         {!row.inVideoTab ? <span className="badge badge-aviso">ausente na aba Videos</span> : null}
         {!row.inImageTab ? <span className="badge badge-aviso">ausente na aba thumbnail</span> : null}
         {row.duplicado ? <span className="badge badge-aviso">nome duplicado</span> : null}
-        {row.origem ? <span className="badge badge-externa">fonte externa · {row.origem}</span> : null}
+        {row.origem ? (
+          <span className="badge badge-externa" title={row.licenca}>
+            {row.origem}
+          </span>
+        ) : null}
+        {row.licenca ? <span className="badge badge-licenca">{row.licenca}</span> : null}
       </div>
     </div>
   </article>

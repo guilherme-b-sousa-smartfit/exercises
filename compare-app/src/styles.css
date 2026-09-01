@@ -401,3 +401,62 @@ code {
   border-color: rgba(210, 168, 255, 0.5);
   font-weight: 600;
 }
+
+.origens {
+  background: var(--superficie);
+  border: 1px solid rgba(210, 168, 255, 0.35);
+  border-radius: var(--raio);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.origens-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.origens-titulo {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d2a8ff;
+  font-weight: 650;
+}
+
+.chip-origem {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.chip-origem-nome {
+  font-weight: 600;
+}
+
+.chip-origem-total {
+  font-variant-numeric: tabular-nums;
+  background: var(--fundo);
+  border-radius: 999px;
+  padding: 1px 7px;
+  font-size: 11px;
+}
+
+.chip-ativo .chip-origem-total {
+  background: rgba(7, 16, 24, 0.22);
+}
+
+.chip-origem-licenca {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.badge-licenca {
+  color: var(--texto-fraco);
+}

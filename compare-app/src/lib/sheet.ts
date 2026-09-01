@@ -90,8 +90,9 @@ export const fetchRows = async (enrichment: EnrichmentMap): Promise<ExerciseRow[
     image: string,
     gif: string,
     linha: number,
-    origem: string,
+    fonte: string,
   ): ExerciseRow => {
+    const [origem = "", licenca = ""] = fonte.split("·").map((parte) => parte.trim());
     const extra = enrichment[name];
     return {
       key: `${name}#${linha}`,
@@ -101,6 +102,7 @@ export const fetchRows = async (enrichment: EnrichmentMap): Promise<ExerciseRow[
       gifUrl: gif,
       gifSugerido: gif ? "" : extra?.gif ?? "",
       origem,
+      licenca,
       datasetId: extra?.id ?? "",
       datasetName: extra?.name ?? "",
       confidence: (extra?.conf ?? "-") as Confidence,

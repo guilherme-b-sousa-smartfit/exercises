@@ -1,9 +1,10 @@
 import { useMemo, useState } from "react";
 import { StatsBar } from "./components/StatsBar";
 import { Toolbar } from "./components/Toolbar";
+import { OriginFilter } from "./components/OriginFilter";
 import { ExerciseGrid } from "./components/ExerciseGrid";
 import { useSheetData } from "./hooks/useSheetData";
-import { applyFilters, countExterna, countTotals } from "./lib/filter";
+import { applyFilters, contarOrigens, licencaDe, countTotals } from "./lib/filter";
 import { SHEET_URL } from "./lib/sheet";
 import type { Filters, StatusFilter } from "./types";
 
@@ -11,7 +12,7 @@ const FILTROS_INICIAIS: Filters = {
   search: "",
   status: "todos",
   confidences: [],
-  soExterna: false,
+  origens: [],
 };
 
 export const App = () => {
@@ -20,7 +21,7 @@ export const App = () => {
 
   const visiveis = useMemo(() => applyFilters(rows, filters), [rows, filters]);
   const totals = useMemo(() => countTotals(rows), [rows]);
-  const externas = useMemo(() => countExterna(rows), [rows]);
+  const origens = useMemo(() => contarOrigens(rows), [rows]);
 
   const setStatus = (status: StatusFilter) => setFilters((prev) => ({ ...prev, status }));
 
@@ -47,10 +48,16 @@ export const App = () => {
         onStatus={setStatus}
       />
 
+      <OriginFilter
+        origens={origens}
+        licencaDe={(origem) => licencaDe(rows, origem)}
+        filters={filters}
+        onChange={setFilters}
+      />
+
       <Toolbar
         filters={filters}
         onChange={setFilters}
-        externas={externas}
         fetchedAt={fetchedAt}
         loading={loading}
         onReload={reload}

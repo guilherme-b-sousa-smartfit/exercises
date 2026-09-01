@@ -10,7 +10,6 @@ const CONF: { valor: Confidence; rotulo: string }[] = [
 type Props = {
   filters: Filters;
   onChange: (filters: Filters) => void;
-  externas: number;
   fetchedAt: Date | null;
   loading: boolean;
   onReload: () => void;
@@ -20,7 +19,6 @@ type Props = {
 export const Toolbar = ({
   filters,
   onChange,
-  externas,
   fetchedAt,
   loading,
   onReload,
@@ -44,12 +42,6 @@ export const Toolbar = ({
           value={filters.search}
           onChange={(e) => onChange({ ...filters, search: e.target.value })}
         />
-        <button
-          className={`botao ${filters.soExterna ? "chip-ativo" : ""}`}
-          onClick={() => onChange({ ...filters, soExterna: !filters.soExterna })}
-        >
-          Só fonte externa ({externas})
-        </button>
         <button className="botao" onClick={onReload} disabled={loading}>
           {loading ? "Lendo…" : "Recarregar"}
         </button>
