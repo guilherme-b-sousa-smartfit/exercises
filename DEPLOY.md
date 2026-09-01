@@ -32,3 +32,15 @@ uv run --with google-api-python-client --with google-auth python escrever_origem
 
 Escreve a coluna B (mídia) e a C (flag `fonte · licença`, só nas linhas de fonte externa) nas
 duas abas, via a service account `claude-sheets@guilherme-works.iam.gserviceaccount.com`.
+
+## Completar a aba Videos
+
+```bash
+uv run --with google-api-python-client --with google-auth python completar_videos.py
+```
+
+Compara a aba `thumbnail` com a `Videos` e **acrescenta** as linhas que existem na primeira e
+faltam na segunda, já com o GIF do de-para. Idempotente: se não houver o que inserir, não escreve.
+
+Foi o que fechou o grupo "só thumbnail" — 6 exercícios tinham GIF mapeado e verificado, mas a
+linha simplesmente não existia na aba `Videos` (ela tinha 171 linhas contra 177 da `thumbnail`).
