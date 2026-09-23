@@ -71,7 +71,7 @@ async function worker() {
     const [key,media]=queue.shift();let asset, failure='Product/reference not resolved';
     for(let attempt=0;attempt<2;attempt++) {try{asset=await resolve(media);break;}catch(e){failure=e.message;}}
     if(asset) index.assets[key]=asset;else index.unresolved.push({key,name:media.name,reason:failure});
-    completed++;if(completed%25===0){save();console.log(`Processed ${completed}; verified ${Object.keys(index.assets).length}/${wanted.size}; unresolved ${index.unresolved.length}`);}
+    completed++;if(completed%25===0){save();console.log(`Processed ${completed}; mapped ${Object.keys(index.assets).length}/${wanted.size}; unresolved ${index.unresolved.length}`);}
   }
 }
-try { await Promise.all(Array.from({length:4},worker));save();console.log(`Done: ${Object.keys(index.assets).length}/${wanted.size} verified; ${index.unresolved.length} unresolved.`); } finally { await browser.close(); }
+try { await Promise.all(Array.from({length:Math.min(8, Math.max(1, Number(process.env.GYM_CONCURRENCY)||4))},worker));save();console.log(`Done: ${Object.keys(index.assets).length}/${wanted.size} verified; ${index.unresolved.length} unresolved.`); } finally { await browser.close(); }
