@@ -11,7 +11,7 @@ test('public previews belong to candidate IDs and the correct product category',
     const product=new URL(a.productUrl);assert.equal(product.origin,'https://gymvisual.com');
     assert.ok(product.pathname.startsWith({image:'/illustrations/',gif:'/animated-gifs/',video:'/videos/'}[a.kind]),key);
     assert.ok(a.verifiedId || a.matchMethod==='unique-english-name',key);
-    if(a.preview){const url=new URL(a.preview);assert.equal(url.origin,'https://gymvisual.com');assert.ok(!url.pathname.startsWith('/download/'));}
+    if(a.preview){const url=new URL(a.preview);if(a.previewType==='embed'){assert.equal(url.origin,'https://www.youtube.com');assert.match(url.pathname,/^\/embed\/[A-Za-z0-9_-]+$/);assert.equal(a.verifiedId,true);}else assert.equal(url.origin,'https://gymvisual.com');assert.ok(!url.pathname.startsWith('/download/'));}
     if(a.previewType==='video'){assert.equal(a.kind,'video');assert.equal(a.verifiedId,true);assert.ok(a.preview.includes('/img/vid/'));assert.ok(new URL(a.preview).pathname.split('/').at(-1).startsWith(a.id));}
   }
 });

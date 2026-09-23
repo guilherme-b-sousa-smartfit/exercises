@@ -37,7 +37,7 @@ Ao atingir o mínimo, aplica o valor reduzido a todas as unidades daquele format
 
 A leitura ao vivo usa `gviz`; se falhar, o app identifica a cópia salva (`public/comparison.json`) e sua data. Recarregar planilha relê a análise publicada, sem refazer o matching. Veja [matching/README.md](../matching/README.md) para regenerar a análise.
 
-`public/gymvisual-media.json` contém URLs públicas reais do sitemap e das páginas de produtos. Imagens/GIFs são vinculados por título único em inglês normalizado; nomes ambíguos exigem confirmação do ID. Vídeos são extraídos do HTML público e aceitos somente quando a referência SKU coincide exatamente com o ID do catálogo. Nenhuma URL de mídia é construída a partir do ID. Os detalhes do card informam qual vínculo foi usado. Produtos que não puderam ser resolvidos permanecem identificados no relatório, com link de busca no app.
+`public/gymvisual-media.json` contém URLs públicas reais do sitemap e das páginas de produtos. Imagens/GIFs são vinculados por título único em inglês normalizado; nomes ambíguos exigem confirmação do ID. Vídeos MP4 e incorporações oficiais do YouTube são extraídos do HTML público e aceitos somente quando a referência SKU coincide exatamente com o ID do catálogo. Nenhuma URL de mídia é construída a partir do ID. Os detalhes do card informam qual vínculo foi usado. Produtos que não puderam ser resolvidos permanecem identificados no relatório, com link de busca no app.
 
 Para atualizar as prévias, na raiz do repositório:
 
@@ -49,3 +49,5 @@ node matching/fetch_gymvisual_previews.mjs
 ```
 
 O coletor retoma os registros já resolvidos, limita concorrência e salva a cada 25 itens. `GYM_CONCURRENCY` permite de 1 a 8 requisições simultâneas (padrão 4). `GYM_SITEMAP` permite reutilizar um XML local. Para atualizar produtos já resolvidos, arquive/remova o índice antes de executar. O índice é estático para funcionar também no build sem servidor ou credenciais; páginas externas podem mudar ou bloquear prévias, caso em que o app oferece o produto oficial.
+
+O produto de vídeo `332212` (Kettlebell deadlift) foi localizado, mas sua página não publica uma prévia reproduzível. O app mostra a capa e o link, identificando essa limitação. Os demais 873 vídeos vinculados têm MP4 ou incorporação pública.

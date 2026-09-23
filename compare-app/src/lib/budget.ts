@@ -2,7 +2,7 @@ import type { ComparisonRow, CatalogMedia } from './comparison';
 export type Kind = 'image' | 'gif' | 'video';
 export const kinds: Kind[] = ['image', 'gif', 'video'];
 export const labels: Record<Kind, string> = { image: 'Imagem', gif: 'GIF', video: 'Vídeo' };
-export type Asset = { id: string; kind: Kind; name: string; productUrl: string; poster?: string; preview?: string; previewType?: 'image' | 'video'; price?: number; verifiedId?: boolean; matchMethod?: string };
+export type Asset = { id: string; kind: Kind; name: string; productUrl: string; poster?: string; preview?: string; previewType?: 'image' | 'video' | 'embed'; price?: number; verifiedId?: boolean; matchMethod?: string };
 export type MediaIndex = { checkedAt: string; assets: Record<string, Asset> };
 export type Item = { key: string; kind: Kind; media: CatalogMedia; rows: ComparisonRow[] };
 export const keyFor = (kind: Kind, id: string) => `${kind}:${id}`;

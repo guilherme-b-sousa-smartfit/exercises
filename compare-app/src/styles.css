@@ -509,3 +509,5 @@ button:disabled { opacity:.45;cursor:default; }
 .preview-zoom { display:block;width:100%;height:100%;cursor:zoom-in; }
 
 .before-after h3 { min-height:34px; }
+
+.preview iframe { width:100%;height:100%;border:0; }

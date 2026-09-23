@@ -24,7 +24,7 @@ const wanted = new Map();
 for (const row of comparison.rows) for (const [kind,media] of Object.entries(row.media)) if (media.id) wanted.set(`${kind}:${media.id}`, { ...media, kind });
 let previous; try { previous=JSON.parse(readFileSync(output,'utf8')); } catch { previous={assets:{}}; }
 const index = { checkedAt: new Date().toISOString(), source: `${base}/sitemap.xml`, requested: wanted.size, assets: Object.fromEntries(Object.entries(previous.assets).filter(([key,a]) => wanted.has(key) && (a.verifiedId || a.matchMethod === 'unique-english-name'))), unresolved: [] };
-const save = () => writeFileSync(output, JSON.stringify(index));
+const save = () => { index.previewUnavailable=Object.entries(index.assets).filter(([,a])=>a.previewUnavailable).map(([key])=>key);writeFileSync(output, JSON.stringify(index)); };
 const sitemap = process.env.GYM_SITEMAP ? readFileSync(process.env.GYM_SITEMAP,'utf8') : await get(`${base}/sitemap.xml`);
 const lookup = new Map();
 for (const xml of sitemap.match(/<url>[\s\S]*?<\/url>/g) ?? []) {
@@ -42,9 +42,11 @@ function parse(html, productUrl, media) {
   const video=attr(html.match(/<video\b[^>]*>/)?.[0],'src');
   const priceString=attr(html.match(/<[^>]*id=["']our_price_display["'][^>]*>/)?.[0],'content');
   if(video && !new URL(video,base).pathname.split('/').pop().startsWith(id)) return null;
-  const preview=video || poster;
+  const frame=attr(html.match(/<iframe\b[^>]*>/)?.[0],'src');
+  const embed=/^https:\/\/www\.youtube\.com\/embed\/[A-Za-z0-9_-]+$/.test(frame)?frame:'';
+  const preview=video || embed || poster;
   if (!preview) return null;
-  return { id,kind:media.kind,name:media.name,productUrl,poster:poster?new URL(poster,base).href:undefined,preview:new URL(preview,base).href,previewType:video?'video':'image',price:priceString && Number.isFinite(Number(priceString))?Math.round(Number(priceString)*100):undefined,verifiedId:true };
+  return { id,kind:media.kind,name:media.name,productUrl,poster:poster?new URL(poster,base).href:undefined,preview:media.kind==='video'&&!video&&!embed?undefined:new URL(preview,base).href,previewType:video?'video':embed?'embed':'image',previewUnavailable:media.kind==='video'&&!video&&!embed,price:priceString && Number.isFinite(Number(priceString))?Math.round(Number(priceString)*100):undefined,verifiedId:true };
 }
 async function resolve(media) {
   const urls = lookup.get(`${media.kind}:${norm(media.name)}`) ?? [];
@@ -65,7 +67,7 @@ for(const [key,media] of wanted) {
   if(hits.length===1 && hits[0].poster) index.assets[key]={id:media.id,kind:media.kind,name:media.name,productUrl:hits[0].url,poster:hits[0].poster,...(media.kind!=='video'?{preview:hits[0].poster,previewType:'image'}:{}),matchMethod:'unique-english-name'};
 }
 save();
-const queue=[...wanted].filter(([key,media])=>!index.assets[key] || (media.kind==='video' && index.assets[key].previewType!=='video')).sort((a,b)=>Number(b[1].status==='confirmed')-Number(a[1].status==='confirmed'));let completed=0;
+const queue=[...wanted].filter(([key,media])=>!index.assets[key] || (media.kind==='video' && !['video','embed'].includes(index.assets[key].previewType) && !index.assets[key].previewUnavailable)).sort((a,b)=>Number(b[1].status==='confirmed')-Number(a[1].status==='confirmed'));let completed=0;
 console.log(`Seeded ${Object.keys(index.assets).length}/${wanted.size}; resolving ${queue.length} product pages.`);
 async function worker() {
   while(queue.length) {
