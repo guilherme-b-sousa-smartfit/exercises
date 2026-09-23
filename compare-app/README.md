@@ -1,51 +1,30 @@
-# De-para de exercícios — app de conferência
+# Cobertura pré-compra — Smart Fit × Gym Visual
 
-Lê a planilha do Google Sheets **ao vivo** no browser (endpoint `gviz`, que devolve
-`Access-Control-Allow-Origin`, então não precisa de proxy nem de credencial) e mostra
-cada exercício da planilha ao lado da mídia mapeada.
+A interface lê a aba **Comparativo** da [planilha De-Para](https://docs.google.com/spreadsheets/d/1r7Mqi8tBFz-qXxyEoWeeaB3bepar8FsgUWA0SYuviKA/edit). Mostra cada ID da base Smart Fit com o resultado, confiança, justificativa e IDs de imagem, vídeo e GIF encontrados nas três abas do catálogo pago.
 
-## Rodar
+## Executar
 
-```bash
+```sh
 npm install
 npm run dev
+npm test
+npm run build
 ```
 
-## O que ele faz
+## Leitura e contagens
 
-- lê as duas abas novas (`thumbnail` → imagens, `videos` → GIFs) e junta por nome
-- mostra **thumbnail e GIF lado a lado** em cada card, com a lacuna marcada em amarelo
-  quando uma das duas mídias falta; clicar numa mídia abre ela em tamanho real
-- revalida sozinho a cada 30s, com botão de recarregar manual
-- os números do topo são os filtros de cobertura: **thumbnail + GIF**, **só thumbnail**,
-  **só GIF**, **sem mídia** — clique num deles para isolar o grupo
-- filtra também por nível de confiança (A / B / C / sem match) e por busca em texto —
-  a busca ignora acento, então `gemeos` acha `Gêmeos`
-- marca linhas que existem só em uma das abas e nomes duplicados na planilha
+- Correspondência forte, Revisar e Não encontrado são categorias exclusivas e somam o total.
+- Cada formato tem sua própria presença/confiança. GIF não é contado como vídeo.
+- As contagens de lacunas mostram quanto das imagens/vídeos ausentes na base poderia ser preenchido com equivalência forte.
+- Filtros: nome/ID em português ou inglês, grupo, resultado, formato e lacunas atuais.
+- O botão Recarregar lê o resultado publicado; não refaz a análise das fontes.
+- Não exige arquivos ou URLs pagos. Links abrem a linha original ou o catálogo para consulta pelo ID.
+- Se a leitura pública pelo `gviz` falhar, usa `public/comparison.json` e exibe um aviso claro com a data da cópia salva. Nenhuma credencial é colocada no navegador.
 
-Os quatro grupos de cobertura são mutuamente exclusivos e somam o total de linhas.
+O índice de 0 a 100 é heurístico, não probabilidade estatística. Correspondência forte é uma conclusão documental pelos nomes/metadados, sem inspeção visual da execução. Revisar não entra na cobertura garantida; Não encontrado pode conter falso negativo.
 
-A ordem e a numeração espelham as linhas da planilha, ignorando o cabeçalho `Exercicio`.
-O destino é `1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc`; as abas v1 são histórico.
+## Gerar uma nova análise
 
-## De onde vem cada dado
+Veja [matching/README.md](../matching/README.md). O gerador mantém as linhas e IDs da base, consulta o Excel completo e produz a planilha e o snapshot a partir do mesmo resultado. Uma atualização das fontes exige nova geração e publicação; os filtros não executam matching.
 
-| Dado | Origem |
-|---|---|
-| nome do exercício, URL da mídia | planilha, coluna B, ao vivo |
-| flag de fonte externa (`fonte · licença`) | planilha, coluna C, ao vivo |
-| nome em inglês, id e confiança do dataset | `public/mapa.json`, gerado por `../build_depara.py` |
-
-O `public/mapa.json` combina `../out/mapa.json` (histórico) com `../out/mapa-v2.json`
-(lote atual, que tem prioridade). As diferenças das aproximações estão nas notas de B na planilha.
-
-## Fonte externa
-
-Quando a mídia não vem do dataset do GitHub, a coluna C da planilha traz `fonte · licença`.
-O app quebra esse valor em duas partes e monta o painel **Mídia de fonte externa** com um chip
-por fonte encontrada — nome, quantidade e licença — direto do conteúdo da coluna C. Nada é
-hard-coded: se você escrever uma fonte nova na planilha, o chip dela aparece no próximo ciclo.
-
-Os chips são multi-seleção e combinam com os outros filtros (cobertura, confiança, busca).
-Quando uma fonte tem mais de uma licença entre seus itens, o chip lista todas.
-No card, o badge roxo é a fonte e o cinza ao lado é a licença daquele item específico.
+O antigo `mapa.json`, os componentes de prévia de mídia e os scripts de enriquecimento foram preservados como histórico. A interface atual não usa seus mapeamentos nem a planilha antiga `1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc`.

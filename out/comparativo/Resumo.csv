@@ -10,12 +10,12 @@ GIF — correspondência forte,"=COUNTIF(Comparativo!P2:P1575;""Sim — forte"")
 Imagem E vídeo — correspondência forte,"=COUNTIFS(Comparativo!H2:H1575;""Sim — forte"";Comparativo!L2:L1575;""Sim — forte"")",=B10/B2,Não soma formatos nem duplica exercícios.
 Imagem OU vídeo — correspondência forte,=B7+B8-B10,=B11/B2,"Cobertura nos formatos imagem/vídeo, sem contar somente GIF."
 ,,,
-Lacunas atuais (URLs ausentes na base),Quantidade,% do universo de lacunas,Não verifica se os links existentes funcionam.
+Lacunas atuais (URLs ausentes na base),Quantidade,% do universo indicado,Não verifica se os links existentes funcionam.
 Exercícios com alguma lacuna,91,1,Falta imagem e/ou vídeo na base atual.
-Sem imagem atual,"=COUNTIF(Comparativo!AA2:AA1575;""Sim"")",=B15/B2,A base não informa thumbnail_url.
-Sem vídeo atual,"=COUNTIF(Comparativo!AB2:AB1575;""Sim"")",=B16/B2,A base não informa video_url nem external_video_url.
-Lacunas de imagem cobertas com confiança alta,"=COUNTIFS(Comparativo!AA2:AA1575;""Sim"";Comparativo!H2:H1575;""Sim — forte"")",=B17/B15,Potencial de completar imagens após compra.
-Lacunas de vídeo cobertas com confiança alta,"=COUNTIFS(Comparativo!AB2:AB1575;""Sim"";Comparativo!L2:L1575;""Sim — forte"")",=B18/B16,Potencial de completar vídeos após compra.
+Sem imagem atual,"=COUNTIF(Comparativo!AA2:AA1575;""Sim"")",=B15/B2,Percentual da base total. Sem thumbnail_url informado.
+Sem vídeo atual,"=COUNTIF(Comparativo!AB2:AB1575;""Sim"")",=B16/B2,Percentual da base total. Sem video_url nem external_video_url.
+Lacunas de imagem cobertas com confiança alta,"=COUNTIFS(Comparativo!AA2:AA1575;""Sim"";Comparativo!H2:H1575;""Sim — forte"")",=B17/B15,Percentual das lacunas de imagem; potencial de completar após compra.
+Lacunas de vídeo cobertas com confiança alta,"=COUNTIFS(Comparativo!AB2:AB1575;""Sim"";Comparativo!L2:L1575;""Sim — forte"")",=B18/B16,Percentual das lacunas de vídeo; potencial de completar após compra.
 Lacunas de imagem com candidato para revisão,"=COUNTIFS(Comparativo!AA2:AA1575;""Sim"";Comparativo!H2:H1575;""Revisar"")",=B19/B15,Não confirmado.
 Lacunas de vídeo com candidato para revisão,"=COUNTIFS(Comparativo!AB2:AB1575;""Sim"";Comparativo!L2:L1575;""Revisar"")",=B20/B16,Não confirmado.
 ,,,

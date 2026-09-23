@@ -2,6 +2,7 @@
 
 Compara **cada ID** Smart Fit às três abas do catálogo pago Gym Visual. A ausência de arquivos pagos não é uma falha: a oferta de cada formato é determinada pela aba de origem, e a confiança mede a equivalência textual da execução.
 
+- `extract_catalog.py`: leitura completa do Excel, preservando abas, linhas e IDs.
 - `build_comparison.py`: tradução/normalização, busca por família e diferenças de equipamento, posição e variante.
 - `reviewed_matches.json`: decisões terminológicas explícitas por ID, incluindo rebaixamentos de nomes ambíguos. Não são revisões visuais.
 - `prepare_sheet.py`: valores da planilha, CSVs auditáveis e snapshot da interface.
@@ -12,6 +13,7 @@ Compara **cada ID** Smart Fit às três abas do catálogo pago Gym Visual. A aus
 Use Python 3.9+ em ambiente virtual e instale `requirements.txt`. As entradas são `out/comparativo/base.json` (resposta values do Google Sheets) e `out/comparativo/catalogo.json` (todas as linhas do Excel, incluindo aba e número de linha). O Excel original fica em `gym-visual.xlsx`.
 
 ```sh
+python matching/extract_catalog.py out/comparativo/gym-visual.xlsx out/comparativo/catalogo.json
 python matching/build_comparison.py
 python matching/prepare_sheet.py
 python -m unittest discover -s matching -p 'test_*.py'

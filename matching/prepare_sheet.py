@@ -18,7 +18,7 @@ def main():
    m=r['media'][k]
    vals += [MEDIA_STATUS[m['status']],m['id'] if m['status']!='absent' else '',m['name'] if m['status']!='absent' else '',f"{m['tab']}!A{m['row']}:H{m['row']}" if m['row'] and m['status']!='absent' else '']
   best=r['candidates'][0] if r['candidates'] else {}
-  vals += [best.get('equipment',''),best.get('body',''),next((m['target'] for m in r['media'].values() if m['target']),''),r['sourceRow'],r['originalImage'],r['originalVideo'],r['originalExternalVideo'],'Sim' if not r['originalImage'] else 'Não','Sim' if not(r['originalVideo'] or r['originalExternalVideo']) else 'Não',base+f"#gid=1939929300&range=A{r['sourceRow']}:F{r['sourceRow']}",cat,r['query']]
+  vals += [best.get('equipment',''),best.get('body',''),best.get('target',''),r['sourceRow'],r['originalImage'],r['originalVideo'],r['originalExternalVideo'],'Sim' if not r['originalImage'] else 'Não','Sim' if not(r['originalVideo'] or r['originalExternalVideo']) else 'Não',base+f"#gid=1939929300&range=A{r['sourceRow']}:F{r['sourceRow']}",cat,r['query']]
   assert len(vals)==len(headers)
   table.append(vals)
   if vals[26]=='Sim' or vals[27]=='Sim': gaps.append(vals)
@@ -39,12 +39,12 @@ def main():
  ['Imagem E vídeo — correspondência forte',f'=COUNTIFS(Comparativo!H2:H{end};"Sim — forte";Comparativo!L2:L{end};"Sim — forte")','=B10/B2','Não soma formatos nem duplica exercícios.'],
  ['Imagem OU vídeo — correspondência forte',f'=B7+B8-B10','=B11/B2','Cobertura nos formatos imagem/vídeo, sem contar somente GIF.'],
  ['', '', '', ''],
- ['Lacunas atuais (URLs ausentes na base)','Quantidade','% do universo de lacunas','Não verifica se os links existentes funcionam.'],
+ ['Lacunas atuais (URLs ausentes na base)','Quantidade','% do universo indicado','Não verifica se os links existentes funcionam.'],
  ['Exercícios com alguma lacuna',len(gaps)-1,1,'Falta imagem e/ou vídeo na base atual.'],
- ['Sem imagem atual',count('AA','Sim'),'=B15/B2','A base não informa thumbnail_url.'],
- ['Sem vídeo atual',count('AB','Sim'),'=B16/B2','A base não informa video_url nem external_video_url.'],
- ['Lacunas de imagem cobertas com confiança alta',f'=COUNTIFS(Comparativo!AA2:AA{end};"Sim";Comparativo!H2:H{end};"Sim — forte")','=B17/B15','Potencial de completar imagens após compra.'],
- ['Lacunas de vídeo cobertas com confiança alta',f'=COUNTIFS(Comparativo!AB2:AB{end};"Sim";Comparativo!L2:L{end};"Sim — forte")','=B18/B16','Potencial de completar vídeos após compra.'],
+ ['Sem imagem atual',count('AA','Sim'),'=B15/B2','Percentual da base total. Sem thumbnail_url informado.'],
+ ['Sem vídeo atual',count('AB','Sim'),'=B16/B2','Percentual da base total. Sem video_url nem external_video_url.'],
+ ['Lacunas de imagem cobertas com confiança alta',f'=COUNTIFS(Comparativo!AA2:AA{end};"Sim";Comparativo!H2:H{end};"Sim — forte")','=B17/B15','Percentual das lacunas de imagem; potencial de completar após compra.'],
+ ['Lacunas de vídeo cobertas com confiança alta',f'=COUNTIFS(Comparativo!AB2:AB{end};"Sim";Comparativo!L2:L{end};"Sim — forte")','=B18/B16','Percentual das lacunas de vídeo; potencial de completar após compra.'],
  ['Lacunas de imagem com candidato para revisão',f'=COUNTIFS(Comparativo!AA2:AA{end};"Sim";Comparativo!H2:H{end};"Revisar")','=B19/B15','Não confirmado.'],
  ['Lacunas de vídeo com candidato para revisão',f'=COUNTIFS(Comparativo!AB2:AB{end};"Sim";Comparativo!L2:L{end};"Revisar")','=B20/B16','Não confirmado.'],
  ['', '', '', ''],
@@ -88,6 +88,6 @@ def main():
  app={'generatedAt':data['generatedAt'],'catalogCounts':data['catalogCounts'],'headers':headers,'values':table[1:]}
  (ROOT/'compare-app/public/comparison.json').write_text(json.dumps(app,ensure_ascii=False,separators=(',',':')))
  for name,values in books.items():
-  with open(DATA/(name+'.csv'),'w',newline='') as f: csv.writer(f).writerows(values)
+  with open(DATA/(name+'.csv'),'w',newline='') as f: csv.writer(f,lineterminator='\n').writerows(values)
  print({k:(len(v),max(map(len,v))) for k,v in books.items()})
 if __name__=='__main__':main()

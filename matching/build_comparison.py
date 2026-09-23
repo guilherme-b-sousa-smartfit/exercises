@@ -3,7 +3,7 @@ Scores are rule scores, NOT calibrated probabilities. Media availability means c
 No Gym Visual media URLs are inferred. Source IDs and row identities are preserved.
 """
 from __future__ import annotations
-import argparse, collections, json, re, unicodedata
+import collections, datetime, json, re, unicodedata
 from pathlib import Path
 from rapidfuzz import fuzz, process
 
@@ -221,7 +221,7 @@ def build():
             for c in candidates:
                 for x in c['records']:
                     if x['tab']==tab: choices.append((c,x))
-            choices.sort(key=lambda z:(z[0]['status']=='confirmed',z[0]['score']),reverse=True)
+            choices.sort(key=lambda z:(bool(ov) and z[0] is candidates[0],z[0]['status']=='confirmed',z[0]['score']),reverse=True)
             if choices:
                 c,x=choices[0]
                 state='confirmed' if status=='confirmed' and c['status']=='confirmed' else ('uncertain' if status!='absent' and c['score']>=52 else 'absent')
@@ -229,9 +229,9 @@ def build():
             else: media[key]={'status':'absent','score':0,'id':'','name':'','tab':tab,'row':'','equipment':'','body':'','target':'','reason':'Nenhum candidato nesta aba.'}
         # Overall status is derived from actually offered image/video/GIF equivalence.
         if status=='confirmed' and not any(m['status']=='confirmed' for m in media.values()): status='uncertain'
-        output.append({'id':str(eid),'name':name,'group':group,'sourceRow':row_num,'status':status,'score':best['score'] if status!='absent' else 0,'reason':reason,'query':query,'originalImage':image,'originalVideo':video,'originalExternalVideo':external,'media':media,'candidates':[{'name':c['item']['name'],'score':c['score'],'reason':c['reason'],'equipment':c['item']['equipment'],'body':c['item']['body'],'records':[{k:x[k] for k in ['id','tab','row','name']} for x in c['records']]} for c in candidates[:3]]})
+        output.append({'id':str(eid),'name':name,'group':group,'sourceRow':row_num,'status':status,'score':best['score'] if status!='absent' else 0,'reason':reason,'query':query,'originalImage':image,'originalVideo':video,'originalExternalVideo':external,'media':media,'candidates':[{'name':c['item']['name'],'score':c['score'],'reason':c['reason'],'equipment':c['item']['equipment'],'body':c['item']['body'],'target':c['item']['target'],'records':[{k:x[k] for k in ['id','tab','row','name']} for x in c['records']]} for c in candidates[:3]]})
     counts=dict(collections.Counter(x['status'] for x in output))
-    result={'generatedAt':'2026-09-23','baseId':'1mgP0qbvTjSUWhV777RP13kTn7aj-aMR9H9jjjQfBE-E','catalogId':'1RMmqNGdAmlKWrk7TJsYJRhhsyaacGkRx','destinationId':'1r7Mqi8tBFz-qXxyEoWeeaB3bepar8FsgUWA0SYuviKA','counts':counts,'catalogCounts':dict(collections.Counter(x['tab'] for x in catalog)),'rows':output}
+    result={'generatedAt':datetime.date.today().isoformat(),'baseId':'1mgP0qbvTjSUWhV777RP13kTn7aj-aMR9H9jjjQfBE-E','catalogId':'1RMmqNGdAmlKWrk7TJsYJRhhsyaacGkRx','destinationId':'1r7Mqi8tBFz-qXxyEoWeeaB3bepar8FsgUWA0SYuviKA','counts':counts,'catalogCounts':dict(collections.Counter(x['tab'] for x in catalog)),'rows':output}
     assert len(output)==len(base) and len({r['id'] for r in output})==len(base)
     assert sum(counts.values())==len(base)
     for r in output:

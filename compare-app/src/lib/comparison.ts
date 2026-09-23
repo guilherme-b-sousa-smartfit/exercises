@@ -19,7 +19,7 @@ export function parseComparison(values: unknown[][]): ComparisonRow[] {
   const required = ['ID base', 'Exercício base', 'Grupo base', 'Resultado', 'Índice de confiança (0–100)', 'Confiança', 'Justificativa', 'Imagem no catálogo', 'ID imagem', 'Nome imagem', 'Referência imagem', 'Vídeo no catálogo', 'ID vídeo', 'Nome vídeo', 'Referência vídeo', 'GIF no catálogo', 'ID GIF', 'Nome GIF', 'Referência GIF', 'Equipamento candidato principal', 'Grupo candidato principal', 'Falta imagem atual', 'Falta vídeo atual', 'Fonte base', 'Fonte catálogo'];
   if (required.some(h => !headers.includes(h))) throw new Error('A estrutura da aba Comparativo mudou.');
   const seen = new Set<string>();
-  return values.slice(1).filter(r => String(r[0] ?? '').trim()).map(cells => {
+  return values.slice(1).filter(r => String(r[headers.indexOf('ID base')] ?? '').trim()).map(cells => {
     const get = (header: string) => String(cells[headers.indexOf(header)] ?? '').trim();
     const id = get('ID base');
     const status = get('Resultado');
