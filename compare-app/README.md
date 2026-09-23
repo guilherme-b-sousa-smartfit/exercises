@@ -1,6 +1,6 @@
-# Cobertura pré-compra — Smart Fit × Gym Visual
+# Smart Fit × Gym Visual
 
-A interface lê a aba **Comparativo** da [planilha De-Para](https://docs.google.com/spreadsheets/d/1r7Mqi8tBFz-qXxyEoWeeaB3bepar8FsgUWA0SYuviKA/edit). Mostra cada ID da base Smart Fit com o resultado, confiança, justificativa e IDs de imagem, vídeo e GIF encontrados nas três abas do catálogo pago.
+Comparação visual antes/depois e simulador de compra, alimentados pela aba **Comparativo** da [planilha](https://docs.google.com/spreadsheets/d/1r7Mqi8tBFz-qXxyEoWeeaB3bepar8FsgUWA0SYuviKA/edit).
 
 ## Executar
 
@@ -11,20 +11,35 @@ npm test
 npm run build
 ```
 
-## Leitura e contagens
+## Comparar e selecionar
 
-- Correspondência forte, Revisar e Não encontrado são categorias exclusivas e somam o total.
-- Cada formato tem sua própria presença/confiança. GIF não é contado como vídeo.
-- As contagens de lacunas mostram quanto das imagens/vídeos ausentes na base poderia ser preenchido com equivalência forte.
-- Filtros: nome/ID em português ou inglês, grupo, resultado, formato e lacunas atuais.
-- O botão Recarregar lê o resultado publicado; não refaz a análise das fontes.
-- Não exige arquivos ou URLs pagos. Links abrem a linha original ou o catálogo para consulta pelo ID.
-- Se a leitura pública pelo `gviz` falhar, usa `public/comparison.json` e exibe um aviso claro com a data da cópia salva. Nenhuma credencial é colocada no navegador.
+- Cada exercício mostra a imagem/vídeo atual ao lado da prévia pública do candidato Gym Visual. Alterne entre imagem, GIF e vídeo. Vídeos só carregam ao clicar em reproduzir.
+- As prévias são as publicadas pelo fornecedor, inclusive marcas d'água. Não são arquivos comprados.
+- Correspondência forte, Revisar e Não encontrado continuam independentes da disponibilidade de mídia. O índice é heurístico, não uma probabilidade. Ver o produto não confirma que ele equivale ao exercício original.
+- Busca por nome em português, inglês ou ID; filtros por resultado, grupo, lacunas e seleção.
+- Marque formatos por exercício ou adicione um lote (total, faltantes ou filtrados). Lotes usam correspondências fortes por padrão; a inclusão de candidatos incertos é explícita.
+- A seleção fica no navegador e pode ser exportada em CSV. Não altera o carrinho do fornecedor nem efetua compra.
+- Um mesmo ID de mídia usado por vários exercícios é cobrado uma vez. Formatos diferentes são itens distintos. Selecionar GIF e vídeo para a mesma lacuna soma os dois.
 
-O índice de 0 a 100 é heurístico, não probabilidade estatística. Correspondência forte é uma conclusão documental pelos nomes/metadados, sem inspeção visual da execução. Revisar não entra na cobertura garantida; Não encontrado pode conter falso negativo.
+## Preços
 
-## Gerar uma nova análise
+O simulador usa US$ 0,90/GIF após 10 itens e US$ 6/vídeo após 5 itens, conforme informado. A interpretação conservadora inicial é **11 GIFs / 6 vídeos**, editável em “Preços e regras”. O banner e as tabelas dos produtos apresentam mínimos diferentes, portanto o valor é uma estimativa e deve ser conferido na cotação.
 
-Veja [matching/README.md](../matching/README.md). O gerador mantém as linhas e IDs da base, consulta o Excel completo e produz a planilha e o snapshot a partir do mesmo resultado. Uma atualização das fontes exige nova geração e publicação; os filtros não executam matching.
+Abaixo do mínimo, utiliza apenas o preço avulso efetivamente lido no produto. Sem preço verificado, o item aparece como pendência. O preço de imagem começa sem valor e pode ser informado. A soma conhecida nunca oculta itens sem preço. Descontos são calculados por formato; não inclui impostos, câmbio ou negociação de pacotes.
 
-O antigo `mapa.json`, os componentes de prévia de mídia e os scripts de enriquecimento foram preservados como histórico. A interface atual não usa seus mapeamentos nem a planilha antiga `1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc`.
+## Fontes e atualização
+
+A leitura ao vivo usa `gviz`; se falhar, o app identifica a cópia salva (`public/comparison.json`) e sua data. Recarregar planilha relê a análise publicada, sem refazer o matching. Veja [matching/README.md](../matching/README.md) para regenerar a análise.
+
+`public/gymvisual-media.json` contém URLs públicas reais do sitemap e das páginas de produtos. Imagens/GIFs são vinculados por título único em inglês normalizado; nomes ambíguos exigem confirmação do ID. Vídeos são extraídos do HTML público e aceitos somente quando a referência SKU coincide exatamente com o ID do catálogo. Nenhuma URL de mídia é construída a partir do ID. Os detalhes do card informam qual vínculo foi usado. Produtos que não puderam ser resolvidos permanecem identificados no relatório, com link de busca no app.
+
+Para atualizar as prévias, na raiz do repositório:
+
+```sh
+cd compare-app
+npx playwright install chromium
+cd ..
+node matching/fetch_gymvisual_previews.mjs
+```
+
+O coletor retoma os registros já resolvidos, limita concorrência e salva a cada 25 itens. `GYM_CONCURRENCY` permite de 1 a 8 requisições simultâneas (padrão 4). `GYM_SITEMAP` permite reutilizar um XML local. Para atualizar produtos já resolvidos, arquive/remova o índice antes de executar. O índice é estático para funcionar também no build sem servidor ou credenciais; páginas externas podem mudar ou bloquear prévias, caso em que o app oferece o produto oficial.

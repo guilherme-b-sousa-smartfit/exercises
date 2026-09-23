@@ -28,3 +28,7 @@ Os scripts não alteram planilhas remotas. `sheet-values.json` contém os blocos
 O sistema não soma GIF como vídeo, não inventa IDs por sufixo, não mistura fontes antigas e não confirma sequências compostas usando só um dos movimentos. O resumo contém também o ganho potencial nas URLs ausentes da base, sem verificar se URLs já preenchidas funcionam.
 
 A comparação não é atualizada automaticamente quando as fontes mudam. Gere novamente a partir de novas leituras. Os totais do Resumo são fórmulas vinculadas ao Comparativo; as abas Lacunas atuais e Candidatos são recortes da geração.
+
+## Prévias públicas e custos no compare-app
+
+`fetch_gymvisual_previews.mjs` resolve os produtos do sitemap oficial por nome em inglês e confere o SKU ao extrair vídeos. O arquivo `compare-app/public/gymvisual-media.json` registra as URLs observadas, método de vínculo e pendências. Ele não altera o matching nem a confiança, e não baixa arquivos pagos. Veja o [README do app](../compare-app/README.md) para coleta, seleção e regras de preço.
