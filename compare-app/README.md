@@ -23,9 +23,15 @@ npm run build
 
 ## Preços
 
-O simulador usa US$ 0,90/GIF após 10 itens e US$ 6/vídeo após 5 itens, conforme informado. A interpretação conservadora inicial é **11 GIFs / 6 vídeos**, editável em “Preços e regras”. O banner e as tabelas dos produtos apresentam mínimos diferentes, portanto o valor é uma estimativa e deve ser conferido na cotação.
+O simulador usa a [tabela oficial de preços](https://gymvisual.com/content/6-price-rules), consultada em 23/09/2026:
 
-Abaixo do mínimo, utiliza apenas o preço avulso efetivamente lido no produto. Sem preço verificado, o item aparece como pendência. O preço de imagem começa sem valor e pode ser informado. A soma conhecida nunca oculta itens sem preço. Descontos são calculados por formato; não inclui impostos, câmbio ou negociação de pacotes.
+| Formato | Avulso, abaixo do mínimo | Mínimo para desconto | Unidade com desconto |
+| --- | --- | --- | --- |
+| Imagem | US$ 3 | 10 | US$ 0,75 |
+| GIF | US$ 3,60 | 10 | US$ 0,90 |
+| Vídeo | US$ 10 | 5 | US$ 6 |
+
+Ao atingir o mínimo, aplica o valor reduzido a todas as unidades daquele formato. Preço avulso lido no produto tem prioridade sobre o avulso geral. Algumas tabelas de produto apresentam mínimos diferentes: confira a cotação final. Preços reduzidos e mínimos podem ser editados em “Preços e regras”. Limpar o preço de imagem deixa os itens desse formato pendentes, sem escondê-los da soma. Não inclui impostos, câmbio ou negociação de pacotes.
 
 ## Fontes e atualização
 

@@ -13,17 +13,17 @@ const snapshot = JSON.parse(await readFile(new URL('../public/comparison.json',i
 const rows = parseComparison([snapshot.headers,...snapshot.values]);
 const index = {assets:{}};
 const items = (kind,n) => Array.from({length:n},(_,i)=>({key:`${kind}:${i}`,kind,media:{id:String(i)},rows:[]}));
-test('discount boundaries follow the explicit conservative interpretation of after',()=>{
-  for (const [kind,min,price] of [['gif',11,90],['video',6,600]]) {
-    assert.equal(budget(items(kind,min-1),defaultPricing,index).unknown,min-1);
+test('official category discount boundaries include the minimum quantity',()=>{
+  for (const [kind,min,price] of [['gif',10,90],['video',5,600],['image',10,75]]) {
+    assert.equal(budget(items(kind,min-1),defaultPricing,index).cents,(min-1)*({gif:360,video:1000,image:300}[kind]));
     assert.equal(budget(items(kind,min),defaultPricing,index).cents,min*price);
     assert.equal(budget(items(kind,min+1),defaultPricing,index).cents,(min+1)*price);
   }
 });
 test('verified retail prices apply below discount minimum and unknown images stay pending',()=>{
-  const result=budget([...items('video',1),...items('image',1)],defaultPricing,{assets:{'video:0':{price:1000}}});
+  const result=budget([...items('video',1),...items('image',1)],{...defaultPricing,imageCents:null},{assets:{'video:0':{price:1000}}});
   assert.equal(result.cents,1000);assert.equal(result.unknown,1);assert.equal(result.prices['image:0'],null);
-  assert.equal(budget(items('image',1),{...defaultPricing,imageCents:150},index).cents,150);
+  assert.equal(budget(items('image',1),{...defaultPricing,imageCents:150,imageMin:1},index).cents,150);
 });
 test('same asset covering multiple source rows is only billed once',()=>{
   const row=rows.find(r=>r.video.status==='Sim — forte');

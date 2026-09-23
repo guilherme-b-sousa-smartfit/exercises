@@ -461,7 +461,7 @@ code {
   color: var(--texto-fraco);
 }
 
-/* Coverage is catalog metadata; paid media is not previewed. */
+/* Catalog coverage and comparison layout. */
 .stat { color: var(--texto); }
 .purchase-summary { background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio); padding: 8px 18px; margin-bottom: 20px; line-height: 1.5; }
 .comparison-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
@@ -505,3 +505,7 @@ summary { cursor:pointer; }
 label input[type=checkbox] { margin-right:6px; accent-color:var(--info); }
 button:disabled { opacity:.45;cursor:default; }
 @media(max-width:760px) { .quotes { grid-template-columns:1fr; } .before-after { gap:8px; } .budget-panel { padding:14px; } .media-tabs button { padding:6px 4px;font-size:11px; } }
+
+.preview-zoom { display:block;width:100%;height:100%;cursor:zoom-in; }
+
+.before-after h3 { min-height:34px; }

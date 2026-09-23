@@ -41,6 +41,7 @@ function parse(html, productUrl, media) {
   const poster=attr(html.match(/<img\b[^>]*id=["']bigpic["'][^>]*>/)?.[0],'src');
   const video=attr(html.match(/<video\b[^>]*>/)?.[0],'src');
   const priceString=attr(html.match(/<[^>]*id=["']our_price_display["'][^>]*>/)?.[0],'content');
+  if(video && !new URL(video,base).pathname.split('/').pop().startsWith(id)) return null;
   const preview=video || poster;
   if (!preview) return null;
   return { id,kind:media.kind,name:media.name,productUrl,poster:poster?new URL(poster,base).href:undefined,preview:new URL(preview,base).href,previewType:video?'video':'image',price:priceString && Number.isFinite(Number(priceString))?Math.round(Number(priceString)*100):undefined,verifiedId:true };
@@ -52,7 +53,7 @@ async function resolve(media) {
   const anchors=[...html.matchAll(/<a\b([^>]*class=["'][^"']*product-reference[^"']*["'][^>]*)>([\s\S]*?)<\/a>/g)];
   for(const [,tag,text] of anchors) {
     if(text.replace(/[\[\]\s]/g,'')!==media.id)continue;
-    const url=attr(tag,'href'); const asset=parse(await get(url),url,media);if(asset)return asset;
+    const url=attr(tag,'href'); const expectedPath={image:'/illustrations/',gif:'/animated-gifs/',video:'/videos/'}[media.kind]; if(!url.includes(expectedPath))continue; const asset=parse(await get(url),url,media);if(asset)return asset;
   }
   return null;
 }
@@ -74,4 +75,4 @@ async function worker() {
     completed++;if(completed%25===0){save();console.log(`Processed ${completed}; mapped ${Object.keys(index.assets).length}/${wanted.size}; unresolved ${index.unresolved.length}`);}
   }
 }
-try { await Promise.all(Array.from({length:Math.min(8, Math.max(1, Number(process.env.GYM_CONCURRENCY)||4))},worker));save();console.log(`Done: ${Object.keys(index.assets).length}/${wanted.size} verified; ${index.unresolved.length} unresolved.`); } finally { await browser.close(); }
+try { await Promise.all(Array.from({length:Math.min(8, Math.max(1, Number(process.env.GYM_CONCURRENCY)||4))},worker));save();console.log(`Done: ${Object.keys(index.assets).length}/${wanted.size} mapped; ${index.unresolved.length} unresolved.`); } finally { await browser.close(); }

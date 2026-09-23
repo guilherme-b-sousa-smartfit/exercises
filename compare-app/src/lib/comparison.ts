@@ -16,7 +16,7 @@ const mediaStatuses: string[] = ['Sim — forte', 'Revisar', 'Não encontrado'];
 export function parseComparison(values: unknown[][]): ComparisonRow[] {
   if (values.length < 2) throw new Error('Comparativo vazio ou indisponível.');
   const headers = values[0].map(String);
-  const required = ['ID base', 'Exercício base', 'Grupo base', 'Resultado', 'Índice de confiança (0–100)', 'Confiança', 'Justificativa', 'Imagem no catálogo', 'ID imagem', 'Nome imagem', 'Referência imagem', 'Vídeo no catálogo', 'ID vídeo', 'Nome vídeo', 'Referência vídeo', 'GIF no catálogo', 'ID GIF', 'Nome GIF', 'Referência GIF', 'Equipamento candidato principal', 'Grupo candidato principal', 'Falta imagem atual', 'Falta vídeo atual', 'Fonte base', 'Fonte catálogo'];
+  const required = ['ID base', 'Exercício base', 'Grupo base', 'Resultado', 'Índice de confiança (0–100)', 'Confiança', 'Justificativa', 'Imagem no catálogo', 'ID imagem', 'Nome imagem', 'Referência imagem', 'Vídeo no catálogo', 'ID vídeo', 'Nome vídeo', 'Referência vídeo', 'GIF no catálogo', 'ID GIF', 'Nome GIF', 'Referência GIF', 'Equipamento candidato principal', 'Grupo candidato principal', 'Falta imagem atual', 'Falta vídeo atual', 'Fonte base', 'Fonte catálogo', 'Imagem atual (URL informada)', 'Vídeo atual (URL informada)', 'Vídeo externo atual'];
   if (required.some(h => !headers.includes(h))) throw new Error('A estrutura da aba Comparativo mudou.');
   const seen = new Set<string>();
   return values.slice(1).filter(r => String(r[headers.indexOf('ID base')] ?? '').trim()).map(cells => {

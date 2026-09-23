@@ -18,10 +18,10 @@ export function itemsFor(rows: ComparisonRow[], formats: Kind[], includeReview =
   }
   return [...items.values()];
 }
-// User-supplied promotion: “after 10 / 5 items”. Conservative thresholds are >10 / >5.
-// Product discount tables can disagree; keep this a transparent, editable simulation.
-export type Pricing = { gifCents: number; videoCents: number; imageCents: number | null; gifMin: number; videoMin: number };
-export const defaultPricing: Pricing = { gifCents: 90, videoCents: 600, imageCents: null, gifMin: 11, videoMin: 6 };
+// Public category-wide rules verified at https://gymvisual.com/content/6-price-rules.
+// Product pages may have different thresholds; keep this an editable estimate.
+export type Pricing = { gifCents: number; videoCents: number; imageCents: number | null; gifMin: number; videoMin: number; imageMin: number };
+export const defaultPricing: Pricing = { gifCents: 90, videoCents: 600, imageCents: 75, gifMin: 10, videoMin: 5, imageMin: 10 };
 export function budget(items: Item[], pricing: Pricing, index: MediaIndex) {
   const unique = [...new Map(items.map(i => [i.key, i])).values()];
   const counts = { image: 0, gif: 0, video: 0 }; unique.forEach(i => counts[i.kind]++);
@@ -29,7 +29,9 @@ export function budget(items: Item[], pricing: Pricing, index: MediaIndex) {
   const prices: Record<string, number | null> = {};
   for (const item of unique) {
     const kind = item.kind;
-    const price = kind === 'image' ? pricing.imageCents : counts[kind] >= pricing[kind === 'gif' ? 'gifMin' : 'videoMin'] ? pricing[kind === 'gif' ? 'gifCents' : 'videoCents'] : index.assets[item.key]?.price;
+    const retail = { image: 300, gif: 360, video: 1000 };
+    const discounted = pricing[`${kind}Cents`];
+    const price = discounted == null ? null : counts[kind] >= pricing[`${kind}Min`] ? discounted : index.assets[item.key]?.price ?? retail[kind];
     prices[item.key] = price ?? null;
     if (price == null) unknown++; else cents += price;
   }
