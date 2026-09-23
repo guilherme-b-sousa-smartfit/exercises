@@ -1,0 +1,45 @@
+Cobertura pré-compra — Smart Fit × Gym Visual,Quantidade,% da base / universo indicado,Leitura
+Total de registros da base,=COUNTA(Comparativo!A2:A1575),1,Uma linha por ID; nomes repetidos preservados.
+Correspondência forte,"=COUNTIF(Comparativo!D2:D1575;""Correspondência forte"")",=B3/B2,Cobertura conservadora pelos nomes/metadados; não representa inspeção visual.
+Não encontrado,"=COUNTIF(Comparativo!D2:D1575;""Não encontrado"")",=B4/B2,Não localizado por este método; não é prova de inexistência no fornecedor.
+Revisar,"=COUNTIF(Comparativo!D2:D1575;""Revisar"")",=B5/B2,Não somar como cobertura garantida antes de esclarecer as diferenças.
+Conferência: soma das três categorias,=SUM(B3:B5),=B6/B2,Deve ser igual ao total da base.
+Imagem — correspondência forte,"=COUNTIF(Comparativo!H2:H1575;""Sim — forte"")",=B7/B2,Presença na aba Illustrations e equivalência forte.
+Vídeo — correspondência forte,"=COUNTIF(Comparativo!L2:L1575;""Sim — forte"")",=B8/B2,Presença na aba Videos e equivalência forte.
+GIF — correspondência forte,"=COUNTIF(Comparativo!P2:P1575;""Sim — forte"")",=B9/B2,Presença na aba Animated GIFs e equivalência forte. GIF não conta como vídeo.
+Imagem E vídeo — correspondência forte,"=COUNTIFS(Comparativo!H2:H1575;""Sim — forte"";Comparativo!L2:L1575;""Sim — forte"")",=B10/B2,Não soma formatos nem duplica exercícios.
+Imagem OU vídeo — correspondência forte,=B7+B8-B10,=B11/B2,"Cobertura nos formatos imagem/vídeo, sem contar somente GIF."
+,,,
+Lacunas atuais (URLs ausentes na base),Quantidade,% do universo de lacunas,Não verifica se os links existentes funcionam.
+Exercícios com alguma lacuna,91,1,Falta imagem e/ou vídeo na base atual.
+Sem imagem atual,"=COUNTIF(Comparativo!AA2:AA1575;""Sim"")",=B15/B2,A base não informa thumbnail_url.
+Sem vídeo atual,"=COUNTIF(Comparativo!AB2:AB1575;""Sim"")",=B16/B2,A base não informa video_url nem external_video_url.
+Lacunas de imagem cobertas com confiança alta,"=COUNTIFS(Comparativo!AA2:AA1575;""Sim"";Comparativo!H2:H1575;""Sim — forte"")",=B17/B15,Potencial de completar imagens após compra.
+Lacunas de vídeo cobertas com confiança alta,"=COUNTIFS(Comparativo!AB2:AB1575;""Sim"";Comparativo!L2:L1575;""Sim — forte"")",=B18/B16,Potencial de completar vídeos após compra.
+Lacunas de imagem com candidato para revisão,"=COUNTIFS(Comparativo!AA2:AA1575;""Sim"";Comparativo!H2:H1575;""Revisar"")",=B19/B15,Não confirmado.
+Lacunas de vídeo com candidato para revisão,"=COUNTIFS(Comparativo!AB2:AB1575;""Sim"";Comparativo!L2:L1575;""Revisar"")",=B20/B16,Não confirmado.
+,,,
+Inventário do catálogo pago,Registros,,Contagens por aba; os mesmos exercícios podem aparecer em mais de um formato.
+Illustrations,6699,,
+Videos,9749,,
+Animated GIFs,6553,,
+Data da análise,2026-09-23,,Retrato das bases nesta data. Recarregar a interface não recalcula o matching.
+Base de exercícios,https://docs.google.com/spreadsheets/d/1mgP0qbvTjSUWhV777RP13kTn7aj-aMR9H9jjjQfBE-E/edit,,
+Catálogo pago,https://docs.google.com/spreadsheets/d/1RMmqNGdAmlKWrk7TJsYJRhhsyaacGkRx/edit,,
+,,,
+Grupo,Total,Correspondência forte,Não encontrado,Revisar,% forte
+Abdômen,=COUNTIF(Comparativo!C2:C1575;A31),"=COUNTIFS(Comparativo!C2:C1575;A31;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A31;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A31;Comparativo!D2:D1575;""Revisar"")",=C31/B31
+Alongamento,=COUNTIF(Comparativo!C2:C1575;A32),"=COUNTIFS(Comparativo!C2:C1575;A32;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A32;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A32;Comparativo!D2:D1575;""Revisar"")",=C32/B32
+Aulas,=COUNTIF(Comparativo!C2:C1575;A33),"=COUNTIFS(Comparativo!C2:C1575;A33;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A33;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A33;Comparativo!D2:D1575;""Revisar"")",=C33/B33
+Bíceps,=COUNTIF(Comparativo!C2:C1575;A34),"=COUNTIFS(Comparativo!C2:C1575;A34;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A34;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A34;Comparativo!D2:D1575;""Revisar"")",=C34/B34
+Cardio,=COUNTIF(Comparativo!C2:C1575;A35),"=COUNTIFS(Comparativo!C2:C1575;A35;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A35;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A35;Comparativo!D2:D1575;""Revisar"")",=C35/B35
+Dorsal,=COUNTIF(Comparativo!C2:C1575;A36),"=COUNTIFS(Comparativo!C2:C1575;A36;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A36;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A36;Comparativo!D2:D1575;""Revisar"")",=C36/B36
+Funcionais,=COUNTIF(Comparativo!C2:C1575;A37),"=COUNTIFS(Comparativo!C2:C1575;A37;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A37;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A37;Comparativo!D2:D1575;""Revisar"")",=C37/B37
+Hit,=COUNTIF(Comparativo!C2:C1575;A38),"=COUNTIFS(Comparativo!C2:C1575;A38;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A38;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A38;Comparativo!D2:D1575;""Revisar"")",=C38/B38
+Lombar,=COUNTIF(Comparativo!C2:C1575;A39),"=COUNTIFS(Comparativo!C2:C1575;A39;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A39;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A39;Comparativo!D2:D1575;""Revisar"")",=C39/B39
+MMII,=COUNTIF(Comparativo!C2:C1575;A40),"=COUNTIFS(Comparativo!C2:C1575;A40;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A40;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A40;Comparativo!D2:D1575;""Revisar"")",=C40/B40
+Mobilidade - Integrados,=COUNTIF(Comparativo!C2:C1575;A41),"=COUNTIFS(Comparativo!C2:C1575;A41;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A41;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A41;Comparativo!D2:D1575;""Revisar"")",=C41/B41
+Ombro,=COUNTIF(Comparativo!C2:C1575;A42),"=COUNTIFS(Comparativo!C2:C1575;A42;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A42;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A42;Comparativo!D2:D1575;""Revisar"")",=C42/B42
+Peitoral,=COUNTIF(Comparativo!C2:C1575;A43),"=COUNTIFS(Comparativo!C2:C1575;A43;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A43;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A43;Comparativo!D2:D1575;""Revisar"")",=C43/B43
+Pernas,=COUNTIF(Comparativo!C2:C1575;A44),"=COUNTIFS(Comparativo!C2:C1575;A44;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A44;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A44;Comparativo!D2:D1575;""Revisar"")",=C44/B44
+Tríceps,=COUNTIF(Comparativo!C2:C1575;A45),"=COUNTIFS(Comparativo!C2:C1575;A45;Comparativo!D2:D1575;""Correspondência forte"")","=COUNTIFS(Comparativo!C2:C1575;A45;Comparativo!D2:D1575;""Não encontrado"")","=COUNTIFS(Comparativo!C2:C1575;A45;Comparativo!D2:D1575;""Revisar"")",=C45/B45

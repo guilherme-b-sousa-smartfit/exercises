@@ -26,12 +26,24 @@ O `vite.config.ts` usa `base: "./"`, então o mesmo build serve no subcaminho do
 
 ## Regravar a planilha
 
+Destino atual: [Cópia de Exercicios sem midia](https://docs.google.com/spreadsheets/d/1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc/edit).
+As abas `thumbnail` (33249298) e `videos` (908896634) recebem o lote novo.
+`thumbnail v1` e `Videos v1` são o histórico e não são alteradas.
+
+A planilha nova exige autenticação (o endpoint público `gviz` retorna 401).
+O app está configurado localmente, mas a leitura ao vivo no Pages depende de acesso
+público de leitura ou de uma integração autenticada. O preenchimento via conector funciona.
+
 ```bash
 uv run --with google-api-python-client --with google-auth python escrever_origem.py
+uv run --with google-api-python-client --with google-auth python escrever_origem.py --aplicar
 ```
 
-Escreve a coluna B (mídia) e a C (flag `fonte · licença`, só nas linhas de fonte externa) nas
-duas abas, via a service account `claude-sheets@guilherme-works.iam.gserviceaccount.com`.
+A primeira execução salva uma prévia; `--aplicar` preenche somente células de mídia vazias.
+Usa `out/mapa-v2.json`: coluna B com URL e nota de correspondência/pendência; coluna C com
+`fonte · licença` para fontes externas. Preserva cabeçalhos, URLs existentes e formatação.
+A escrita usa a service account `claude-sheets@guilherme-works.iam.gserviceaccount.com`.
+`escrever_planilha.py` é uma entrada alternativa para o mesmo fluxo.
 
 ## Completar a aba Videos
 
@@ -39,8 +51,8 @@ duas abas, via a service account `claude-sheets@guilherme-works.iam.gserviceacco
 uv run --with google-api-python-client --with google-auth python completar_videos.py
 ```
 
-Compara a aba `thumbnail` com a `Videos` e **acrescenta** as linhas que existem na primeira e
+Compara a aba `thumbnail` com a `videos` e **acrescenta** as linhas que existem na primeira e
 faltam na segunda, já com o GIF do de-para. Idempotente: se não houver o que inserir, não escreve.
 
-Foi o que fechou o grupo "só thumbnail" — 6 exercícios tinham GIF mapeado e verificado, mas a
-linha simplesmente não existia na aba `Videos` (ela tinha 171 linhas contra 177 da `thumbnail`).
+Execute apenas quando quiser acrescentar exercícios à lista de vídeos. O preenchimento do
+lote v2 preserva as listas recebidas, sem acrescentar linhas.

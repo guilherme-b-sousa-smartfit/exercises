@@ -1,0 +1,22 @@
+Critério,Definição
+Objetivo,Estimar a cobertura de execuções antes de comprar o catálogo Gym Visual. Arquivos e URLs pagos não são necessários nesta etapa.
+Unidade,Cada um dos 1.574 IDs da base aparece exatamente uma vez em Comparativo. Nomes iguais com IDs diferentes são preservados.
+Fontes,"Todas as linhas preenchidas da base e as três abas do Excel: Illustrations, Animated GIFs e Videos."
+Correspondência forte,"Nome equivalente após normalização/tradução, sem diferença explícita de execução, ou correspondência terminológica revisada. É evidência textual forte, não validação visual."
+Revisar,"Há candidato aproximado ou informação insuficiente sobre equipamento, apoio, postura, pegada, unilateralidade, amplitude ou sequência. Não conta como compra garantida."
+Não encontrado,Não localizado com correspondência suficiente no método. Inclui protocolos/aulas e equipamentos específicos não identificados. Não equivale a afirmar inexistência absoluta.
+Confiança,"Índice heurístico de 0 a 100, NÃO probabilidade estatística: 95 para nome canônico equivalente; 90 para equivalência terminológica revisada; até 84 para candidatos não confirmados. 0 significa não encontrado."
+Nível,Alta somente para correspondência forte; Média para candidatos com índice ≥65; Baixa para demais candidatos. Índices não medem qualidade ou licença da mídia.
+Busca,"Tradução por dicionário de movimentos/acessórios, normalização de acentos e sinônimos, busca textual por família de movimento e avaliação de equipamento/grupo/qualificadores. Não usa o mapeamento antigo como verdade."
+Variantes,Unilateral não é automaticamente bilateral; alternado não é simultâneo; inclinado não é reto; apoio em step não é automaticamente banco; amplitude parcial e protocolos 21/HIT não viram execução genérica.
+Combinações,Dois movimentos separados no catálogo não provam que existe o vídeo da sequência combinada da base.
+Formatos independentes,"Só há Sim — forte para um formato quando uma linha da respectiva aba sustenta a correspondência. IDs de vídeo, imagem e GIF não são fabricados a partir de sufixos."
+IDs e rastreio,IDs do catálogo são texto para preservar zeros. As referências indicam a aba e linha do Excel. Candidatos permite auditar as aproximações.
+"Catálogo, não reprodução","O Excel contém nomes/IDs/metadados, sem links de mídia. A presença na aba representa oferta catalogada, não arquivo já comprado."
+Gênero/versão,"Gênero do demonstrador e marcação genérica de versão são ignorados no nome canônico; diferenças explicitadas de equipamento, postura e movimento são mantidas. Variantes visuais não descritas continuam sem validação."
+URLs atuais,Copiadas apenas como referência da base Smart Fit. Sua presença não aumenta a confiança de equivalência com Gym Visual e sua disponibilidade não foi testada.
+Lacunas atuais,Recorte dos registros sem thumbnail_url e/ou sem ambos video_url e external_video_url. Os percentuais de preenchimento usam os respectivos totais de lacunas.
+Uso para compra,Use Correspondência forte como estimativa conservadora e envie os casos Revisar ao fornecedor para confirmar variante/ID. A soma de fortes e duvidosos não é cobertura garantida.
+Limites,"Não foi realizada comparação visual dos vídeos pagos. Nomes genéricos, traduções e descrições incompletas podem exigir confirmação adicional. Não encontrado pode conter falso negativo."
+Atualização,Resumo usa fórmulas vinculadas a Comparativo. Lacunas atuais e Candidatos são retratos da geração; alterações nas fontes exigem nova execução do comparador.
+Revisão documental,Revisão assistida dos nomes/candidatos; não equivale a validação biomecânica por profissional nem teste de mídia.

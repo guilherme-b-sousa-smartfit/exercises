@@ -1,5 +1,17 @@
 # Atribuição de mídia
 
+## Lote v2
+
+`out/mapa-v2.json` registra a URL de origem de cada correspondência. O lote novo também
+referencia GIFs e imagens diretamente em [Docteur Fitness](https://www.docteur-fitness.com/)
+e [FitnessProgramer](https://fitnessprogramer.com/), thumbnails de [Budy](https://budy.fit/)
+e prévias públicas com marca d'água do [Gym visual](https://gymvisual.com/).
+Não foram espelhados no repositório. As prévias do Gym visual mantêm o aviso de copyright;
+nas outras fontes sem licença de reutilização informada, essa condição aparece na coluna C.
+As notas da coluna B indicam aproximações, diferenças de execução e a página de origem.
+Quando thumbnail e GIF têm fontes diferentes, os campos `image_*` e `gif_*` do mapa
+registram fonte, observação e confiança separadamente.
+
 Este repositório espelha mídia de terceiros usada para os exercícios que **não existem** no
 dataset [`hasaneyldrm/exercises-dataset`](https://github.com/hasaneyldrm/exercises-dataset).
 

@@ -460,3 +460,14 @@ code {
 .badge-licenca {
   color: var(--texto-fraco);
 }
+
+/* Coverage is catalog metadata; paid media is not previewed. */
+.stat { color: var(--texto); }
+.purchase-summary { background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio); padding: 8px 18px; margin-bottom: 20px; line-height: 1.5; }
+.comparison-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+.comparison-reason { font-size: 13px; line-height: 1.5; color: var(--texto-fraco); margin: 6px 0; }
+.catalog-media { border-top: 1px solid var(--borda); padding: 10px 0; font-size: 13px; }
+.catalog-media p { margin: 7px 0; }
+.catalog-media small { color: var(--texto-fraco); overflow-wrap: anywhere; }
+.load-more { display: block; margin: 24px auto; }
+@media (max-width: 480px) { .app { padding: 20px 12px; } .comparison-grid { grid-template-columns: 1fr; } .badge { white-space: normal; } }

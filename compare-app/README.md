@@ -13,7 +13,7 @@ npm run dev
 
 ## O que ele faz
 
-- lê as duas abas (`thumbnail` → imagens, `Videos` → GIFs) e junta por nome
+- lê as duas abas novas (`thumbnail` → imagens, `videos` → GIFs) e junta por nome
 - mostra **thumbnail e GIF lado a lado** em cada card, com a lacuna marcada em amarelo
   quando uma das duas mídias falta; clicar numa mídia abre ela em tamanho real
 - revalida sozinho a cada 30s, com botão de recarregar manual
@@ -25,8 +25,8 @@ npm run dev
 
 Os quatro grupos de cobertura são mutuamente exclusivos e somam o total de linhas.
 
-A ordem e a numeração das linhas espelham a aba 1, inclusive a duplicata de
-`Desenvolvimento Guiado` (linhas 102 e 112).
+A ordem e a numeração espelham as linhas da planilha, ignorando o cabeçalho `Exercicio`.
+O destino é `1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc`; as abas v1 são histórico.
 
 ## De onde vem cada dado
 
@@ -36,7 +36,8 @@ A ordem e a numeração das linhas espelham a aba 1, inclusive a duplicata de
 | flag de fonte externa (`fonte · licença`) | planilha, coluna C, ao vivo |
 | nome em inglês, id e confiança do dataset | `public/mapa.json`, gerado por `../build_depara.py` |
 
-Se você regerar o de-para, copie `../out/mapa.json` para `public/mapa.json`.
+O `public/mapa.json` combina `../out/mapa.json` (histórico) com `../out/mapa-v2.json`
+(lote atual, que tem prioridade). As diferenças das aproximações estão nas notas de B na planilha.
 
 ## Fonte externa
 

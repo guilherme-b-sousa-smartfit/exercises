@@ -2,7 +2,7 @@ import json
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-SID = "121GJz4mJA2QvrG2iML0AwKuKW_Szgt2PqxYKn2Lg44s"
+SID = "1c_ulTtcGmcryAzIyGT3bgavB8tU95W_WhKtu9f6VNRc"
 BASE = "/Users/guibais/Documents/smartfit/exercises/out"
 
 cred = service_account.Credentials.from_service_account_file(
@@ -10,12 +10,13 @@ cred = service_account.Credentials.from_service_account_file(
     scopes=["https://www.googleapis.com/auth/spreadsheets"])
 svc = build("sheets", "v4", credentials=cred).spreadsheets()
 
-dataset = json.load(open(f"{BASE}/mapa.json", encoding="utf-8"))
+dataset = json.load(open(f"{BASE}/mapa-v2.json", encoding="utf-8"))
 externa = json.load(open(f"{BASE}/midia-externa.json", encoding="utf-8"))
 
 abas = sorted(svc.get(spreadsheetId=SID, fields="sheets.properties(title,index)").execute()["sheets"],
               key=lambda s: s["properties"]["index"])
-aba_img, aba_vid = (a["properties"]["title"] for a in abas[:2])
+aba_img, aba_vid = "thumbnail", "videos"
+assert {aba_img, aba_vid} <= {a["properties"]["title"] for a in abas}
 q = lambda t: "'" + t.replace("'", "''") + "'"
 
 nomes_img = [r[0].strip() for r in svc.values().get(
@@ -26,7 +27,11 @@ nomes_vid = [r[0].strip() for r in svc.values().get(
 def gif_de(nome):
     do_dataset = dataset.get(nome, {}).get("gif", "")
     if do_dataset:
-        return do_dataset, ""
+        item = dataset[nome]
+        origem = item.get("gif_origem", item.get("origem", ""))
+        licenca = item.get("gif_licenca", item.get("licenca", ""))
+        flag = f"{origem} · {licenca}" if origem else ""
+        return do_dataset, flag
     ext = externa.get(nome)
     if ext and ext["gif"]:
         return ext["gif"], f"{ext['origem']} · {ext['licenca']}"

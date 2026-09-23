@@ -1,0 +1,597 @@
+[
+  {
+    "url": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/100171201.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/35151201.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/67321201.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/93391201.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/98161201.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2021/04/High-Cable-Single-Arm-Bicep-Curl.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2021/07/Arm-Circles_Shoulders.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2021/10/Dumbbell-V-up.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2021/10/Single-Arm-Cable-Crossover.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2021/12/One-Arm-Cable-Chest-Press.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://fitnessprogramer.com/wp-content/uploads/2022/07/Butterfly-Sit-up.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/16989-large_default/elbow-up-and-down-dynamic-plank.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/21317-large_default/dumbbell-wood-chop-squat.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/22061-large_default/cable-hip-abduction-version-2-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/23535-large_default/dumbbell-21s.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/25415-large_default/cable-standing-chest-press.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/26870-large_default/spider-plank-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/27566-large_default/lying-scissors-cross-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/29712-large_default/dumbbell-alternate-v-up.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/30000-large_default/cable-single-arm-crossover-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/32735-large_default/dumbbell-romanian-deadlift-to-bent-over-row.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/34051-large_default/cable-standing-hip-flexion-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/35567-large_default/half-kneeling-side-lunge-male.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/37387-large_default/dumbbell-alternating-arm-thruster.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/1/2/3/0/5/12305.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/1/4/8/9/1/14891.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/1/5/0/9/9/15099.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/1/6/8/4/3/16843.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/2/0/2/7/0/20270.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/2/0/4/5/2/20452.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/2/7/2/0/5/27205.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/2/7/6/6/8/27668.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/2/9/8/5/0/29850.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/3/4/1/5/2/34152.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/3/7/3/5/8/37358.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/4/1/8/6/2/41862.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://gymvisual.com/img/p/4/3/4/3/1/43431.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0001-2gPfomN.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0128-RJa4tCo.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0154-aqvSOQE.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0165-HPlPoQA.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0189-EIsE3u8.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0198-RVwzP10.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0201-3ZflifB.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0227-Pr9Rhf4.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0228-Kpajagk.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0234-4f8RXP8.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0245-xBYcQHj.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0262-rbu5UUb.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0274-TFqbd8t.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0285-BU15nH4.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0313-slDvUAU.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0318-ae9UoXQ.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0407-IpONWYv.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0507-mbkgB44.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0548-8ARQ9Hw.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0570-OyoZ3Pu.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0583-sZOR9EV.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0630-RJgzwny.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0795-C5jncD2.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0846-fZFZ704.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1201-0JtKWum.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1269-UKWTJWR.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1299-jHAnWmT.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1300-vsVoPHt.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1409-qKBpF7I.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1417-GOJKFfO.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1452-Wgaz7pm.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1459-rR0LJzx.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1468-xgsGFVM.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1636-wDUqY2u.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1638-QTXKWPh.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1670-ffQsyBj.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1761-BaE7O6U.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2429-FFRP97T.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3420-ZuXu4Eq.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3665-hCjGsRQ.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0001-2gPfomN.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0128-RJa4tCo.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0154-aqvSOQE.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0165-HPlPoQA.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0189-EIsE3u8.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0198-RVwzP10.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0201-3ZflifB.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0227-Pr9Rhf4.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0228-Kpajagk.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0234-4f8RXP8.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0245-xBYcQHj.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0262-rbu5UUb.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0274-TFqbd8t.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0285-BU15nH4.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0313-slDvUAU.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0318-ae9UoXQ.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0407-IpONWYv.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0507-mbkgB44.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0548-8ARQ9Hw.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0570-OyoZ3Pu.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0583-sZOR9EV.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0630-RJgzwny.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0795-C5jncD2.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0846-fZFZ704.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1201-0JtKWum.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1269-UKWTJWR.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1299-jHAnWmT.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1300-vsVoPHt.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1409-qKBpF7I.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1417-GOJKFfO.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1452-Wgaz7pm.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1459-rR0LJzx.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1468-xgsGFVM.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1638-QTXKWPh.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1670-ffQsyBj.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3420-ZuXu4Eq.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3665-hCjGsRQ.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/belt-squat-exercice-jambes-musculation.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/belt-squat.gif",
+    "status": 200,
+    "type": "image/gif"
+  },
+  {
+    "url": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/pendulum-squat-exercice-quadriceps-machine.jpg",
+    "status": 200,
+    "type": "image/jpeg"
+  },
+  {
+    "url": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/pendulum-squat.gif",
+    "status": 200,
+    "type": "image/gif"
+  }
+]

@@ -1,0 +1,5209 @@
+[
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 1,
+        "endRowIndex": 2,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/14297-cable-standing-chest-press.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/25415-large_default/cable-standing-chest-press.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 1,
+        "endRowIndex": 2,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 2,
+        "endRowIndex": 3,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Crucifixo unilateral na polia; conferir altura da polia. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/17149-cable-single-arm-crossover-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/30000-large_default/cable-single-arm-crossover-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 2,
+        "endRowIndex": 3,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 3,
+        "endRowIndex": 4,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Versão bilateral; não demonstra alternância. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/14297-cable-standing-chest-press.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/25415-large_default/cable-standing-chest-press.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 3,
+        "endRowIndex": 4,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 4,
+        "endRowIndex": 5,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://budy.fit/exercises/cable-standing-single-arm-chest-press",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/98161201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 4,
+        "endRowIndex": 5,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 5,
+        "endRowIndex": 6,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/13339-dumbbell-21s.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/23535-large_default/dumbbell-21s.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 5,
+        "endRowIndex": 6,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 6,
+        "endRowIndex": 7,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Frog crunch; conferir a posição dos pés da variante borboleta.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/2429-FFRP97T.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 7,
+        "endRowIndex": 8,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete bilateral; não demonstra alternância.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0507-mbkgB44.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 8,
+        "endRowIndex": 9,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete sem rotação de tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0507-mbkgB44.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 9,
+        "endRowIndex": 10,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Flexão e extensão das pernas sentado no banco; conferir apoio original.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0570-OyoZ3Pu.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 10,
+        "endRowIndex": 11,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0630-RJgzwny.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 11,
+        "endRowIndex": 12,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete lateral com as duas pernas; conferir a definição de duplo.\nFonte: https://budy.fit/exercises/oblique-v-up-on-floor",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/35151201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 11,
+        "endRowIndex": 12,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 12,
+        "endRowIndex": 13,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. V-sit; conferir se a demonstração mantém a isometria desejada.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3420-ZuXu4Eq.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 13,
+        "endRowIndex": 14,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Prancha com elevação de perna e braço oposto; há movimento adicional dos braços.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/3665-hCjGsRQ.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 14,
+        "endRowIndex": 15,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1468-xgsGFVM.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 15,
+        "endRowIndex": 16,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/15188-spider-plank-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/26870-large_default/spider-plank-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 15,
+        "endRowIndex": 16,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 16,
+        "endRowIndex": 17,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 17,
+        "endRowIndex": 18,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 18,
+        "endRowIndex": 19,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Agachamento sumô com remada alta usando kettlebell em vez de halter.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0548-8ARQ9Hw.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 19,
+        "endRowIndex": 20,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Corte diagonal com halter e agachamento; conferir se a variante inclui agachar. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/11836-dumbbell-wood-chop-squat.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/21317-large_default/dumbbell-wood-chop-squat.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 19,
+        "endRowIndex": 20,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 20,
+        "endRowIndex": 21,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Mesma execução para os dois lados; conferir lado esquerdo.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0407-IpONWYv.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 21,
+        "endRowIndex": 22,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/19019-cable-standing-hip-flexion-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/34051-large_default/cable-standing-hip-flexion-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 21,
+        "endRowIndex": 22,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 22,
+        "endRowIndex": 23,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Extensão de quadril na polia com perna estendida; flexão do joelho não especificada.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0228-Kpajagk.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 23,
+        "endRowIndex": 24,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Flexão de joelho em pé com caneleira; resistência diferente da polia.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0795-C5jncD2.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 24,
+        "endRowIndex": 25,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1300-vsVoPHt.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 25,
+        "endRowIndex": 26,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Alternância com halteres; conferir pegada fechada. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/21312-dumbbell-alternating-arm-thruster.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/37387-large_default/dumbbell-alternating-arm-thruster.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 25,
+        "endRowIndex": 26,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 26,
+        "endRowIndex": 27,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Correspondência herdada do mapeamento v1. Aproximação: a mídia não demonstra toda a combinação de movimentos.\nFonte: abas v1 / out/mapa.json",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1459-rR0LJzx.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 27,
+        "endRowIndex": 28,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Correspondência herdada do mapeamento v1. \nFonte: abas v1 / out/mapa.json",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0318-ae9UoXQ.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 28,
+        "endRowIndex": 29,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Correspondência herdada do mapeamento v1. Variação de equipamento ou posição; conferir execução.\nFonte: abas v1 / out/mapa.json",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0128-RJa4tCo.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 29,
+        "endRowIndex": 30,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Correspondência herdada do mapeamento v1. Variação de equipamento ou posição; conferir execução.\nFonte: abas v1 / out/mapa.json",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1417-GOJKFfO.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 30,
+        "endRowIndex": 31,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Correspondência herdada do mapeamento v1. \nFonte: abas v1 / out/mapa.json",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1409-qKBpF7I.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 31,
+        "endRowIndex": 32,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0154-aqvSOQE.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 32,
+        "endRowIndex": 33,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0227-Pr9Rhf4.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 33,
+        "endRowIndex": 34,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0165-HPlPoQA.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 34,
+        "endRowIndex": 35,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0201-3ZflifB.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 35,
+        "endRowIndex": 36,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1452-Wgaz7pm.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 36,
+        "endRowIndex": 37,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Crucifixo inverso bilateral; não demonstra a versão unilateral.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0154-aqvSOQE.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 37,
+        "endRowIndex": 38,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Remada em pé com triângulo; conferir inclinação do tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0234-4f8RXP8.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 38,
+        "endRowIndex": 39,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Remada curvada unilateral com pegador em vez de corda.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0189-EIsE3u8.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 39,
+        "endRowIndex": 40,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Crucifixo bilateral; não demonstra alternância.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0227-Pr9Rhf4.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 40,
+        "endRowIndex": 41,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Crucifixo unilateral na polia; conferir altura da polia. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/17149-cable-single-arm-crossover-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/30000-large_default/cable-single-arm-crossover-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 40,
+        "endRowIndex": 41,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 41,
+        "endRowIndex": 42,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Rotação de tronco na máquina; conferir modelo e movimento da máquina de abdominal oblíquo.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0583-sZOR9EV.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 42,
+        "endRowIndex": 43,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abdominal supra no chão em vez de banco curto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0274-TFqbd8t.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 43,
+        "endRowIndex": 44,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Elevação oblíqua dos joelhos pendurado na barra; apoio diferente das paralelas.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1761-BaE7O6U.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 44,
+        "endRowIndex": 45,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1299-jHAnWmT.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 45,
+        "endRowIndex": 46,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0285-BU15nH4.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 46,
+        "endRowIndex": 47,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/12534-cable-hip-abduction-version-2-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/22061-large_default/cable-hip-abduction-version-2-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 46,
+        "endRowIndex": 47,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 47,
+        "endRowIndex": 48,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Rosca na polia alta bilateral; conferir versão unilateral.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1636-wDUqY2u.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 48,
+        "endRowIndex": 49,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0548-8ARQ9Hw.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 49,
+        "endRowIndex": 50,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete sem meia rotação de tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0507-mbkgB44.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 50,
+        "endRowIndex": 51,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abre e cruza as pernas estendidas; conferir se a variante inclui cruzamento. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/15532-lying-scissors-cross-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/27566-large_default/lying-scissors-cross-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 50,
+        "endRowIndex": 51,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 51,
+        "endRowIndex": 52,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0262-rbu5UUb.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 52,
+        "endRowIndex": 53,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete lateral com as duas pernas; conferir variante.\nFonte: https://budy.fit/exercises/oblique-v-up-on-floor",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/35151201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 52,
+        "endRowIndex": 53,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 53,
+        "endRowIndex": 54,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete com pernas estendidas; conferir flexão de joelhos do remador.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0507-mbkgB44.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 54,
+        "endRowIndex": 55,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 55,
+        "endRowIndex": 56,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/8964-elbow-up-and-down-dynamic-plank.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/16989-large_default/elbow-up-and-down-dynamic-plank.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 55,
+        "endRowIndex": 56,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 56,
+        "endRowIndex": 57,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete alternado com halter em vez de kettlebell. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/16927-dumbbell-alternate-v-up.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/29712-large_default/dumbbell-alternate-v-up.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 56,
+        "endRowIndex": 57,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 57,
+        "endRowIndex": 58,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 58,
+        "endRowIndex": 59,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 59,
+        "endRowIndex": 60,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 60,
+        "endRowIndex": 61,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 61,
+        "endRowIndex": 62,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Transposição da caixa; conferir direção lateral e sequência de apoios.\nFonte: https://budy.fit/exercises/bodyweight-step-over-box",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/100171201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 61,
+        "endRowIndex": 62,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 62,
+        "endRowIndex": 63,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Rosca alternada; não inclui a etapa simultânea.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0285-BU15nH4.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 63,
+        "endRowIndex": 64,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Rosca martelo; não demonstra a combinação alternada e simultânea.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0313-slDvUAU.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 64,
+        "endRowIndex": 65,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Agachamento com corte diagonal; conferir trajetória dos braços. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/11836-dumbbell-wood-chop-squat.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/21317-large_default/dumbbell-wood-chop-squat.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 64,
+        "endRowIndex": 65,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 65,
+        "endRowIndex": 66,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Burpee com halteres; conferir se Sprawn inclui flexão e salto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1201-0JtKWum.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 66,
+        "endRowIndex": 67,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Combinação de terra romeno e remada curvada; conferir flexão dos joelhos. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/17970-dumbbell-romanian-deadlift-to-bent-over-row.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/32735-large_default/dumbbell-romanian-deadlift-to-bent-over-row.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 66,
+        "endRowIndex": 67,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 67,
+        "endRowIndex": 68,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete com halter; não demonstra insistência.\nFonte: https://budy.fit/exercises/dumbbell-v-up",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/93391201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 67,
+        "endRowIndex": 68,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 68,
+        "endRowIndex": 69,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0846-fZFZ704.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 69,
+        "endRowIndex": 70,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abdominal no chão em vez de banco reto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0001-2gPfomN.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 70,
+        "endRowIndex": 71,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Elevação oblíqua de joelhos na barra; apoio diferente das paralelas.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1761-BaE7O6U.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 71,
+        "endRowIndex": 72,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1269-UKWTJWR.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 72,
+        "endRowIndex": 73,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Extensão de quadril com joelho estendido; conferir a variante com joelho flexionado.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0228-Kpajagk.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 73,
+        "endRowIndex": 74,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Puxada alta pela frente; confirmar se o nome remada alta designa puxada ou remada vertical.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0198-RVwzP10.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 74,
+        "endRowIndex": 75,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Puxada alta supinada; confirmar se o nome remada alta designa puxada ou remada vertical.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0245-xBYcQHj.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 75,
+        "endRowIndex": 76,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1638-QTXKWPh.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 76,
+        "endRowIndex": 77,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 77,
+        "endRowIndex": 78,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Mesma execução para os dois lados; conferir lado direito.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/0407-IpONWYv.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 78,
+        "endRowIndex": 79,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/images/1670-ffQsyBj.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 79,
+        "endRowIndex": 80,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 80,
+        "endRowIndex": 81,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Conferir modelo da máquina. Mídia externa referenciada na origem.\nFonte: https://www.docteur-fitness.com/belt-squat",
+              "userEnteredValue": {
+                "stringValue": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/belt-squat-exercice-jambes-musculation.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 80,
+        "endRowIndex": 81,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Docteur Fitness · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 81,
+        "endRowIndex": 82,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Conferir modelo da máquina. Mídia externa referenciada na origem.\nFonte: https://www.docteur-fitness.com/pendulum-squat",
+              "userEnteredValue": {
+                "stringValue": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/pendulum-squat-exercice-quadriceps-machine.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 81,
+        "endRowIndex": 82,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Docteur Fitness · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 82,
+        "endRowIndex": 83,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Mobilidade de tornozelo com avanço do joelho em meio ajoelhado e bastão; demonstra um lado.\nFonte: https://budy.fit/exercises/kneeling-ankle-stretch",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/67321201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 82,
+        "endRowIndex": 83,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 83,
+        "endRowIndex": 84,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Mobilidade de tornozelo com avanço do joelho em meio ajoelhado e bastão; demonstra um lado.\nFonte: https://budy.fit/exercises/kneeling-ankle-stretch",
+              "userEnteredValue": {
+                "stringValue": "https://budy-fitness-assets.s3.us-west-2.amazonaws.com/exercises/thumbnails/67321201.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 83,
+        "endRowIndex": 84,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Budy · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 84,
+        "endRowIndex": 85,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 85,
+        "endRowIndex": 86,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Meio ajoelhado com perna lateral; conferir a sequência de lateralização. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/videos/20174-half-kneeling-side-lunge-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/35567-large_default/half-kneeling-side-lunge-male.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 85,
+        "endRowIndex": 86,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 86,
+        "endRowIndex": 87,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 87,
+        "endRowIndex": 88,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 88,
+        "endRowIndex": 89,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 33249298,
+        "startRowIndex": 89,
+        "endRowIndex": 90,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem thumbnail estática para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 1,
+        "endRowIndex": 2,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/8816-cable-standing-chest-press.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/6/8/4/3/16843.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 1,
+        "endRowIndex": 2,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 2,
+        "endRowIndex": 3,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Crucifixo unilateral na polia; conferir altura da polia.\nFonte: https://fitnessprogramer.com/exercise/single-arm-cable-crossover/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/10/Single-Arm-Cable-Crossover.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 2,
+        "endRowIndex": 3,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 3,
+        "endRowIndex": 4,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Versão bilateral; não demonstra alternância. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/8816-cable-standing-chest-press.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/6/8/4/3/16843.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 3,
+        "endRowIndex": 4,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 4,
+        "endRowIndex": 5,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Supino unilateral na polia; conferir posição e apoio do tronco.\nFonte: https://fitnessprogramer.com/exercise/one-arm-cable-chest-press/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/12/One-Arm-Cable-Chest-Press.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 4,
+        "endRowIndex": 5,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 5,
+        "endRowIndex": 6,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/25585-dumbbell-21s.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/4/3/4/3/1/43431.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 5,
+        "endRowIndex": 6,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 6,
+        "endRowIndex": 7,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://fitnessprogramer.com/exercise/butterfly-sit-up/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2022/07/Butterfly-Sit-up.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 6,
+        "endRowIndex": 7,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 7,
+        "endRowIndex": 8,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete bilateral; não demonstra alternância.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0507-mbkgB44.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 8,
+        "endRowIndex": 9,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete sem rotação de tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0507-mbkgB44.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 9,
+        "endRowIndex": 10,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Flexão e extensão das pernas sentado no banco; conferir apoio original.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0570-OyoZ3Pu.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 10,
+        "endRowIndex": 11,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0630-RJgzwny.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 11,
+        "endRowIndex": 12,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete lateral com as duas pernas; conferir a variante. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/8469-oblique-v-up-on-floor.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/5/0/9/9/15099.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 11,
+        "endRowIndex": 12,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 12,
+        "endRowIndex": 13,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. V-sit; conferir se a demonstração mantém a isometria desejada.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3420-ZuXu4Eq.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 13,
+        "endRowIndex": 14,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Prancha com elevação de perna e braço oposto; há movimento adicional dos braços.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/3665-hCjGsRQ.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 14,
+        "endRowIndex": 15,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1468-xgsGFVM.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 15,
+        "endRowIndex": 16,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/15333-spider-plank-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/7/2/0/5/27205.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 15,
+        "endRowIndex": 16,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 16,
+        "endRowIndex": 17,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 17,
+        "endRowIndex": 18,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 18,
+        "endRowIndex": 19,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Agachamento sumô com remada alta usando kettlebell em vez de halter.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0548-8ARQ9Hw.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 19,
+        "endRowIndex": 20,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Corte diagonal com halter e agachamento; conferir se a variante inclui agachar. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/11279-dumbbell-wood-chop-squat.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/0/2/7/0/20270.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 19,
+        "endRowIndex": 20,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 20,
+        "endRowIndex": 21,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Mesma execução para os dois lados; conferir lado esquerdo.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0407-IpONWYv.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 21,
+        "endRowIndex": 22,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/19081-cable-standing-hip-flexion-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/3/4/1/5/2/34152.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 21,
+        "endRowIndex": 22,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 22,
+        "endRowIndex": 23,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Extensão de quadril na polia com perna estendida; flexão do joelho não especificada.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0228-Kpajagk.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 23,
+        "endRowIndex": 24,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Flexão de joelho em pé com caneleira; resistência diferente da polia.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0795-C5jncD2.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 24,
+        "endRowIndex": 25,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1300-vsVoPHt.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 25,
+        "endRowIndex": 26,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. GIF de fonte externa. Conferir execução da variante. Thumbnail estática não localizada.\nFonte: https://fitnessprogramer.com/exercise/arm-circles/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/07/Arm-Circles_Shoulders.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 25,
+        "endRowIndex": 26,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 26,
+        "endRowIndex": 27,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 27,
+        "endRowIndex": 28,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0154-aqvSOQE.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 28,
+        "endRowIndex": 29,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0227-Pr9Rhf4.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 29,
+        "endRowIndex": 30,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0165-HPlPoQA.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 30,
+        "endRowIndex": 31,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0201-3ZflifB.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 31,
+        "endRowIndex": 32,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1452-Wgaz7pm.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 32,
+        "endRowIndex": 33,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Crucifixo inverso bilateral; não demonstra a versão unilateral.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0154-aqvSOQE.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 33,
+        "endRowIndex": 34,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Remada em pé com triângulo; conferir inclinação do tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0234-4f8RXP8.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 34,
+        "endRowIndex": 35,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Remada curvada unilateral com pegador em vez de corda.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0189-EIsE3u8.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 35,
+        "endRowIndex": 36,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Crucifixo bilateral; não demonstra alternância.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0227-Pr9Rhf4.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 36,
+        "endRowIndex": 37,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Crucifixo unilateral na polia; conferir altura da polia.\nFonte: https://fitnessprogramer.com/exercise/single-arm-cable-crossover/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/10/Single-Arm-Cable-Crossover.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 36,
+        "endRowIndex": 37,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 37,
+        "endRowIndex": 38,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Rotação de tronco na máquina; conferir modelo e movimento da máquina de abdominal oblíquo.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0583-sZOR9EV.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 38,
+        "endRowIndex": 39,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abdominal supra no chão em vez de banco curto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0274-TFqbd8t.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 39,
+        "endRowIndex": 40,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Elevação oblíqua dos joelhos pendurado na barra; apoio diferente das paralelas.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 40,
+        "endRowIndex": 41,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1299-jHAnWmT.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 41,
+        "endRowIndex": 42,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0285-BU15nH4.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 42,
+        "endRowIndex": 43,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/8261-cable-hip-abduction-version-2-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/4/8/9/1/14891.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 42,
+        "endRowIndex": 43,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 43,
+        "endRowIndex": 44,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://fitnessprogramer.com/exercise/high-cable-single-arm-bicep-curl/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/04/High-Cable-Single-Arm-Bicep-Curl.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 43,
+        "endRowIndex": 44,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 44,
+        "endRowIndex": 45,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0548-8ARQ9Hw.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 45,
+        "endRowIndex": 46,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Canivete sem meia rotação de tronco.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0507-mbkgB44.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 46,
+        "endRowIndex": 47,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abre e cruza as pernas estendidas; conferir se a variante inclui cruzamento. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/15583-lying-scissors-cross-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/7/6/6/8/27668.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 46,
+        "endRowIndex": 47,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 47,
+        "endRowIndex": 48,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0262-rbu5UUb.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 48,
+        "endRowIndex": 49,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete lateral com as duas pernas; conferir a variante. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/8469-oblique-v-up-on-floor.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/5/0/9/9/15099.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 48,
+        "endRowIndex": 49,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 49,
+        "endRowIndex": 50,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete com pernas estendidas; conferir flexão de joelhos do remador.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0507-mbkgB44.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 50,
+        "endRowIndex": 51,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 51,
+        "endRowIndex": 52,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/6503-elbow-up-and-down-dynamic-plank.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/1/2/3/0/5/12305.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 51,
+        "endRowIndex": 52,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 52,
+        "endRowIndex": 53,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete alternado com halter em vez de kettlebell. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/17034-dumbbell-alternate-v-up.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/9/8/5/0/29850.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 52,
+        "endRowIndex": 53,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 53,
+        "endRowIndex": 54,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 54,
+        "endRowIndex": 55,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 55,
+        "endRowIndex": 56,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 56,
+        "endRowIndex": 57,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 57,
+        "endRowIndex": 58,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 58,
+        "endRowIndex": 59,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Rosca alternada; não inclui a etapa simultânea.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0285-BU15nH4.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 59,
+        "endRowIndex": 60,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança C. Rosca martelo; não demonstra a combinação alternada e simultânea.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0313-slDvUAU.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 60,
+        "endRowIndex": 61,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Agachamento com corte diagonal; conferir trajetória dos braços. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/11279-dumbbell-wood-chop-squat.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/0/2/7/0/20270.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 60,
+        "endRowIndex": 61,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 61,
+        "endRowIndex": 62,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Burpee com halteres; conferir se Sprawn inclui flexão e salto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1201-0JtKWum.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 62,
+        "endRowIndex": 63,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Combinação de terra romeno e remada curvada; conferir flexão dos joelhos. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/11380-dumbbell-deadlift-bent-over-row.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/2/0/4/5/2/20452.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 62,
+        "endRowIndex": 63,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 63,
+        "endRowIndex": 64,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Canivete com halter; não demonstra insistência.\nFonte: https://fitnessprogramer.com/exercise/dumbbell-v-up/",
+              "userEnteredValue": {
+                "stringValue": "https://fitnessprogramer.com/wp-content/uploads/2021/10/Dumbbell-V-up.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 63,
+        "endRowIndex": 64,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "FitnessProgramer · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 64,
+        "endRowIndex": 65,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0846-fZFZ704.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 65,
+        "endRowIndex": 66,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Abdominal no chão em vez de banco reto.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0001-2gPfomN.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 66,
+        "endRowIndex": 67,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Elevação oblíqua de joelhos na barra; apoio diferente das paralelas.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1761-BaE7O6U.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 67,
+        "endRowIndex": 68,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1269-UKWTJWR.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 68,
+        "endRowIndex": 69,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Extensão de quadril com joelho estendido; conferir a variante com joelho flexionado.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0228-Kpajagk.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 69,
+        "endRowIndex": 70,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Puxada alta pela frente; confirmar se o nome remada alta designa puxada ou remada vertical.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0198-RVwzP10.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 70,
+        "endRowIndex": 71,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Puxada alta supinada; confirmar se o nome remada alta designa puxada ou remada vertical.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0245-xBYcQHj.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 71,
+        "endRowIndex": 72,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1638-QTXKWPh.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 72,
+        "endRowIndex": 73,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 73,
+        "endRowIndex": 74,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. Mesma execução para os dois lados; conferir lado direito.\nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0407-IpONWYv.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 74,
+        "endRowIndex": 75,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança A. \nFonte: https://github.com/hasaneyldrm/exercises-dataset",
+              "userEnteredValue": {
+                "stringValue": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1670-ffQsyBj.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 75,
+        "endRowIndex": 76,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 76,
+        "endRowIndex": 77,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Conferir modelo da máquina. Mídia externa referenciada na origem.\nFonte: https://www.docteur-fitness.com/belt-squat",
+              "userEnteredValue": {
+                "stringValue": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/belt-squat.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 76,
+        "endRowIndex": 77,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Docteur Fitness · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 77,
+        "endRowIndex": 78,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Conferir modelo da máquina. Mídia externa referenciada na origem.\nFonte: https://www.docteur-fitness.com/pendulum-squat",
+              "userEnteredValue": {
+                "stringValue": "https://www.docteur-fitness.com/wp-content/uploads/2022/06/pendulum-squat.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 77,
+        "endRowIndex": 78,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Docteur Fitness · licença de reutilização não informada"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 78,
+        "endRowIndex": 79,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 79,
+        "endRowIndex": 80,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 80,
+        "endRowIndex": 81,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Confiança B. Meio ajoelhado com perna lateral; conferir a sequência de lateralização. Prévia pública com marca d’água.\nFonte: https://gymvisual.com/animated-gifs/24477-half-kneeling-side-lunge-male.html",
+              "userEnteredValue": {
+                "stringValue": "https://gymvisual.com/img/p/4/1/8/6/2/41862.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue,note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 80,
+        "endRowIndex": 81,
+        "startColumnIndex": 2,
+        "endColumnIndex": 3
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "userEnteredValue": {
+                "stringValue": "Gym visual · © Gym visual (prévia pública)"
+              }
+            }
+          ]
+        }
+      ],
+      "fields": "userEnteredValue"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 81,
+        "endRowIndex": 82,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 82,
+        "endRowIndex": 83,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 83,
+        "endRowIndex": 84,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 84,
+        "endRowIndex": 85,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  },
+  {
+    "updateCells": {
+      "range": {
+        "sheetId": 908896634,
+        "startRowIndex": 85,
+        "endRowIndex": 86,
+        "startColumnIndex": 1,
+        "endColumnIndex": 2
+      },
+      "rows": [
+        {
+          "values": [
+            {
+              "note": "Pendente: sem vídeo/GIF para esta execução. Pendente: não encontrada mídia que demonstre esta execução no catálogo consultado. Necessária referência da execução para correspondência segura."
+            }
+          ]
+        }
+      ],
+      "fields": "note"
+    }
+  }
+]
