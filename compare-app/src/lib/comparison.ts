@@ -9,7 +9,7 @@ export type ComparisonRow = {
   id: string; name: string; group: string; status: MatchStatus; score: number;
   confidence: string; reason: string; image: CatalogMedia; video: CatalogMedia; gif: CatalogMedia;
   equipment: string; body: string; missingImage: boolean; missingVideo: boolean;
-  sourceUrl: string; catalogUrl: string;
+  sourceUrl: string; catalogUrl: string; originalImage: string; originalVideo: string; originalExternalVideo: string;
 };
 const statuses: string[] = ['Correspondência forte', 'Revisar', 'Não encontrado'];
 const mediaStatuses: string[] = ['Sim — forte', 'Revisar', 'Não encontrado'];
@@ -35,7 +35,7 @@ export function parseComparison(values: unknown[][]): ComparisonRow[] {
     if (!Number.isFinite(score) || score < 0 || score > 100) throw new Error(`Índice inválido no exercício ${id}.`);
     return { id, name: get('Exercício base'), group: get('Grupo base'), status: status as MatchStatus, score,
       confidence: get('Confiança'), reason: get('Justificativa'), image: media('Imagem', 'imagem'), video: media('Vídeo', 'vídeo'), gif: media('GIF', 'GIF'),
-      equipment: get('Equipamento candidato principal'), body: get('Grupo candidato principal'), missingImage: get('Falta imagem atual') === 'Sim', missingVideo: get('Falta vídeo atual') === 'Sim', sourceUrl: get('Fonte base'), catalogUrl: get('Fonte catálogo') };
+      equipment: get('Equipamento candidato principal'), body: get('Grupo candidato principal'), missingImage: get('Falta imagem atual') === 'Sim', missingVideo: get('Falta vídeo atual') === 'Sim', originalImage: get('Imagem atual (URL informada)'), originalVideo: get('Vídeo atual (URL informada)'), originalExternalVideo: get('Vídeo externo atual'), sourceUrl: get('Fonte base'), catalogUrl: get('Fonte catálogo') };
   });
 }
 export async function fetchComparison(signal: AbortSignal): Promise<ComparisonRow[]> {
