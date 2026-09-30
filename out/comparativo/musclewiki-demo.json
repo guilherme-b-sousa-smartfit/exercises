@@ -1,0 +1,933 @@
+{
+  "fetchedAt": "2026-09-24T17:34:52.773Z",
+  "locale": "pt-br",
+  "complete": false,
+  "source": "https://api.musclewiki.com/#demo",
+  "categories": [
+    {
+      "name": "band",
+      "display_name": "Band",
+      "count": 108
+    },
+    {
+      "name": "barbell",
+      "display_name": "Barbell",
+      "count": 204
+    },
+    {
+      "name": "bodyweight",
+      "display_name": "Bodyweight",
+      "count": 204
+    },
+    {
+      "name": "bosu-ball",
+      "display_name": "Bosu-Ball",
+      "count": 31
+    },
+    {
+      "name": "cables",
+      "display_name": "Cables",
+      "count": 205
+    },
+    {
+      "name": "cardio",
+      "display_name": "Cardio",
+      "count": 48
+    },
+    {
+      "name": "dumbbells",
+      "display_name": "Dumbbells",
+      "count": 302
+    },
+    {
+      "name": "kettlebells",
+      "display_name": "Kettlebells",
+      "count": 168
+    },
+    {
+      "name": "machine",
+      "display_name": "Machine",
+      "count": 88
+    },
+    {
+      "name": "medicine-ball",
+      "display_name": "Medicine-Ball",
+      "count": 35
+    },
+    {
+      "name": "pilates",
+      "display_name": "Pilates",
+      "count": 49
+    },
+    {
+      "name": "plate",
+      "display_name": "Plate",
+      "count": 68
+    },
+    {
+      "name": "recovery",
+      "display_name": "Recovery",
+      "count": 218
+    },
+    {
+      "name": "smith-machine",
+      "display_name": "Smith-Machine",
+      "count": 34
+    },
+    {
+      "name": "stretches",
+      "display_name": "Stretches",
+      "count": 52
+    },
+    {
+      "name": "trx",
+      "display_name": "TRX",
+      "count": 31
+    },
+    {
+      "name": "vitruvian",
+      "display_name": "Vitruvian",
+      "count": 25
+    },
+    {
+      "name": "yoga",
+      "display_name": "Yoga",
+      "count": 73
+    }
+  ],
+  "exercises": [
+    {
+      "id": 8,
+      "name": "Agachamento com barra",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1794,
+      "name": "Inclinação Lateral com Elástico",
+      "category": "Banda",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 744,
+      "name": "Avanço Alternado com Landmine para Supino",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 556,
+      "name": "Ponte de glúteo em 4 com pés elevados (peso corporal)",
+      "category": "Peso corporal",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 815,
+      "name": "Afundo no Bosu Ball",
+      "category": "Bosu-Ball",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1023,
+      "name": "Tríceps na Polia Alta com Barra",
+      "category": "Cabos",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1115,
+      "name": "Sprint de Ida e Volta",
+      "category": "Cardio",
+      "primaryMuscles": [
+        "Panturrilhas",
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 467,
+      "name": "Agachamento Sumô com Haltere",
+      "category": "Halteres",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 88,
+      "name": "Rosca Unilateral com Kettlebell",
+      "category": "Kettlebells",
+      "primaryMuscles": [
+        "Bíceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1684,
+      "name": "Máquina de Flexão de Pernas em Posição Ajoelhada com Carga de Placas",
+      "category": "Máquina",
+      "primaryMuscles": [
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 731,
+      "name": "Arremesso com Bola Medicinal",
+      "category": "Bola de Medicina",
+      "primaryMuscles": [
+        "Abdominais",
+        "Abdominais Superiores"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2248,
+      "name": "Scooter de Pilates",
+      "category": "Pilates",
+      "primaryMuscles": [
+        "Glúteos",
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 513,
+      "name": "Remada com pegada de pinça na anilha",
+      "category": "Prato",
+      "primaryMuscles": [
+        "Antebraços"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1442,
+      "name": "Elevação de Panturrilha 2A Excêntrico Unilateral no Chão",
+      "category": "Recuperação",
+      "primaryMuscles": [
+        "Panturrilhas"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 946,
+      "name": "Smith Machine Elevação de Panturrilha Sentado",
+      "category": "Máquina Smith",
+      "primaryMuscles": [
+        "Panturrilhas"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 149,
+      "name": "Alongamento de Glúteos — Variação Três",
+      "category": "Alongamentos",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 612,
+      "name": "Afundo no TRX",
+      "category": "TRX",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 857,
+      "name": "Moinho Vitruviano",
+      "category": "Vitruvian",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 646,
+      "name": "Postura do Portão — coluna arredondada — olhando para cima",
+      "category": "Yoga",
+      "primaryMuscles": [
+        "Dorsais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2198,
+      "name": "Ponte de glúteos deitada com abdução usando miniband",
+      "category": "Banda",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1073,
+      "name": "Elevação de Quadril com Barra — Calcanhares Elevados",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 208,
+      "name": "Curl Nórdico de Isquiotibiais",
+      "category": "Peso corporal",
+      "primaryMuscles": [
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 796,
+      "name": "Prancha lateral no antebraço com Bosu Ball",
+      "category": "Bosu-Ball",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 969,
+      "name": "Kickback de Tríceps no Cabo",
+      "category": "Cabos",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 704,
+      "name": "Toque no pé",
+      "category": "Cardio",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 444,
+      "name": "Extensão de tríceps com haltere acima da cabeça",
+      "category": "Halteres",
+      "primaryMuscles": [
+        "Tríceps",
+        "Cabeça Longa do Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1155,
+      "name": "Subida no banco com kettlebell na posição de rack frontal",
+      "category": "Kettlebells",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 705,
+      "name": "Extensão de Glúteos e Isquiotibiais",
+      "category": "Máquina",
+      "primaryMuscles": [
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 709,
+      "name": "Arremesso de bola medicinal do peito",
+      "category": "Bola de Medicina",
+      "primaryMuscles": [
+        "Peito"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2140,
+      "name": "Tríceps press deitado da série Midback",
+      "category": "Pilates",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 529,
+      "name": "Flexão em Déficit com Anilha",
+      "category": "Prato",
+      "primaryMuscles": [
+        "Peito"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1476,
+      "name": "Alongamento do Flexor do Quadril com Afundo Ajoelhado 2",
+      "category": "Recuperação",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 956,
+      "name": "Remada Alta na Smith Machine",
+      "category": "Máquina Smith",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltóide lateral",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 159,
+      "name": "Alongamento Abdominal Variação Quatro",
+      "category": "Alongamentos",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 608,
+      "name": "Afundo Reverso com TRX",
+      "category": "TRX",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 844,
+      "name": "Vitruvian Desenvolvimento Militar",
+      "category": "Vitruvian",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltoide Anterior",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 678,
+      "name": "Postura da Esfinge",
+      "category": "Yoga",
+      "primaryMuscles": [
+        "Parte inferior das costas"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1793,
+      "name": "Pallof Press com elástico para Wood Chopper",
+      "category": "Banda",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 748,
+      "name": "Rosca Concentrada no Landmine",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Bíceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1136,
+      "name": "Flexão Com Palmas",
+      "category": "Peso corporal",
+      "primaryMuscles": [
+        "Peito"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 802,
+      "name": "Elevação de Quadril com Bosu Ball",
+      "category": "Bosu-Ball",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 241,
+      "name": "Tríceps na Polia com Corda",
+      "category": "Cabos",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1113,
+      "name": "Remo (Ergômetro) — Só Pernas",
+      "category": "Cardio",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 924,
+      "name": "Afundo Reverência Unilateral com Kettlebell",
+      "category": "Kettlebells",
+      "primaryMuscles": [
+        "Glúteos",
+        "Glúteo Médio",
+        "Glúteo Máximo"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1503,
+      "name": "Leg Press Horizontal Máquina",
+      "category": "Máquina",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1875,
+      "name": "Thruster com bola medicinal",
+      "category": "Bola de Medicina",
+      "primaryMuscles": [
+        "Glúteos",
+        "Ombros",
+        "Deltoide Anterior",
+        "Quadríceps",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2170,
+      "name": "Posição de Prancha Alongada",
+      "category": "Pilates",
+      "primaryMuscles": [
+        "Parte inferior das costas",
+        "Abdominais",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1728,
+      "name": "Agachamento com Prato",
+      "category": "Prato",
+      "primaryMuscles": [
+        "Glúteos",
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1320,
+      "name": "Alongamento Lateral de Oração",
+      "category": "Recuperação",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 952,
+      "name": "Desenvolvimento Sentado na Smith Machine",
+      "category": "Máquina Smith",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltoide Anterior",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 126,
+      "name": "Alongamento do Peitoral — Variação Dois",
+      "category": "Alongamentos",
+      "primaryMuscles": [
+        "Peito"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 595,
+      "name": "Prancha com as mãos no TRX",
+      "category": "TRX",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 839,
+      "name": "Vitruvian Agachamento Frontal",
+      "category": "Vitruvian",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 651,
+      "name": "Parada de cabeça",
+      "category": "Yoga",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltoide Anterior",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 499,
+      "name": "Rosca Martelo Alta Com Elástico",
+      "category": "Banda",
+      "primaryMuscles": [
+        "Bíceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 339,
+      "name": "Supino Larsen com barra",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Peito"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1333,
+      "name": "Serra na prancha",
+      "category": "Peso corporal",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 805,
+      "name": "Flexão Pike no Bosu Ball",
+      "category": "Bosu-Ball",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltoide Anterior",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1933,
+      "name": "Extensão de Tríceps na Polia com Barra Giratória",
+      "category": "Cabos",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1090,
+      "name": "Polichinelos com Faixa e Rosca Martelo",
+      "category": "Cardio",
+      "primaryMuscles": [
+        "Bíceps",
+        "Glúteo Médio"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 376,
+      "name": "Elevação lateral com halteres Bayesian",
+      "category": "Halteres",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltóide lateral",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1176,
+      "name": "Kettlebell Press com um braço no chão",
+      "category": "Kettlebells",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 54,
+      "name": "Rollouts na Máquina",
+      "category": "Máquina",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 734,
+      "name": "Arremesso na parede com bola medicinal",
+      "category": "Bola de Medicina",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2151,
+      "name": "Ajoelhado Para Fora — Teardrops De Expansão Reversa",
+      "category": "Pilates",
+      "primaryMuscles": [],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1609,
+      "name": "Mergulho com Peso",
+      "category": "Prato",
+      "primaryMuscles": [
+        "Peito",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1411,
+      "name": "Concha 1 Lado Deitado",
+      "category": "Recuperação",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 964,
+      "name": "Afundo na Máquina Smith",
+      "category": "Máquina Smith",
+      "primaryMuscles": [
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 146,
+      "name": "Alongamento Dos Posteriores De Coxa Variação Três",
+      "category": "Alongamentos",
+      "primaryMuscles": [
+        "Posteriores da coxa"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 590,
+      "name": "Prancha no TRX (antebraços)",
+      "category": "TRX",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 851,
+      "name": "Encolhimento de Ombros Vitruviano",
+      "category": "Vitruvian",
+      "primaryMuscles": [
+        "Trapézios"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 684,
+      "name": "Enfiar A Agulha Quadril Sobre Joelhos",
+      "category": "Yoga",
+      "primaryMuscles": [
+        "Trapézios"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 526,
+      "name": "Tríceps Na Polia Unilateral (Rapunzel)",
+      "category": "Banda",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1839,
+      "name": "Afundo com barra e faixa elástica",
+      "category": "Barra de Pesos",
+      "primaryMuscles": [
+        "Glúteos",
+        "Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1559,
+      "name": "Barra Fixa Assistida ao Estilo Gironda",
+      "category": "Peso corporal",
+      "primaryMuscles": [
+        "Bíceps",
+        "Dorsais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 819,
+      "name": "Bosu Ball: subir e atravessar",
+      "category": "Bosu-Ball",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1003,
+      "name": "Crunch Oblíquo Ajoelhado na Polia com Corda",
+      "category": "Cabos",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1120,
+      "name": "Cardio no Ski Erg",
+      "category": "Cardio",
+      "primaryMuscles": [
+        "Abdominais",
+        "Dorsais",
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1636,
+      "name": "Elevação Lateral Completa com Halteres",
+      "category": "Halteres",
+      "primaryMuscles": [
+        "Ombros",
+        "Deltóide lateral",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1498,
+      "name": "Elevação de Quadril na Máquina",
+      "category": "Máquina",
+      "primaryMuscles": [
+        "Glúteos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 719,
+      "name": "Agachamento com Bola Medicinal Acima da Cabeça",
+      "category": "Bola de Medicina",
+      "primaryMuscles": [
+        "Quadríceps",
+        "Parte Interna do Quadríceps",
+        "Parte Externa do Quadríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 2161,
+      "name": "Preparação para remada (costas): rolar para baixo com oblíquos",
+      "category": "Pilates",
+      "primaryMuscles": [
+        "Oblíquos",
+        "Deltoides Frontais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1586,
+      "name": "Prancha com Altos e Baixos Ponderados",
+      "category": "Prato",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 1385,
+      "name": "Levantamento Terra com Peso Corporal",
+      "category": "Recuperação",
+      "primaryMuscles": [
+        "Parte inferior das costas"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 122,
+      "name": "Alongamento de bíceps — Variação Dois",
+      "category": "Alongamentos",
+      "primaryMuscles": [
+        "Bíceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 598,
+      "name": "TRX Rollout Abdominal Ajoelhado",
+      "category": "TRX",
+      "primaryMuscles": [
+        "Abdominais"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 852,
+      "name": "Inclinação Lateral Vitruvian",
+      "category": "Vitruvian",
+      "primaryMuscles": [
+        "Oblíquos"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    },
+    {
+      "id": 664,
+      "name": "Oração da Pirâmide",
+      "category": "Yoga",
+      "primaryMuscles": [
+        "Tríceps"
+      ],
+      "source": "https://api.musclewiki.com/#demo"
+    }
+  ]
+}

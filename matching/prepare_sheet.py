@@ -84,8 +84,9 @@ def main():
  ]
  books={'Resumo':summary,'Comparativo':table,'Lacunas atuais':gaps,'Candidatos':candidate_rows,'Critérios':criteria}
  (DATA/'sheet-values.json').write_text(json.dumps(books,ensure_ascii=False))
- # The app starts from this exact published snapshot and can then read the live sheet.
+ # The app uses this regenerated snapshot; the existing remote sheet is unchanged.
  app={'generatedAt':data['generatedAt'],'catalogCounts':data['catalogCounts'],'headers':headers,'values':table[1:]}
+ (ROOT/'compare-app/public/video-scores.json').write_text(json.dumps({r['id']:{'name':r['name'],'candidateId':r['media']['video']['id'],'score':r['media']['video']['score']} for r in rows},ensure_ascii=False))
  (ROOT/'compare-app/public/comparison.json').write_text(json.dumps(app,ensure_ascii=False,separators=(',',':')))
  for name,values in books.items():
   with open(DATA/(name+'.csv'),'w',newline='') as f: csv.writer(f,lineterminator='\n').writerows(values)

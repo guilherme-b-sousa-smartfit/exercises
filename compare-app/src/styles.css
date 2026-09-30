@@ -511,3 +511,54 @@ button:disabled { opacity:.45;cursor:default; }
 .before-after h3 { min-height:34px; }
 
 .preview iframe { width:100%;height:100%;border:0; }
+
+[hidden] { display: none !important; }
+.library-header { border-bottom: 1px solid var(--borda); margin-bottom: 28px; }
+.library-header h1 { font-size: 26px; margin: 8px 0; }
+.library-header p { color: var(--texto-fraco); font-size: 14px; }
+.eyebrow { font-size: 11px; letter-spacing: .12em; color: var(--info); }
+.library-header nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.library-header nav a { padding: 12px 16px; color: var(--texto-fraco); text-decoration: none; border-bottom: 3px solid transparent; }
+.library-header nav a[aria-current] { color: var(--texto); border-color: var(--info); background: var(--superficie); }
+.library-header nav a:hover { color: var(--texto); }
+.cabecalho h2 { margin: 0 0 10px; }
+.table-scroll { overflow-x: auto; }
+.platforms table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.65; }
+.platforms th, .platforms td { text-align: left; padding: 16px; border: 1px solid var(--borda); vertical-align: top; min-width: 160px; }
+.platforms td { min-width: 270px; width: 42%; }
+.platforms thead { background: var(--superficie-alta); }
+.platforms a { color: var(--info); }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--info); outline-offset: 3px; }
+@media(max-width:760px) { .library-header h1 { font-size: 22px; } .library-header nav a { padding: 10px; font-size: 13px; } }
+.plan-options { margin-top: 18px; }
+.plan-options label { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13px; }
+
+/* Focused review workspace */
+.simple-app { max-width: 1240px; }
+.similarity-filter { position: sticky; top: 0; z-index: 5; background: #161b22f5; backdrop-filter: blur(12px); border: 1px solid var(--borda); padding: 18px 24px; border-radius: 12px; margin-bottom: 24px; }
+.similarity-heading { display: flex; justify-content: space-between; gap: 16px; }
+.similarity-filter output { font-weight: 700; color: #ffcf40; }
+.similarity-filter small { color: var(--texto-fraco); }
+.range-controls { display: flex; gap: 32px; margin: 12px 0; }
+.range-controls label { flex: 1; font-size: 12px; color: var(--texto-fraco); }
+.range-controls input { display: block; width: 100%; accent-color: #ffcf40; margin: 10px 0; cursor: pointer; }
+.simple-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.simple-card { border: 1px solid var(--borda); border-radius: 14px; background: var(--superficie); padding: 18px; min-width: 0; }
+.simple-card header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
+.simple-card h2 { font-size: 17px; margin: 4px 0; }
+.simple-card small { color: var(--texto-fraco); font-size: 11px; }
+.similarity-score { font-size: 26px; color: #ffcf40; text-align: right; flex-shrink: 0; }
+.similarity-score small { display: block; font-weight: 400; }
+.simple-card .before-after { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.simple-card h3 { font-size: 12px; color: var(--texto-fraco); margin: 0 0 8px; }
+.simple-card .preview { aspect-ratio: 4/5; height: auto; min-height: 0; background: #fff; }
+.simple-card .preview video,.simple-card .preview img { width: 100%; height: 100%; object-fit: contain; }
+.simple-card .preview-empty { background: var(--superficie-alta); height: 100%; font-size: 12px; }
+.simple-card .candidate-name { font-size: 13px; color: var(--texto-fraco); margin: 12px 0 0; }
+.scroll-sentinel { padding: 32px; text-align: center; color: var(--texto-fraco); }
+@media(max-width: 760px) { .simple-grid { grid-template-columns: 1fr; } .simple-app { padding: 20px 12px; } .similarity-filter { padding: 14px; } .range-controls { gap: 18px; } }
+
+.exercise-search { display: block; font-size: 13px; font-weight: 600; margin-bottom: 18px; }
+.exercise-search input { display: block; width: 100%; box-sizing: border-box; margin-top: 8px; padding: 12px 14px; border: 1px solid var(--borda); border-radius: 8px; background: var(--fundo); color: var(--texto); font: inherit; font-size: 16px; font-weight: 400; }
+.exercise-search input::placeholder { color: var(--texto-fraco); }
+.exercise-search input:focus-visible { outline: 2px solid #ffcf40; outline-offset: 2px; }

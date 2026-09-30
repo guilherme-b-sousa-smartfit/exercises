@@ -11,19 +11,20 @@ export function useComparison() {
     const controller = new AbortController(); request.current = controller;
     setLoading(true); setError('');
     try {
-      const live = await fetchComparison(controller.signal);
-      if (!controller.signal.aborted) { setRows(live); setSource(`Planilha ao vivo · lida às ${new Date().toLocaleTimeString('pt-BR')}`); }
+      const saved = await fetchSnapshot(controller.signal);
+      const live = saved.rows;
+      if (!controller.signal.aborted) { setRows(live); setSource(`Análise atualizada · ${saved.date}`); }
     } catch (err) {
       if (controller.signal.aborted) return;
-      const message = err instanceof Error ? err.message : 'Falha na leitura ao vivo.';
+      const message = err instanceof Error ? err.message : 'Falha ao carregar a análise.';
       try {
-        const saved = await fetchSnapshot(controller.signal);
+        const saved = { rows: await fetchComparison(controller.signal), date: "planilha de referência" };
         if (!controller.signal.aborted) {
-          setRows(saved.rows); setSource(`Cópia salva da análise de ${saved.date}`);
-          setError(`${message} Exibindo a cópia salva, que pode não refletir alterações na planilha.`);
+          setRows(saved.rows); setSource(`Fonte alternativa · ${saved.date}`);
+          setError(`${message} Exibindo a planilha de referência; as pontuações sem análise correspondente ficam em 0%.`);
         }
       } catch {
-        if (!controller.signal.aborted) setError(`${message} A cópia salva também está indisponível.`);
+        if (!controller.signal.aborted) setError(`${message} A planilha de referência também está indisponível.`);
       }
     } finally { if (!controller.signal.aborted) setLoading(false); }
   }, []);

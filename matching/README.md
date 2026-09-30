@@ -32,3 +32,36 @@ A comparação não é atualizada automaticamente quando as fontes mudam. Gere n
 ## Prévias públicas e custos no compare-app
 
 `fetch_gymvisual_previews.mjs` resolve os produtos do sitemap oficial por nome em inglês e confere o SKU ao extrair vídeos. O arquivo `compare-app/public/gymvisual-media.json` registra as URLs observadas, método de vínculo e pendências. Ele não altera o matching nem a confiança, e não baixa arquivos pagos. Veja o [README do app](../compare-app/README.md) para coleta, seleção e regras de preço.
+
+## ExerciseDB V1
+
+`fetch_exercisedb.py` coleta o catálogo OSS completo por cursor, com pausas e checkpoint. `build_exercisedb_comparison.py` compara cada ID da base salva `compare-app/public/comparison.json` diretamente à ExerciseDB, reutilizando apenas o dicionário de tradução e as regras de variantes. Decisões revisadas e classificações GymVisual não são reutilizadas. A saída `compare-app/public/exercisedb-comparison.json` contém contagens, candidatos, justificativas e URLs originais de GIFs; mídia não é baixada. Veja o README do app para reprodução, atribuição e custos.
+
+## Amostras textuais: MuscleWiki e ExerciseAPI
+
+`fetch_musclewiki_demo.mjs` coleta nomes pt-br da demo aleatória. `fetch_exerciseapi_demo.mjs` reproduz buscas públicas por movimento/categoria. Os respectivos scripts `build_*_comparison.py` comparam cada registro Smart Fit diretamente à amostra e conservam `complete: false`. Não persistem vídeo, imagem, instruções ou credenciais. Não localizado na amostra não comprova ausência no catálogo. Execute novamente a coleta e geração para atualizar a análise datada; não exponha as amostras como catálogo de terceiros.
+
+## Comparação ampliada e revisão visual
+
+A busca combina três estratégias de recuperação textual (ordem de palavras,
+conjuntos e correspondência aproximada) com toda a família de movimento, sem
+usar a família como exclusão rígida. O ranking combina sobreposição de termos
+ponderados pela raridade no catálogo e similaridade de caracteres. Diferenças
+explícitas de equipamento, família, grupo, postura e unilateralidade reduzem a
+pontuação. Sinônimos PT/EN e flexões são normalizados; combinações continuam
+exigindo equivalência de todos os movimentos.
+
+`prepare_sheet.py` também gera `video-scores.json`: a interface usa a pontuação
+do vídeo exibido, não a pontuação global de outro formato. O snapshot local é a
+fonte primária para evitar que a planilha antiga substitua a nova análise.
+
+`extract_review_frames.py` extrai um frame real em 1 segundo de cada URL de vídeo
+Smart Fit e prévia Gym Visual disponível. Requer FFmpeg e Pillow. O cache é por
+hash da URL e a execução pode ser retomada. `out/visual-review/pairs.json` registra
+IDs, títulos, URLs e caminhos; as folhas de contato permitem conferir os pares.
+A extração não produz uma avaliação visual automática. Somente pares efetivamente
+inspecionados recebem uma avaliação em `compare-app/public/visual-reviews.json`.
+Essa avaliação é invalidada se mudar o título, candidato ou qualquer URL.
+Um frame permite comparar postura, equipamento e apoio; não confirma toda a
+amplitude, cadência ou sequência do vídeo. A porcentagem é uma estimativa de
+similaridade, não probabilidade calibrada nem validação humana.

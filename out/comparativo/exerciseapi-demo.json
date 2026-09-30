@@ -1,0 +1,5568 @@
+{
+  "fetchedAt": "2026-09-24T17:39:53.399Z",
+  "complete": false,
+  "locale": "en",
+  "source": "https://exerciseapi.dev/#demo",
+  "searches": [
+    {
+      "q": "",
+      "count": 20,
+      "total": 2199
+    },
+    {
+      "q": "squat",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "press",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "curl",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "row",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "extension",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "raise",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "lunge",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "fly",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "pulldown",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "deadlift",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "crunch",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "plank",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "calf",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "adduction",
+      "count": 15,
+      "total": null
+    },
+    {
+      "q": "abduction",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "push up",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "pull up",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "rotation",
+      "count": 20,
+      "total": null
+    },
+    {
+      "q": "bridge",
+      "count": 20,
+      "total": null
+    },
+    {
+      "category": "strength",
+      "count": 20,
+      "total": 881
+    },
+    {
+      "category": "yoga",
+      "count": 20,
+      "total": 201
+    },
+    {
+      "category": "calisthenics",
+      "count": 20,
+      "total": 79
+    },
+    {
+      "category": "conditioning",
+      "count": 20,
+      "total": 81
+    },
+    {
+      "category": "physical therapy",
+      "count": 0,
+      "total": 0
+    },
+    {
+      "category": "mobility",
+      "count": 20,
+      "total": 195
+    },
+    {
+      "category": "plyometrics",
+      "count": 20,
+      "total": 134
+    },
+    {
+      "category": "stretching",
+      "count": 20,
+      "total": 171
+    },
+    {
+      "category": "pilates",
+      "count": 20,
+      "total": 95
+    },
+    {
+      "category": "olympic weightlifting",
+      "count": 0,
+      "total": 0
+    },
+    {
+      "category": "powerlifting",
+      "count": 20,
+      "total": 38
+    },
+    {
+      "category": "strongman",
+      "count": 20,
+      "total": 62
+    }
+  ],
+  "exercises": [
+    {
+      "id": "1_5_Rep_Squat",
+      "name": "1.5 Rep Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "18_Inch_Deadlift",
+      "name": "18 Inch Deadlift",
+      "category": "strongman",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "180_Degree_Jumps",
+      "name": "180 Degree Jumps",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "3_4_Sit-Up",
+      "name": "3/4 Sit-Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "360_Degree_Jumps",
+      "name": "360 Degree Jumps",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "90-90_Hip_Stretch",
+      "name": "90-90 Hip Stretch",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "90-90_Hip_Stretch_Transition",
+      "name": "90-90 Hip Stretch Transition",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas",
+        "rectus femoris"
+      ]
+    },
+    {
+      "id": "90_90_Hamstring",
+      "name": "90/90 Hamstring",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "90_90_Hip_External_Rotation_RAILs",
+      "name": "90/90 Hip External Rotation RAILs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "90_90_Hip_Internal_Rotation_PAILs",
+      "name": "90/90 Hip Internal Rotation PAILs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "90_90_Hip_Stretch",
+      "name": "90/90 Hip Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "A-Skip",
+      "name": "A-Skip",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "A-Skips",
+      "name": "A-Skips",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis"
+      ]
+    },
+    {
+      "id": "Ab_Crunch_Machine",
+      "name": "Ab Crunch Machine",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Ab_Roller",
+      "name": "Ab Roller",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Accommodating_Resistance_Deadlift",
+      "name": "Accommodating Resistance Deadlift",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Achilles_Tendon_Stretch",
+      "name": "Achilles Tendon Stretch",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "soleus"
+      ]
+    },
+    {
+      "id": "Active_Range_Of_Motion_Ankle",
+      "name": "Active Range Of Motion Ankle",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Active_Range_Of_Motion_Hip",
+      "name": "Active Range Of Motion Hip",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Active_Range_Of_Motion_Shoulder",
+      "name": "Active Range Of Motion Shoulder",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Box_Squat",
+      "name": "Box Squat",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Pin_Squat",
+      "name": "Pin Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Hack_Squat",
+      "name": "Hack Squat",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Chair_Squat",
+      "name": "Chair Squat",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Barbell_Squat",
+      "name": "Barbell Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Jump_Squat",
+      "name": "Jump Squat",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Squat_Jerk",
+      "name": "Squat Jerk",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Sit_Squats",
+      "name": "Sit Squats",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Olympic_Squat",
+      "name": "Olympic Squat",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Archer_Squat",
+      "name": "Archer Squat",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Goblet_Squat",
+      "name": "Goblet Squat",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Chain_Squat",
+      "name": "Chain Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Pause_Squat",
+      "name": "Pause Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Shrimp_Squat",
+      "name": "Shrimp Squat",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Squat_Jumps",
+      "name": "Squat Jumps",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis"
+      ]
+    },
+    {
+      "id": "Tempo_Squat",
+      "name": "Tempo Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Weighted_Squat",
+      "name": "Weighted Squat",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Mini_Squat",
+      "name": "Mini Squat",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "vastus lateralis",
+        "vastus medialis",
+        "rectus femoris"
+      ]
+    },
+    {
+      "id": "Bodyweight_Squat",
+      "name": "Bodyweight Squat",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Pistol_Squat",
+      "name": "Pistol Squat",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Calf_Press_On_The_Leg_Press_Machine",
+      "name": "Calf Press On The Leg Press Machine",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "See-Saw_Press_Alternating_Side_Press",
+      "name": "See-Saw Press (Alternating Side Press)",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Leg_Press",
+      "name": "Leg Press",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Push_Press",
+      "name": "Push Press",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Log_Press",
+      "name": "Log Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Axle_Press",
+      "name": "Axle Press",
+      "category": "strongman",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Bent_Press",
+      "name": "Bent Press",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Neck_Press",
+      "name": "Neck Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Board_Press",
+      "name": "Board Press",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Floor_Press",
+      "name": "Floor Press",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Calf_Press",
+      "name": "Calf Press",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Tate_Press",
+      "name": "Tate Press",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "JM_Press",
+      "name": "JM Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Cuban_Press",
+      "name": "Cuban Press",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Spoto_Press",
+      "name": "Spoto Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Svend_Press",
+      "name": "Svend Press",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Pin_Presses",
+      "name": "Pin Presses",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Viking_Press",
+      "name": "Viking Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Chain_Press",
+      "name": "Chain Press",
+      "category": "powerlifting",
+      "equipment": "other",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Devil_s_Press",
+      "name": "Devil's Press",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "EZ_Curl_Bar_Close_Grip_Curl",
+      "name": "EZ Curl Bar Close Grip Curl",
+      "category": "strength",
+      "equipment": "ez curl bar",
+      "primaryMuscles": [
+        "biceps brachii short head"
+      ]
+    },
+    {
+      "id": "Drag_Curl",
+      "name": "Drag Curl",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "EZ-Bar_Curl",
+      "name": "EZ-Bar Curl",
+      "category": "strength",
+      "equipment": "ez curl bar",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Spider_Curl",
+      "name": "Spider Curl",
+      "category": "strength",
+      "equipment": "ez curl bar",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Barbell_Curl",
+      "name": "Barbell Curl",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Zottman_Curl",
+      "name": "Zottman Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Ball_Leg_Curl",
+      "name": "Ball Leg Curl",
+      "category": "strength",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Lying_Cable_Curl",
+      "name": "Lying Cable Curl",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Preacher_Curl",
+      "name": "Preacher Curl",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Bicep_Curl",
+      "name": "Dumbbell Bicep Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Hammer_Curls",
+      "name": "Hammer Curls",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head",
+        "brachialis"
+      ]
+    },
+    {
+      "id": "Reverse_Cable_Curl",
+      "name": "Reverse Cable Curl",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Hammer_Curl",
+      "name": "Dumbbell Hammer Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii long head",
+        "biceps brachii short head"
+      ]
+    },
+    {
+      "id": "Concentration_Curls",
+      "name": "Concentration Curls",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Cross_Body_Hammer_Curl",
+      "name": "Cross Body Hammer Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Cable_Preacher_Curl",
+      "name": "Cable Preacher Curl",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Overhead_Cable_Curl",
+      "name": "Overhead Cable Curl",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Cable_Bicep_Curl",
+      "name": "Cable Bicep Curl",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Spine_Curl",
+      "name": "Spine Curl",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "erector spinae",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Reverse_Barbell_Curl",
+      "name": "Reverse Barbell Curl",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Seal_Row",
+      "name": "Seal Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Ring_Row",
+      "name": "Ring Row",
+      "category": "calisthenics",
+      "equipment": "dip station",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "rhomboids"
+      ]
+    },
+    {
+      "id": "Pendlay_Row",
+      "name": "Pendlay Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Shotgun_Row",
+      "name": "Shotgun Row",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Sled_Row",
+      "name": "Sled Row",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Barbell_Incline_Row",
+      "name": "Barbell Incline Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Suspended_Row",
+      "name": "Suspended Row",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Cable_Seated_Row",
+      "name": "Cable Seated Row",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Leverage_Iso_Row",
+      "name": "Leverage Iso Row",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Bent_Over_Barbell_Row",
+      "name": "Bent Over Barbell Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Dumbbell_Incline_Row",
+      "name": "Dumbbell Incline Row",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Leverage_High_Row",
+      "name": "Leverage High Row",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Barbell_T-Bar_Row",
+      "name": "Barbell T-Bar Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "High_To_Low_Row",
+      "name": "High To Low Row",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "trapezius lower"
+      ]
+    },
+    {
+      "id": "Meadows_Row",
+      "name": "Meadows Row",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Lying_T-Bar_Row",
+      "name": "Lying T-Bar Row",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Cable_Single_Arm_Row",
+      "name": "Cable Single Arm Row",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Kneeling_High_Pulley_Row",
+      "name": "Kneeling High Pulley Row",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Seated_Cable_Rows",
+      "name": "Seated Cable Rows",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Cable_Low_Row",
+      "name": "Cable Low Row",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Leg_Extensions",
+      "name": "Leg Extensions",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Single-Leg_Leg_Extension",
+      "name": "Single-Leg Leg Extension",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Thoracic_Extension_On_Roller",
+      "name": "Thoracic Extension On Roller",
+      "category": "stretching",
+      "equipment": "foam roller",
+      "primaryMuscles": [
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Dumbbell_One-Arm_Triceps_Extension",
+      "name": "Dumbbell One-Arm Triceps Extension",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Cable_Lying_Triceps_Extension",
+      "name": "Cable Lying Triceps Extension",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Hip_Extension_with_Bands",
+      "name": "Hip Extension with Bands",
+      "category": "strength",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Finger_Extension_CARs",
+      "name": "Finger Extension CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "wrist extensors"
+      ]
+    },
+    {
+      "id": "Lumbar_Extension_CARs",
+      "name": "Lumbar Extension CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Machine_Back_Extension",
+      "name": "Machine Back Extension",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Resisted_Hip_Extension",
+      "name": "Resisted Hip Extension",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Thoracic_Extension_CARs",
+      "name": "Thoracic Extension CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Cable_Incline_Triceps_Extension",
+      "name": "Cable Incline Triceps Extension",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Banded_Thoracic_Extension",
+      "name": "Banded Thoracic Extension",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Machine_Triceps_Extension",
+      "name": "Machine Triceps Extension",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Standing_Dumbbell_Triceps_Extension",
+      "name": "Standing Dumbbell Triceps Extension",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Hip_Extension_CARs",
+      "name": "Hip Extension CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "McKenzie_Extension",
+      "name": "McKenzie Extension",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Cable_Rope_Overhead_Triceps_Extension",
+      "name": "Cable Rope Overhead Triceps Extension",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Low_Cable_Triceps_Extension",
+      "name": "Low Cable Triceps Extension",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Elbow_Extension_CARs",
+      "name": "Elbow Extension CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Raise",
+      "name": "Dumbbell Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Front_Cable_Raise",
+      "name": "Front Cable Raise",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Front_Dumbbell_Raise",
+      "name": "Front Dumbbell Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Single_Dumbbell_Raise",
+      "name": "Single Dumbbell Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Dumbbell_Lateral_Raise",
+      "name": "Dumbbell Lateral Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Dumbbell_Front_Raise",
+      "name": "Dumbbell Front Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Cable_Front_Raise",
+      "name": "Cable Front Raise",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Front_Plate_Raise",
+      "name": "Front Plate Raise",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Front_Two-Dumbbell_Raise",
+      "name": "Front Two-Dumbbell Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Heel_Raises",
+      "name": "Heel Raises",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Side_Lateral_Raise",
+      "name": "Side Lateral Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Cable_Lateral_Raise",
+      "name": "Cable Lateral Raise",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Dumbbell_Calf_Raise",
+      "name": "Dumbbell Calf Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Donkey_Calf_Raises",
+      "name": "Donkey Calf Raises",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Calf_Raise_On_A_Dumbbell",
+      "name": "Calf Raise On A Dumbbell",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Alternating_Deltoid_Raise",
+      "name": "Alternating Deltoid Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Flat_Bench_Lying_Leg_Raise",
+      "name": "Flat Bench Lying Leg Raise",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Single_Leg_Calf_Raise",
+      "name": "Single Leg Calf Raise",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Lying_One-Arm_Lateral_Raise",
+      "name": "Lying One-Arm Lateral Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Standing_Barbell_Calf_Raise",
+      "name": "Standing Barbell Calf Raise",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Lunge_Sprint",
+      "name": "Lunge Sprint",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Low_Lunge",
+      "name": "Low Lunge",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Barbell_Lunge",
+      "name": "Barbell Lunge",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "High_Lunge",
+      "name": "High Lunge",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Lateral_Lunge",
+      "name": "Lateral Lunge",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Lunge_Pass_Through",
+      "name": "Lunge Pass Through",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Partial_Lunge",
+      "name": "Partial Lunge",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Reverse_Lunge",
+      "name": "Reverse Lunge",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Lunge_Jump_180",
+      "name": "Lunge Jump 180",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Curtsy_Lunge",
+      "name": "Curtsy Lunge",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Dumbbell_Rear_Lunge",
+      "name": "Dumbbell Rear Lunge",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Barbell_Reverse_Lunge",
+      "name": "Barbell Reverse Lunge",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Barbell_Walking_Lunge",
+      "name": "Barbell Walking Lunge",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Elevated_Back_Lunge",
+      "name": "Elevated Back Lunge",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Crossover_Reverse_Lunge",
+      "name": "Crossover Reverse Lunge",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Dumbbell_Lunges",
+      "name": "Dumbbell Lunges",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Bodyweight_Walking_Lunge",
+      "name": "Bodyweight Walking Lunge",
+      "category": "strength",
+      "equipment": null,
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Dumbbell_Goblet_Lunge",
+      "name": "Dumbbell Goblet Lunge",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Kettlebell_Reverse_Lunge",
+      "name": "Kettlebell Reverse Lunge",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Lateral_Lunge_Jump",
+      "name": "Lateral Lunge Jump",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Dumbbell_Rear_Delt_Fly",
+      "name": "Dumbbell Rear Delt Fly",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Dumbbell_Chest_Fly",
+      "name": "Dumbbell Chest Fly",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Cable_Chest_Fly",
+      "name": "Cable Chest Fly",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Reverse_Fly",
+      "name": "Dumbbell Reverse Fly",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Machine_Pec_Fly",
+      "name": "Machine Pec Fly",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Cable_Reverse_Fly",
+      "name": "Cable Reverse Fly",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Barbell_Bent_Over_Reverse_Fly",
+      "name": "Barbell Bent Over Reverse Fly",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Cable_Single_Arm_Chest_Fly_Low_To_High",
+      "name": "Cable Single Arm Chest Fly Low To High",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Incline_Chest_Fly",
+      "name": "Dumbbell Incline Chest Fly",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Cable_Single_Arm_Reverse_Fly",
+      "name": "Cable Single Arm Reverse Fly",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Single_Arm_Cable_Chest_Fly",
+      "name": "Single Arm Cable Chest Fly",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Flying_Pigeon_Pose",
+      "name": "Flying Pigeon Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Cable_Rear_Delt_Fly",
+      "name": "Cable Rear Delt Fly",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Flying_Lizard_Pose",
+      "name": "Flying Lizard Pose",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas",
+        "rectus femoris"
+      ]
+    },
+    {
+      "id": "Twisted_Flying_Lizard",
+      "name": "Twisted Flying Lizard",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Reverse_Flyes",
+      "name": "Reverse Flyes",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Decline_Dumbbell_Flyes",
+      "name": "Decline Dumbbell Flyes",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Flyes",
+      "name": "Dumbbell Flyes",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Butterfly",
+      "name": "Butterfly",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Flat_Bench_Cable_Flyes",
+      "name": "Flat Bench Cable Flyes",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "V-Bar_Pulldown",
+      "name": "V-Bar Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "One_Arm_Lat_Pulldown",
+      "name": "One Arm Lat Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Wide-Grip_Lat_Pulldown",
+      "name": "Wide-Grip Lat Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Underhand_Cable_Pulldowns",
+      "name": "Underhand Cable Pulldowns",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Machine_Lat_Pulldown",
+      "name": "Machine Lat Pulldown",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Single_Arm_Cable_Pulldown",
+      "name": "Single Arm Cable Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Cable_Lat_Pulldown_Wide_Grip",
+      "name": "Cable Lat Pulldown Wide Grip",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Close-Grip_Front_Lat_Pulldown",
+      "name": "Close-Grip Front Lat Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Full_Range-Of-Motion_Lat_Pulldown",
+      "name": "Full Range-Of-Motion Lat Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Rope_Straight-Arm_Pulldown",
+      "name": "Rope Straight-Arm Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Straight-Arm_Pulldown",
+      "name": "Straight-Arm Pulldown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Wide-Grip_Pulldown_Behind_The_Neck",
+      "name": "Wide-Grip Pulldown Behind The Neck",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Resistance_Band_Lat_Pulldown",
+      "name": "Resistance Band Lat Pulldown",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Triceps_Pushdown",
+      "name": "Triceps Pushdown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Cable_Incline_Pushdown",
+      "name": "Cable Incline Pushdown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Rocky_Pull-Ups_Pulldowns",
+      "name": "Rocky Pull-Ups/Pulldowns",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Cable_Tricep_Rope_Pushdown",
+      "name": "Cable Tricep Rope Pushdown",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Triceps_Pushdown_-_Rope_Attachment",
+      "name": "Triceps Pushdown - Rope Attachment",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Weighted_Pull_Ups",
+      "name": "Weighted Pull Ups",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Axle_Deadlift",
+      "name": "Axle Deadlift",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Sumo_Deadlift",
+      "name": "Sumo Deadlift",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Deficit_Deadlift",
+      "name": "Deficit Deadlift",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Snatch_Deadlift",
+      "name": "Snatch Deadlift",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Leverage_Deadlift",
+      "name": "Leverage Deadlift",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Deadlift_with_Bands",
+      "name": "Deadlift with Bands",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Block_Deadlift",
+      "name": "Block Deadlift",
+      "category": "strongman",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Car_Deadlift",
+      "name": "Car Deadlift",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Axle_Bar_Deadlift",
+      "name": "Axle Bar Deadlift",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Thick_Bar_Deadlift",
+      "name": "Thick Bar Deadlift",
+      "category": "strongman",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae",
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Cable_Deadlifts",
+      "name": "Cable Deadlifts",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "One-Arm_Side_Deadlift",
+      "name": "One-Arm Side Deadlift",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Dumbbell_Deficit_Deadlift",
+      "name": "Dumbbell Deficit Deadlift",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Clean_Deadlift",
+      "name": "Clean Deadlift",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Rickshaw_Deadlift",
+      "name": "Rickshaw Deadlift",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Trap_Bar_Deadlift",
+      "name": "Trap Bar Deadlift",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Deadlift_with_Chains",
+      "name": "Deadlift with Chains",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Reverse_Band_Deadlift",
+      "name": "Reverse Band Deadlift",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Barbell_Tempo_Deadlift",
+      "name": "Barbell Tempo Deadlift",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Clean_Grip_Deadlift",
+      "name": "Clean Grip Deadlift",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Crunches",
+      "name": "Crunches",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Cable_Crunch",
+      "name": "Cable Crunch",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Rope_Crunch",
+      "name": "Rope Crunch",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Tuck_Crunch",
+      "name": "Tuck Crunch",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Cross-Body_Crunch",
+      "name": "Cross-Body Crunch",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Decline_Crunch",
+      "name": "Decline Crunch",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Reverse_Crunch",
+      "name": "Reverse Crunch",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Oblique_Crunches",
+      "name": "Oblique Crunches",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Cable_Seated_Crunch",
+      "name": "Cable Seated Crunch",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Crunch_-_Hands_Overhead",
+      "name": "Crunch - Hands Overhead",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Weighted_Crunches",
+      "name": "Weighted Crunches",
+      "category": "strength",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Exercise_Ball_Crunch",
+      "name": "Exercise Ball Crunch",
+      "category": "strength",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Crunch_-_Legs_On_Exercise_Ball",
+      "name": "Crunch - Legs On Exercise Ball",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Suspended_Reverse_Crunch",
+      "name": "Suspended Reverse Crunch",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Oblique_Crunches_-_On_The_Floor",
+      "name": "Oblique Crunches - On The Floor",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists",
+      "name": "Kneeling Cable Crunch With Alternating Oblique Twists",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Cable_Reverse_Crunch",
+      "name": "Cable Reverse Crunch",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Standing_Rope_Crunch",
+      "name": "Standing Rope Crunch",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Decline_Oblique_Crunch",
+      "name": "Decline Oblique Crunch",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Plank",
+      "name": "Plank",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Plank_Jacks",
+      "name": "Plank Jacks",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Plank_Jack",
+      "name": "Plank Jack",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Plank_Jump",
+      "name": "Plank Jump",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Plank_Pose",
+      "name": "Plank Pose",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Twisted_Plank",
+      "name": "Twisted Plank",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Plank_to_Push-Up",
+      "name": "Plank to Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "BOSU_Ball_Plank",
+      "name": "BOSU Ball Plank",
+      "category": "physical_therapy",
+      "equipment": "bosu ball",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Side_Plank",
+      "name": "Side Plank",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Forearm_Plank",
+      "name": "Forearm Plank",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "One-Legged_Plank",
+      "name": "One-Legged Plank",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Modified_Plank",
+      "name": "Modified Plank",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Side_Plank_Modified",
+      "name": "Side Plank Modified",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Reverse_Plank",
+      "name": "Reverse Plank",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "erector spinae",
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Side_Plank_Variation",
+      "name": "Side Plank Variation",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Side_Plank_With_Tree_Pose",
+      "name": "Side Plank With Tree Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Push_Up_to_Side_Plank",
+      "name": "Push Up to Side Plank",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Mountain_Climbers",
+      "name": "Mountain Climbers",
+      "category": "plyometrics",
+      "equipment": null,
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Spider_Crawl",
+      "name": "Spider Crawl",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Leg_Pull_Front",
+      "name": "Leg Pull Front",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "transverse abdominis",
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Calf_Raises_-_With_Bands",
+      "name": "Calf Raises - With Bands",
+      "category": "strength",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "PNF_Calf_Stretch",
+      "name": "PNF Calf Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Banded_Calf_Stretch",
+      "name": "Banded Calf Stretch",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Calf_Stretch_Wall",
+      "name": "Calf Stretch Wall",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Seated_Calf_Raise",
+      "name": "Seated Calf Raise",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Seated_Calf_Stretch",
+      "name": "Seated Calf Stretch",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Machine_Standing_Calf_Raise",
+      "name": "Machine Standing Calf Raise",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Calf_Stretch_With_Strap",
+      "name": "Calf Stretch With Strap",
+      "category": "stretching",
+      "equipment": "yoga strap",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Isometric_Calf_Raise",
+      "name": "Isometric Calf Raise",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Dumbbell_Single_Leg_Calf_Raise",
+      "name": "Dumbbell Single Leg Calf Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gastrocnemius"
+      ]
+    },
+    {
+      "id": "Single_Leg_Dumbbell_Calf_Raise",
+      "name": "Single Leg Dumbbell Calf Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Dumbbell_Seated_One-Leg_Calf_Raise",
+      "name": "Dumbbell Seated One-Leg Calf Raise",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Barbell_Seated_Calf_Raise",
+      "name": "Barbell Seated Calf Raise",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "soleus"
+      ]
+    },
+    {
+      "id": "Machine_Seated_Calf_Raise",
+      "name": "Machine Seated Calf Raise",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "soleus"
+      ]
+    },
+    {
+      "id": "Cable_Hip_Adduction",
+      "name": "Cable Hip Adduction",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Band_Hip_Adductions",
+      "name": "Band Hip Adductions",
+      "category": "strength",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Exercise_Ball_Hip_Adduction",
+      "name": "Exercise Ball Hip Adduction",
+      "category": "physical_therapy",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus"
+      ]
+    },
+    {
+      "id": "Shoulder_Adduction_CARs",
+      "name": "Shoulder Adduction CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Shoulder_Horizontal_Adduction_CARs",
+      "name": "Shoulder Horizontal Adduction CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Thigh_Adductor",
+      "name": "Thigh Adductor",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Cross_Body_Stretch",
+      "name": "Cross Body Stretch",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Posterior_Capsule_Stretch",
+      "name": "Posterior Capsule Stretch",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Arm_Cross_Stretch",
+      "name": "Arm Cross Stretch",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Side_Wrist_Pull",
+      "name": "Side Wrist Pull",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Cross-Body_Shoulder_Stretch",
+      "name": "Cross-Body Shoulder Stretch",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Arm_Crossover_Stretch",
+      "name": "Arm Crossover Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Adductor",
+      "name": "Adductor",
+      "category": "stretching",
+      "equipment": "foam roller",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Hip_Abduction_CARs",
+      "name": "Hip Abduction CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "Adductor_Groin",
+      "name": "Adductor/Groin",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Machine_Hip_Abduction",
+      "name": "Machine Hip Abduction",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "Resisted_Hip_Abduction",
+      "name": "Resisted Hip Abduction",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Cable_Standing_Hip_Abduction",
+      "name": "Cable Standing Hip Abduction",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "Shoulder_Abduction_CARs",
+      "name": "Shoulder Abduction CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid lateral",
+        "deltoid anterior",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Side-Lying_Hip_Abduction",
+      "name": "Side-Lying Hip Abduction",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Mini_Band_Standing_Hip_Abduction",
+      "name": "Mini Band Standing Hip Abduction",
+      "category": "physical_therapy",
+      "equipment": "mini band",
+      "primaryMuscles": [
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Prone_Shoulder_Horizontal_Abduction",
+      "name": "Prone Shoulder Horizontal Abduction",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Side-Lying_Hip_Abduction_With_Mini_Band",
+      "name": "Side-Lying Hip Abduction With Mini Band",
+      "category": "physical_therapy",
+      "equipment": "mini band",
+      "primaryMuscles": [
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Banded_Hip_Abduction",
+      "name": "Banded Hip Abduction",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "Dumbbell_Shoulder_Abduction",
+      "name": "Dumbbell Shoulder Abduction",
+      "category": "physical_therapy",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Resistance_Band_Shoulder_Abduction",
+      "name": "Resistance Band Shoulder Abduction",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Shoulder_Horizontal_Abduction_CARs",
+      "name": "Shoulder Horizontal Abduction CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Thigh_Abductor",
+      "name": "Thigh Abductor",
+      "category": "strength",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "tensor fasciae latae",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Side_Leg_Raises",
+      "name": "Side Leg Raises",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tensor fasciae latae",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Banded_Monster_Walks",
+      "name": "Banded Monster Walks",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus medius",
+        "gluteus minimus"
+      ]
+    },
+    {
+      "id": "Outer_Thigh_Lift",
+      "name": "Outer Thigh Lift",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "gluteus medius",
+        "tensor fasciae latae"
+      ]
+    },
+    {
+      "id": "Prone_T_Raise",
+      "name": "Prone T Raise",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "T_Push-Up",
+      "name": "T Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Pike_Push-Up",
+      "name": "Pike Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Archer_Push-Up",
+      "name": "Archer Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "triceps brachii long head"
+      ]
+    },
+    {
+      "id": "Clock_Push-Up",
+      "name": "Clock Push-Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Hindu_Push-Up",
+      "name": "Hindu Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Decline_Push-Up",
+      "name": "Decline Push-Up",
+      "category": "strength",
+      "equipment": null,
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Diamond_Push-Up",
+      "name": "Diamond Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head"
+      ]
+    },
+    {
+      "id": "Clap_Push_Up",
+      "name": "Clap Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Ring_Push_Up",
+      "name": "Ring Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Ring_Push-Up",
+      "name": "Ring Push-Up",
+      "category": "calisthenics",
+      "equipment": "dip station",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Wall_Push_Up",
+      "name": "Wall Push Up",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Wall_Push-Up",
+      "name": "Wall Push-Up",
+      "category": "pilates",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Tempo_Push_Up",
+      "name": "Tempo Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Pike_Push_Up",
+      "name": "Pike Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Deficit_Push_Up",
+      "name": "Deficit Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "One_Arm_Push_Up",
+      "name": "One Arm Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "One-Arm_Push-Up",
+      "name": "One-Arm Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "triceps brachii long head"
+      ]
+    },
+    {
+      "id": "Explosive_Push_Up",
+      "name": "Explosive Push Up",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Suspended_Push-Up",
+      "name": "Suspended Push-Up",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Wide_Grip_Push-Up",
+      "name": "Wide Grip Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Pull-Up",
+      "name": "Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "L-Pull-Up",
+      "name": "L-Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Jump_Pull-Up",
+      "name": "Jump Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Leg_Pull_Up",
+      "name": "Leg Pull Up",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "L-Sit_Pull_Up",
+      "name": "L-Sit Pull Up",
+      "category": "strength",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Negative_Pull-Up",
+      "name": "Negative Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Archer_Pull-Up",
+      "name": "Archer Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "High_Pull",
+      "name": "High Pull",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "trapezius upper"
+      ]
+    },
+    {
+      "id": "Commando_Pull_Up",
+      "name": "Commando Pull Up",
+      "category": "strength",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Commando_Pull-Up",
+      "name": "Commando Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Neutral_Grip_Pull-Up",
+      "name": "Neutral Grip Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Face_Pull",
+      "name": "Face Pull",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Typewriter_Pull-Up",
+      "name": "Typewriter Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "One-Arm_Pull-Up",
+      "name": "One-Arm Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Clean_Pull",
+      "name": "Clean Pull",
+      "category": "olympic_weightlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Truck_Pull",
+      "name": "Truck Pull",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Scapular_Pull-Up",
+      "name": "Scapular Pull-Up",
+      "category": "strength",
+      "equipment": null,
+      "primaryMuscles": [
+        "trapezius middle",
+        "trapezius lower"
+      ]
+    },
+    {
+      "id": "Snatch_Pull",
+      "name": "Snatch Pull",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Neutral_Grip_Pull_Up",
+      "name": "Neutral Grip Pull Up",
+      "category": "strength",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Wide_Grip_Pull-Up",
+      "name": "Wide Grip Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Torso_Rotation",
+      "name": "Torso Rotation",
+      "category": "stretching",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "External_Rotation",
+      "name": "External Rotation",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Cable_Internal_Rotation",
+      "name": "Cable Internal Rotation",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Pallof_Press_With_Rotation",
+      "name": "Pallof Press With Rotation",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Dumbbell_External_Rotation",
+      "name": "Dumbbell External Rotation",
+      "category": "physical_therapy",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Dumbbell_Internal_Rotation",
+      "name": "Dumbbell Internal Rotation",
+      "category": "physical_therapy",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "External_Rotation_with_Band",
+      "name": "External Rotation with Band",
+      "category": "strength",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Cable_External_Rotation",
+      "name": "Cable External Rotation",
+      "category": "physical_therapy",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "External_Rotation_with_Cable",
+      "name": "External Rotation with Cable",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Hip_External_Rotation_CARs",
+      "name": "Hip External Rotation CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Hip_Internal_Rotation_CARs",
+      "name": "Hip Internal Rotation CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Neck_Rotation",
+      "name": "Neck Rotation",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "sternocleidomastoid"
+      ]
+    },
+    {
+      "id": "Cable_Column_External_Rotation",
+      "name": "Cable Column External Rotation",
+      "category": "physical_therapy",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "External_Rotation_With_Resistance_Band",
+      "name": "External Rotation With Resistance Band",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Banded_Shoulder_External_Rotation",
+      "name": "Banded Shoulder External Rotation",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "teres minor",
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Standing_External_Rotation",
+      "name": "Standing External Rotation",
+      "category": "physical_therapy",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Side-Lying_Shoulder_External_Rotation",
+      "name": "Side-Lying Shoulder External Rotation",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Internal_Rotation_With_Resistance_Band",
+      "name": "Internal Rotation With Resistance Band",
+      "category": "physical_therapy",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Side-Lying_External_Rotation",
+      "name": "Side-Lying External Rotation",
+      "category": "physical_therapy",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Cable_Column_Internal_Rotation",
+      "name": "Cable Column Internal Rotation",
+      "category": "physical_therapy",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "rotator cuff"
+      ]
+    },
+    {
+      "id": "Ball_Bridge",
+      "name": "Ball Bridge",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Bridge_Prep",
+      "name": "Bridge Prep",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Glute_Bridge",
+      "name": "Glute Bridge",
+      "category": "physical_therapy",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Single_Leg_Bridge",
+      "name": "Single Leg Bridge",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Barbell_Glute_Bridge",
+      "name": "Barbell Glute Bridge",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Butt_Lift_Bridge",
+      "name": "Butt Lift (Bridge)",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Shoulder_Bridge",
+      "name": "Shoulder Bridge",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Bridge_Pose",
+      "name": "Bridge Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Exercise_Ball_Bridge",
+      "name": "Exercise Ball Bridge",
+      "category": "physical_therapy",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Physioball_Hip_Bridge",
+      "name": "Physioball Hip Bridge",
+      "category": "strength",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Single_Leg_Glute_Bridge",
+      "name": "Single Leg Glute Bridge",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Single-Leg_Glute_Bridge",
+      "name": "Single-Leg Glute Bridge",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Mini_Band_Glute_Bridge",
+      "name": "Mini Band Glute Bridge",
+      "category": "physical_therapy",
+      "equipment": "mini band",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Supported_Bridge_Pose",
+      "name": "Supported Bridge Pose",
+      "category": "yoga",
+      "equipment": "yoga block",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "London_Bridges",
+      "name": "London Bridges",
+      "category": "strength",
+      "equipment": "other",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Side_Bridge",
+      "name": "Side Bridge",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Pelvic_Tilt_Into_Bridge",
+      "name": "Pelvic Tilt Into Bridge",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Hip_Lift_with_Band",
+      "name": "Hip Lift with Band",
+      "category": "powerlifting",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Pelvic_Curl",
+      "name": "Pelvic Curl",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Reformer_Pelvic_Lift",
+      "name": "Reformer Pelvic Lift",
+      "category": "pilates",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Advanced_Kettlebell_Windmill",
+      "name": "Advanced Kettlebell Windmill",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Air_Bike",
+      "name": "Air Bike",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Alternate_Hammer_Curl",
+      "name": "Alternate Hammer Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head",
+        "brachialis"
+      ]
+    },
+    {
+      "id": "Alternate_Heel_Touchers",
+      "name": "Alternate Heel Touchers",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Alternate_Incline_Dumbbell_Curl",
+      "name": "Alternate Incline Dumbbell Curl",
+      "category": "strength",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps brachii short head",
+        "biceps brachii long head"
+      ]
+    },
+    {
+      "id": "Alternating_Cable_Shoulder_Press",
+      "name": "Alternating Cable Shoulder Press",
+      "category": "strength",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Alternating_Floor_Press",
+      "name": "Alternating Floor Press",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Alternating_Hang_Clean",
+      "name": "Alternating Hang Clean",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Alternating_Kettlebell_Press",
+      "name": "Alternating Kettlebell Press",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Alternating_Kettlebell_Row",
+      "name": "Alternating Kettlebell Row",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Alternating_Renegade_Row",
+      "name": "Alternating Renegade Row",
+      "category": "strength",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Anderson_Squat",
+      "name": "Anderson Squat",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Anti-Gravity_Press",
+      "name": "Anti-Gravity Press",
+      "category": "strength",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Archer_Push_Up",
+      "name": "Archer Push Up",
+      "category": "strength",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Alternate_Nostril_Breathing",
+      "name": "Alternate Nostril Breathing",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Baby_Cobra",
+      "name": "Baby Cobra",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Bharadvajasana",
+      "name": "Bharadvajasana",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Bird_of_Paradise",
+      "name": "Bird of Paradise",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Block-Assisted_Crow",
+      "name": "Block-Assisted Crow",
+      "category": "yoga",
+      "equipment": "yoga block",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Boat_Pose",
+      "name": "Boat Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Bound_Angle_Pose",
+      "name": "Bound Angle Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Bound_Extended_Side_Angle",
+      "name": "Bound Extended Side Angle",
+      "category": "yoga",
+      "equipment": "yoga strap",
+      "primaryMuscles": [
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Bound_Side_Angle_With_Strap",
+      "name": "Bound Side Angle With Strap",
+      "category": "yoga",
+      "equipment": "yoga strap",
+      "primaryMuscles": [
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Bow_Pose",
+      "name": "Bow Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Box_Breathing",
+      "name": "Box Breathing",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Breath_of_Fire",
+      "name": "Breath of Fire",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Camel_Pose",
+      "name": "Camel Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Camel_Prep_Pose",
+      "name": "Camel Prep Pose",
+      "category": "yoga",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Cat-Cow_Pose",
+      "name": "Cat-Cow Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Chair_Pose",
+      "name": "Chair Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Cobra_Pose",
+      "name": "Cobra Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Compass_Pose",
+      "name": "Compass Pose",
+      "category": "yoga",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "biceps femoris"
+      ]
+    },
+    {
+      "id": "Advanced_Tucked_Front_Lever",
+      "name": "Advanced Tucked Front Lever",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Advanced_Tucked_Planche",
+      "name": "Advanced Tucked Planche",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Assisted_Dip",
+      "name": "Assisted Dip",
+      "category": "calisthenics",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head"
+      ]
+    },
+    {
+      "id": "Assisted_Pistol_Squat",
+      "name": "Assisted Pistol Squat",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Back_Lever",
+      "name": "Back Lever",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "pectoralis major sternal head"
+      ]
+    },
+    {
+      "id": "Bar_Muscle-Up",
+      "name": "Bar Muscle-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "triceps brachii long head"
+      ]
+    },
+    {
+      "id": "Clapping_Push-Up",
+      "name": "Clapping Push-Up",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Crane_Pose",
+      "name": "Crane Pose",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "triceps brachii long head"
+      ]
+    },
+    {
+      "id": "Dip",
+      "name": "Dip",
+      "category": "calisthenics",
+      "equipment": "dip station",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head"
+      ]
+    },
+    {
+      "id": "Dragon_Flag",
+      "name": "Dragon Flag",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Dragon_Squat",
+      "name": "Dragon Squat",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Elbow_Lever",
+      "name": "Elbow Lever",
+      "category": "calisthenics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "False_Grip_Hold",
+      "name": "False Grip Hold",
+      "category": "calisthenics",
+      "equipment": "dip station",
+      "primaryMuscles": [
+        "wrist flexors"
+      ]
+    },
+    {
+      "id": "Front_Lever",
+      "name": "Front Lever",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Front_Lever_Pull-Up",
+      "name": "Front Lever Pull-Up",
+      "category": "calisthenics",
+      "equipment": "pull-up bar",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Alternating_Jump_Lunges",
+      "name": "Alternating Jump Lunges",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Assault_Bike_Sprints",
+      "name": "Assault Bike Sprints",
+      "category": "conditioning",
+      "equipment": "assault bike",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis"
+      ]
+    },
+    {
+      "id": "Assault_Bike_Steady_State",
+      "name": "Assault Bike Steady State",
+      "category": "conditioning",
+      "equipment": "assault bike",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis"
+      ]
+    },
+    {
+      "id": "Assault_Bike_Tabata",
+      "name": "Assault Bike Tabata",
+      "category": "conditioning",
+      "equipment": "assault bike",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis"
+      ]
+    },
+    {
+      "id": "B-Skips",
+      "name": "B-Skips",
+      "category": "conditioning",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Alternating_Waves",
+      "name": "Battle Rope Alternating Waves",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Double_Waves",
+      "name": "Battle Rope Double Waves",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Grappler_Throws",
+      "name": "Battle Rope Grappler Throws",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Battle_Rope_In_and_Out_Waves",
+      "name": "Battle Rope In and Out Waves",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "deltoid lateral",
+        "deltoid anterior"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Russian_Twists",
+      "name": "Battle Rope Russian Twists",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Side-to-Side_Waves",
+      "name": "Battle Rope Side-to-Side Waves",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Slams",
+      "name": "Battle Rope Slams",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "rectus abdominis"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Spirals",
+      "name": "Battle Rope Spirals",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Battle_Rope_Waves",
+      "name": "Battle Rope Waves",
+      "category": "conditioning",
+      "equipment": "battle ropes",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Bicycling",
+      "name": "Bicycling",
+      "category": "conditioning",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Bicycling_Stationary",
+      "name": "Bicycling, Stationary",
+      "category": "conditioning",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Box_Jumps",
+      "name": "Box Jumps",
+      "category": "conditioning",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Active_Straight_Leg_Raise",
+      "name": "Active Straight Leg Raise",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Adductor_Foam_Roll",
+      "name": "Adductor Foam Roll",
+      "category": "mobility",
+      "equipment": "foam roller",
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "Ankle_Alphabet",
+      "name": "Ankle Alphabet",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tibialis anterior",
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_Controlled_Articular_Rotations",
+      "name": "Ankle Controlled Articular Rotations",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_Dorsiflexion_CARs",
+      "name": "Ankle Dorsiflexion CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_Dorsiflexion_End-Range_Isometric",
+      "name": "Ankle Dorsiflexion End-Range Isometric",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_Dorsiflexion_PAILs_RAILs",
+      "name": "Ankle Dorsiflexion PAILs/RAILs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_Eversion_CARs",
+      "name": "Ankle Eversion CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Ankle_Inversion_CARs",
+      "name": "Ankle Inversion CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Ankle_Plantarflexion_CARs",
+      "name": "Ankle Plantarflexion CARs",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Ankle_Pumps",
+      "name": "Ankle Pumps",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Arm_Circles_Backward",
+      "name": "Arm Circles Backward",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid posterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Arm_Circles_Forward",
+      "name": "Arm Circles Forward",
+      "category": "mobility",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Band_Pull-Aparts_for_Rear_Delt",
+      "name": "Band Pull-Aparts for Rear Delt",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rhomboids",
+        "trapezius middle"
+      ]
+    },
+    {
+      "id": "Banded_Ankle_Distraction",
+      "name": "Banded Ankle Distraction",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Banded_Ankle_Dorsiflexion",
+      "name": "Banded Ankle Dorsiflexion",
+      "category": "mobility",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Alternate_Leg_Diagonal_Bound",
+      "name": "Alternate Leg Diagonal Bound",
+      "category": "plyometrics",
+      "equipment": null,
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Alternating_Jump_Lunge",
+      "name": "Alternating Jump Lunge",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Alternating_Leg_Bound",
+      "name": "Alternating Leg Bound",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Alternating_Step_Up_Jump",
+      "name": "Alternating Step Up Jump",
+      "category": "plyometrics",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Ankle_Bounce",
+      "name": "Ankle Bounce",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "B-Skip",
+      "name": "B-Skip",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Backward_Medicine_Ball_Throw",
+      "name": "Backward Medicine Ball Throw",
+      "category": "plyometrics",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Bench_Jump",
+      "name": "Bench Jump",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Bench_Sprint",
+      "name": "Bench Sprint",
+      "category": "plyometrics",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Bounding",
+      "name": "Bounding",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Box_Jump_Multiple_Response",
+      "name": "Box Jump (Multiple Response)",
+      "category": "plyometrics",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Box_Jump_Down",
+      "name": "Box Jump Down",
+      "category": "plyometrics",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Box_Jump_to_Burpee",
+      "name": "Box Jump to Burpee",
+      "category": "plyometrics",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Box_Skip",
+      "name": "Box Skip",
+      "category": "plyometrics",
+      "equipment": "other",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Box_Step_Up_Jump",
+      "name": "Box Step Up Jump",
+      "category": "plyometrics",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Broad_Jump",
+      "name": "Broad Jump",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Burpee_Box_Jump",
+      "name": "Burpee Box Jump",
+      "category": "plyometrics",
+      "equipment": "plyo box",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Butt_Kicker_Sprint",
+      "name": "Butt Kicker Sprint",
+      "category": "plyometrics",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Carioca_Quick_Step",
+      "name": "Carioca Quick Step",
+      "category": "plyometrics",
+      "equipment": null,
+      "primaryMuscles": [
+        "adductor magnus",
+        "adductor longus",
+        "gracilis"
+      ]
+    },
+    {
+      "id": "All_Fours_Quad_Stretch",
+      "name": "All Fours Quad Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Ankle_Circles",
+      "name": "Ankle Circles",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Ankle_On_The_Knee",
+      "name": "Ankle On The Knee",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "gluteus maximus",
+        "gluteus medius"
+      ]
+    },
+    {
+      "id": "Anterior_Tibialis-SMR",
+      "name": "Anterior Tibialis-SMR",
+      "category": "stretching",
+      "equipment": "other",
+      "primaryMuscles": [
+        "tibialis anterior"
+      ]
+    },
+    {
+      "id": "Arm_Circles",
+      "name": "Arm Circles",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Behind_Head_Chest_Stretch",
+      "name": "Behind Head Chest Stretch",
+      "category": "stretching",
+      "equipment": "other",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Bird_Dog_Stretch",
+      "name": "Bird Dog Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "id": "Brachialis-SMR",
+      "name": "Brachialis-SMR",
+      "category": "stretching",
+      "equipment": "foam roller",
+      "primaryMuscles": [
+        "brachialis"
+      ]
+    },
+    {
+      "id": "Butterfly_Stretch",
+      "name": "Butterfly Stretch",
+      "category": "stretching",
+      "equipment": "body only",
+      "primaryMuscles": [
+        "adductor longus",
+        "adductor magnus"
+      ]
+    },
+    {
+      "id": "Calf_Stretch_Elbows_Against_Wall",
+      "name": "Calf Stretch Elbows Against Wall",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Calf_Stretch_Hands_Against_Wall",
+      "name": "Calf Stretch Hands Against Wall",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Calves-SMR",
+      "name": "Calves-SMR",
+      "category": "stretching",
+      "equipment": "foam roller",
+      "primaryMuscles": [
+        "gastrocnemius",
+        "soleus"
+      ]
+    },
+    {
+      "id": "Cat_Stretch",
+      "name": "Cat Stretch",
+      "category": "stretching",
+      "equipment": null,
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Chair_Leg_Extended_Stretch",
+      "name": "Chair Leg Extended Stretch",
+      "category": "stretching",
+      "equipment": "other",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Ball_Pike",
+      "name": "Ball Pike",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Ball_Roll-Out",
+      "name": "Ball Roll-Out",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Ball_Saw",
+      "name": "Ball Saw",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Ball_Side_Bend",
+      "name": "Ball Side Bend",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Ball_Single_Leg_Stretch",
+      "name": "Ball Single Leg Stretch",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Ball_Swan",
+      "name": "Ball Swan",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Ball_Swimming",
+      "name": "Ball Swimming",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Ball_Teaser",
+      "name": "Ball Teaser",
+      "category": "pilates",
+      "equipment": "exercise ball",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Band_Chest_Expansion",
+      "name": "Band Chest Expansion",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "deltoid posterior"
+      ]
+    },
+    {
+      "id": "Band_Footwork",
+      "name": "Band Footwork",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Band_Leg_Circles",
+      "name": "Band Leg Circles",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "iliopsoas",
+        "rectus femoris"
+      ]
+    },
+    {
+      "id": "Band_Roll-Up",
+      "name": "Band Roll-Up",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Band_Rowing",
+      "name": "Band Rowing",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "latissimus dorsi",
+        "rhomboids"
+      ]
+    },
+    {
+      "id": "Band_Side_Bend",
+      "name": "Band Side Bend",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "obliques external",
+        "obliques internal"
+      ]
+    },
+    {
+      "id": "Band_Single_Leg_Stretch",
+      "name": "Band Single Leg Stretch",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Band_Spine_Twist",
+      "name": "Band Spine Twist",
+      "category": "pilates",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "obliques internal",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Boomerang",
+      "name": "Boomerang",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Can-Can",
+      "name": "Can-Can",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "obliques external"
+      ]
+    },
+    {
+      "id": "Chest_Lift",
+      "name": "Chest Lift",
+      "category": "pilates",
+      "equipment": "yoga mat",
+      "primaryMuscles": [
+        "rectus abdominis",
+        "transverse abdominis"
+      ]
+    },
+    {
+      "id": "Band_Good_Morning",
+      "name": "Band Good Morning",
+      "category": "powerlifting",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Band_Good_Morning_Pull_Through",
+      "name": "Band Good Morning (Pull Through)",
+      "category": "powerlifting",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Barbell_Hip_Thrust",
+      "name": "Barbell Hip Thrust",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gluteus maximus"
+      ]
+    },
+    {
+      "id": "Bench_Press_-_Powerlifting",
+      "name": "Bench Press - Powerlifting",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Bench_Press_with_Chains",
+      "name": "Bench Press with Chains",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectoralis major sternal head",
+        "pectoralis major clavicular head"
+      ]
+    },
+    {
+      "id": "Box_Squat_with_Bands",
+      "name": "Box Squat with Bands",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Chain_Handle_Extension",
+      "name": "Chain Handle Extension",
+      "category": "powerlifting",
+      "equipment": "other",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Dumbbell_Floor_Press",
+      "name": "Dumbbell Floor Press",
+      "category": "powerlifting",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Floor_Press_with_Chains",
+      "name": "Floor Press with Chains",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "triceps brachii long head",
+        "triceps brachii lateral head",
+        "triceps brachii medial head"
+      ]
+    },
+    {
+      "id": "Glute_Ham_Raise",
+      "name": "Glute Ham Raise",
+      "category": "powerlifting",
+      "equipment": "machine",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Good_Morning",
+      "name": "Good Morning",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Good_Morning_off_Pins",
+      "name": "Good Morning off Pins",
+      "category": "powerlifting",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "biceps femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ]
+    },
+    {
+      "id": "Arm_Over_Arm",
+      "name": "Arm Over Arm",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Atlas_Stone_Trainer",
+      "name": "Atlas Stone Trainer",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Atlas_Stones",
+      "name": "Atlas Stones",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Backward_Drag",
+      "name": "Backward Drag",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Bag_Over_Bar",
+      "name": "Bag Over Bar",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Bear_Crawl_Sled_Drags",
+      "name": "Bear Crawl Sled Drags",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    },
+    {
+      "id": "Beer_Keg_Carry",
+      "name": "Beer Keg Carry",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius upper"
+      ]
+    },
+    {
+      "id": "Bucket_Carry",
+      "name": "Bucket Carry",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius upper"
+      ]
+    },
+    {
+      "id": "Bus_Pull",
+      "name": "Bus Pull",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae",
+        "latissimus dorsi"
+      ]
+    },
+    {
+      "id": "Car_Push",
+      "name": "Car Push",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis"
+      ]
+    },
+    {
+      "id": "Car_Walk",
+      "name": "Car Walk",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Chain_And_Weight_Carries",
+      "name": "Chain And Weight Carries",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae",
+        "trapezius upper"
+      ]
+    },
+    {
+      "id": "Chain_Drag",
+      "name": "Chain Drag",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "erector spinae"
+      ]
+    },
+    {
+      "id": "Circus_Bell",
+      "name": "Circus Bell",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "deltoid anterior",
+        "deltoid lateral"
+      ]
+    },
+    {
+      "id": "Conans_Wheel",
+      "name": "Conan's Wheel",
+      "category": "strongman",
+      "equipment": "other",
+      "primaryMuscles": [
+        "rectus femoris",
+        "vastus lateralis",
+        "vastus medialis",
+        "vastus intermedius"
+      ]
+    }
+  ]
+}

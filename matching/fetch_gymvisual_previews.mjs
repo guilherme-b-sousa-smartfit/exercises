@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || '../compare-app/node_modules/playwright/index.mjs');
 const output = 'compare-app/public/gymvisual-media.json';
 const base = 'https://gymvisual.com';
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, ...(process.env.PLAYWRIGHT_CHANNEL ? { channel: process.env.PLAYWRIGHT_CHANNEL } : {}) });
 const context = await browser.newContext();
 const decode = s => s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#039;|&#39;/g,"'").trim();
 const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -67,7 +67,7 @@ for(const [key,media] of wanted) {
   if(hits.length===1 && hits[0].poster) index.assets[key]={id:media.id,kind:media.kind,name:media.name,productUrl:hits[0].url,poster:hits[0].poster,...(media.kind!=='video'?{preview:hits[0].poster,previewType:'image'}:{}),matchMethod:'unique-english-name'};
 }
 save();
-const queue=[...wanted].filter(([key,media])=>!index.assets[key] || (media.kind==='video' && !['video','embed'].includes(index.assets[key].previewType) && !index.assets[key].previewUnavailable)).sort((a,b)=>Number(b[1].status==='confirmed')-Number(a[1].status==='confirmed'));let completed=0;
+const queue=[...wanted].filter(([key,media])=>(!process.env.GYM_VIDEO_ONLY || media.kind === 'video') && (!index.assets[key] || (media.kind==='video' && !['video','embed'].includes(index.assets[key].previewType) && !index.assets[key].previewUnavailable))).sort((a,b)=>Number(b[1].status==='confirmed')-Number(a[1].status==='confirmed'));let completed=0;
 console.log(`Seeded ${Object.keys(index.assets).length}/${wanted.size}; resolving ${queue.length} product pages.`);
 async function worker() {
   while(queue.length) {

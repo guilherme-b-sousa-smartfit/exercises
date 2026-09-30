@@ -3,3 +3,12 @@ dist/
 tsconfig.tsbuildinfo
 .DS_Store
 __pycache__/
+
+.env
+.env.*
+!.env.example
+compare-app/.cache/
+
+# Cached frames for local visual review
+out/visual-review/
+outputs/

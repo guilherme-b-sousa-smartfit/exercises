@@ -5,7 +5,7 @@ No Gym Visual media URLs are inferred. Source IDs and row identities are preserv
 from __future__ import annotations
 import collections, datetime, json, re, unicodedata
 from pathlib import Path
-from rapidfuzz import fuzz, process
+from title_similarity import TitleIndex
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'out/comparativo'
@@ -113,6 +113,8 @@ STOP = set('com de do da dos das no na nos nas em o a os as ao para por e the on
 
 def canonical(s, portuguese=False):
     s = norm(s)
+    for a,b in [('halteres','halter'),('dumbbells','dumbbell'),('barbells','barbell'),('pushups','push up'),('push ups','push up'),('pullups','pull up'),('pull ups','pull up'),('flexora deitada','mesa flexora'),('extensora de pernas','cadeira extensora'),('leg extension machine','lever leg extension'),('lat pulldown','pulldown'),('seated cable row','cable seated row'),('pegada aberta','aberta'),('pegada fechada','fechada'),('pegada neutra','neutra'),('pegada supinada','supinada'),('pegada pronada','pronada')]:
+        s = re.sub(r'(?<!\w)'+re.escape(a)+r'(?!\w)', b, s)
     if portuguese:
         for a,b in sorted(PHRASES.items(), key=lambda p:-len(p[0])):
             s = re.sub(r'(?<!\w)'+re.escape(a)+r'(?!\w)',b,s)
@@ -166,6 +168,7 @@ def build():
     reps=[rows[0] for rows in grouped.values()]
     by_family=collections.defaultdict(list)
     for i,x in enumerate(reps): by_family[x['_family']].append(i)
+    title_index=TitleIndex({i:x['_canon'] for i,x in enumerate(reps)})
     overrides=json.load(open(ROOT/'matching/reviewed_matches.json')) if (ROOT/'matching/reviewed_matches.json').exists() else {}
     output=[]
     for row_num,r in enumerate(base,2):
@@ -174,15 +177,18 @@ def build():
         query=canonical(name,True)
         fam=family(query)
         pool=by_family[fam] if fam else list(range(len(reps)))
-        matches=process.extract(query,{i:reps[i]['_canon'] for i in pool},scorer=fuzz.token_sort_ratio,limit=45,score_cutoff=32)
+        matches=title_index.search(query, pool if fam else ())
         candidates=[]
         for _,sim,i in matches:
             x=reps[i]
             dif=differences(query,x)
+            family_conflict=bool(fam and x['_family'] and fam != x['_family'])
+            if family_conflict: dif.append('família de movimento divergente: '+fam+' × '+x['_family'])
             bodyok=group not in BODY or bool(BODY[group]&set(x['body'].split(', ')))
             if not bodyok: dif.append('grupo muscular divergente: '+group+' × '+x['body'])
             score=max(0, round(sim-4*len(dif)-(20 if not bodyok else 0)-(18 if any(d.startswith('equipamento:') for d in dif) else 0)))
             if not fam and not (set(query.split()) & set(x['_canon'].split())): continue
+            if family_conflict: score=min(score,45)
             exact=query==x['_canon'] and bodyok and not dif
             if str(eid) in {'6649','6738','7226','7976'}: exact=False; dif.append('Nome genérico/ambíguo: validar modalidade ou variante antes da compra.')
             # Exact canonical labels support equivalence. Non-exact results always await review.
