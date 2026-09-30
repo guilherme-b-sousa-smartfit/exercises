@@ -40,7 +40,14 @@ export function validatePatch(body) {
 export async function saveReview(body,transport={read:readReviewData,write:(payload)=>sheets('/values:batchUpdateByDataFilter',{method:'POST',body:JSON.stringify(payload)})}) {
  const keys=validatePatch(body),data=await transport.read(),row=data.rows.find(r=>r.id===body.id);
  if(!row)throw fail('Este exercício foi removido ou mudou. Atualize a lista.',409);
- for(const key of keys){if(row._cells?.[data.columns[key]]?.userEnteredValue?.formulaValue)throw fail('Este campo contém uma fórmula. Edite pela planilha.',409);if(row[key]!==body.base[key])throw fail('Outra pessoa alterou este campo. Atualize a lista antes de salvar.',409);}
+ for(const key of keys){if(row._cells?.[data.columns[key]]?.userEnteredValue?.formulaValue)throw fail('Este campo contém uma fórmula. Edite pela planilha.',409);}
+ const current=Object.fromEntries(EDITABLE.map(key=>[key,row[key]]));
+ const filled=EDITABLE.some(key=>key==='validated'?row[key]===true:row[key].trim()!=='');
+ const changed=EDITABLE.some(key=>Object.hasOwn(body.base,key)&&row[key]!==body.base[key]);
+ const confirmed=body.confirmed&&EDITABLE.every(key=>Object.hasOwn(body.confirmed,key)&&body.confirmed[key]===row[key]);
+ if((filled||changed||body.confirmed)&&!confirmed){
+  throw Object.assign(fail('Já existem dados preenchidos ou alterados na planilha. Deseja reescrever os campos que você editou?',409),{code:'REVIEW_CONFIRMATION_REQUIRED',current});
+ }
  const values=Array(Math.max(...keys.map(k=>data.columns[k]))+1).fill(null);
  for(const key of keys)values[data.columns[key]]=body.patch[key];
  const result=await transport.write({valueInputOption:'RAW',data:[{dataFilter:{developerMetadataLookup:{metadataId:body.id}},majorDimension:'ROWS',values:[values]}]});

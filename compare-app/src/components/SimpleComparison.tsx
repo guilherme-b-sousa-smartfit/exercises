@@ -1,6 +1,7 @@
 import {useEffect,useMemo,useRef,useState} from 'react';
 import {reviewFields,type ReviewFields,type ReviewRow,type useReviewSheet} from '../hooks/useReviewSheet';
 import {Preview} from './Preview';
+import {ReviewConfirmation,type ReviewConfirmationData,type ReviewDecision} from './ReviewConfirmation';
 const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('pt-BR').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 export function playable(raw:string):{src?:string;type:'video'|'embed';link?:string}{
  if(!raw)return {type:'video'};
@@ -13,27 +14,53 @@ export function playable(raw:string):{src?:string;type:'video'|'embed';link?:str
 }
 type Draft={base:ReviewFields;values:ReviewFields};
 export function SimpleComparison({comparison}:{comparison:ReturnType<typeof useReviewSheet>}){
+ const [confirmation,setConfirmation]=useState<ReviewConfirmationData|null>(null);
+ const confirmationResolver=useRef<((decision:ReviewDecision)=>void)|null>(null);
+ const decide=(decision:ReviewDecision)=>{const resolve=confirmationResolver.current;confirmationResolver.current=null;setConfirmation(null);resolve?.(decision);};
+ useEffect(()=>()=>{confirmationResolver.current?.('back');},[]);
+ const [startRow,setStartRow]=useState(''),[endRow,setEndRow]=useState('');
  const [query,setQuery]=useState(''),[min,setMin]=useState(0),[max,setMax]=useState(100),[limit,setLimit]=useState(12);
  const [drafts,setDrafts]=useState<Record<number,Draft>>({}),[saving,setSaving]=useState<Record<number,boolean>>({}),[messages,setMessages]=useState<Record<number,{text:string;error:boolean}>>({});
  const [password,setPassword]=useState(''),[loginOpen,setLoginOpen]=useState(false),[loginError,setLoginError]=useState(''),[loggingIn,setLoggingIn]=useState(false);
  const sentinel=useRef<HTMLDivElement>(null),saveLocks=useRef(new Set<number>());
  const dirty=Object.keys(drafts).length>0;
  useEffect(()=>{const protect=(e:BeforeUnloadEvent)=>{if(dirty){e.preventDefault();e.returnValue='';}};window.addEventListener('beforeunload',protect);return()=>window.removeEventListener('beforeunload',protect);},[dirty]);
- const rows=useMemo(()=>{const terms=normalize(query).split(' ').filter(Boolean);return comparison.rows.filter(r=>r.score>=min&&r.score<=max&&terms.every(t=>normalize(`${r.name} ${r.gymNamePt} ${r.gymName} ${r.replacementTitle}`).includes(t))).sort((a,b)=>Number(a.validated)-Number(b.validated)||a.order-b.order);},[comparison.rows,query,min,max]);
- useEffect(()=>setLimit(12),[query,min,max]);
+ const rows=useMemo(()=>{const terms=normalize(query).split(' ').filter(Boolean);return comparison.rows.filter(r=>(!startRow||r.rowNumber>=Number(startRow))&&(!endRow||r.rowNumber<=Number(endRow))&&r.score>=min&&r.score<=max&&terms.every(t=>normalize(`${r.name} ${r.gymNamePt} ${r.gymName} ${r.replacementTitle}`).includes(t))).sort((a,b)=>Number(a.validated)-Number(b.validated)||a.order-b.order);},[comparison.rows,query,min,max,startRow,endRow]);
+ useEffect(()=>setLimit(12),[query,min,max,startRow,endRow]);
  useEffect(()=>{if(limit>=rows.length)return;const observer=new IntersectionObserver(([e])=>{if(e.isIntersecting)setLimit(n=>Math.min(n+12,rows.length));},{rootMargin:'1200px'});if(sentinel.current)observer.observe(sentinel.current);return()=>observer.disconnect();},[limit,rows.length]);
  const edit=(row:ReviewRow,patch:Partial<ReviewFields>)=>{if(row.id===null)return;setDrafts(ds=>{const d=ds[row.id!]||{base:reviewFields(row),values:reviewFields(row)};return {...ds,[row.id!]:{...d,values:{...d.values,...patch}}};});};
- const save=async(row:ReviewRow,patch:Partial<ReviewFields>={})=>{if(row.id===null||saveLocks.current.has(row.id))return;const id=row.id,d=drafts[id]||{base:reviewFields(row),values:reviewFields(row)},values={...d.values,...patch};saveLocks.current.add(id);setDrafts(ds=>({...ds,[id]:{...d,values}}));setSaving(s=>({...s,[id]:true}));setMessages(s=>({...s,[id]:{text:'Salvando na planilha…',error:false}}));
-  try{await comparison.save(id,d.base,values);setDrafts(ds=>{const next={...ds};delete next[id];return next;});setMessages(s=>({...s,[id]:{text:'Salvo na planilha',error:false}}));}
+ const save=async(row:ReviewRow,patch:Partial<ReviewFields>={})=>{if(row.id===null||saveLocks.current.size>0)return;const id=row.id,d=drafts[id]||{base:reviewFields(row),values:reviewFields(row)},values={...d.values,...patch};saveLocks.current.add(id);setDrafts(ds=>({...ds,[id]:{...d,values}}));setSaving(s=>({...s,[id]:true}));setMessages(s=>({...s,[id]:{text:'Salvando na planilha…',error:false}}));
+  try{
+   let confirmed:ReviewFields|undefined;
+   for(;;){
+    try{await comparison.save(id,d.base,values,confirmed);break;}
+    catch(e){
+     const conflict=e as {code?:string;current?:ReviewFields};
+     if(conflict.code!=='REVIEW_CONFIRMATION_REQUIRED'||!conflict.current)throw e;
+     const current=conflict.current;
+     const accepted=await new Promise<ReviewDecision>(resolve=>{confirmationResolver.current=resolve;setConfirmation({name:row.name,rowNumber:row.rowNumber,current,base:d.base,values});});
+     if(accepted==='discard'){
+      setDrafts(ds=>{const next={...ds};delete next[id];return next;});
+      comparison.acceptCurrent(id,current);
+      setMessages(s=>({...s,[id]:{text:'Alterações descartadas. Exibindo os dados da planilha.',error:false}}));return;
+     }
+     if(accepted==='back'){
+      setMessages(s=>({...s,[id]:{text:'Gravação cancelada. Suas alterações continuam no formulário.',error:false}}));return;
+     }
+     confirmed=current;
+    }
+   }
+   setDrafts(ds=>{const next={...ds};delete next[id];return next;});setMessages(s=>({...s,[id]:{text:'Salvo na planilha',error:false}}));}
   catch(e){setMessages(s=>({...s,[id]:{text:e instanceof Error?e.message:'Falha ao salvar.',error:true}}));}
   finally{saveLocks.current.delete(id);setSaving(s=>({...s,[id]:false}));}
  };
  const discard=(id:number)=>{setDrafts(ds=>{const next={...ds};delete next[id];return next;});setMessages(s=>{const next={...s};delete next[id];return next;});void comparison.reload();};
  return <section aria-label="Comparação GymVisual">
+  {confirmation&&<ReviewConfirmation data={confirmation} onDecision={decide}/>}
   <div className="review-access"><span>{comparison.canEdit?'Revisão liberada':'Visualização da planilha'}</span><div><button type="button" onClick={()=>void comparison.reload()}>Atualizar</button>{comparison.canEdit?<button type="button" onClick={()=>void comparison.logout().catch(e=>setLoginError(e.message))}>Sair da revisão</button>:<button type="button" onClick={()=>setLoginOpen(v=>!v)}>Entrar para revisar</button>}</div></div>
   {loginOpen&&!comparison.canEdit&&<form className="review-login" onSubmit={async e=>{e.preventDefault();setLoggingIn(true);setLoginError('');try{await comparison.login(password);setPassword('');setLoginOpen(false);}catch(e){setLoginError(e instanceof Error?e.message:'Falha ao entrar.');}finally{setLoggingIn(false);}}}><label>Senha de revisão<input type="password" autoComplete="current-password" value={password} onChange={e=>setPassword(e.target.value)} required /></label><button disabled={loggingIn}>{loggingIn?'Entrando…':'Entrar'}</button></form>}
   {loginError&&<p role="alert" className="erro">{loginError}</p>}
-  <div className="similarity-filter"><label className="exercise-search">Buscar exercício<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Busque por parte do título" autoComplete="off" spellCheck={false}/></label><div className="similarity-heading"><strong>Similaridade</strong><output>{min}% – {max}%</output></div><div className="range-controls"><label>De {min}%<input aria-label="Similaridade mínima" type="range" min="0" max="100" value={min} onChange={e=>setMin(Math.min(Number(e.target.value),max))}/></label><label>Até {max}%<input aria-label="Similaridade máxima" type="range" min="0" max="100" value={max} onChange={e=>setMax(Math.max(Number(e.target.value),min))}/></label></div><small>{rows.length} exercícios · Ordem da planilha; validados no fim.</small></div>
+  <div className="similarity-filter"><label className="exercise-search">Buscar exercício<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Busque por parte do título" autoComplete="off" spellCheck={false}/></label><div className="row-range-filter"><label>Linha inicial<input type="number" min="1" step="1" inputMode="numeric" placeholder="Primeira" value={startRow} onChange={e=>setStartRow(e.target.value)}/></label><label>Linha final<input type="number" min="1" step="1" inputMode="numeric" placeholder="Última" value={endRow} onChange={e=>setEndRow(e.target.value)}/></label>{(startRow||endRow)&&<button type="button" onClick={()=>{setStartRow('');setEndRow('');}}>Limpar linhas</button>}</div>{startRow&&endRow&&Number(startRow)>Number(endRow)&&<p role="alert" className="erro">A linha final deve ser maior ou igual à linha inicial.</p>}<div className="similarity-heading"><strong>Similaridade</strong><output>{min}% – {max}%</output></div><div className="range-controls"><label>De {min}%<input aria-label="Similaridade mínima" type="range" min="0" max="100" value={min} onChange={e=>setMin(Math.min(Number(e.target.value),max))}/></label><label>Até {max}%<input aria-label="Similaridade máxima" type="range" min="0" max="100" value={max} onChange={e=>setMax(Math.max(Number(e.target.value),min))}/></label></div><small>{rows.length} exercícios · Ordem da planilha; validados no fim.</small></div>
   {comparison.error&&<p role="alert" className="erro">{comparison.error} {comparison.rows.length>0?'Exibindo a última leitura; atualize antes de revisar.':''}</p>}
   {comparison.loading&&<p role="status">Carregando a planilha…</p>}
   <div className="simple-grid">{rows.slice(0,limit).map(row=>{const id=row.id,d=id===null?undefined:drafts[id],values=d?.values||reviewFields(row),busy=id!==null&&saving[id],message=id===null?undefined:messages[id];const smart=playable(row.smartVideo),original=playable(row.gymVideo),replacement=playable(values.replacementVideo);return <article className={`simple-card ${row.validated?'is-validated':''}`} key={id??`unlinked-${row.order}`} data-review-id={id??undefined}>
