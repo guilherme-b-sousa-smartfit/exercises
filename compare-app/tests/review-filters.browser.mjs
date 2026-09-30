@@ -1,0 +1,38 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1280,height:1000}});
+ let reads=0;
+ const base={order:3,rowNumber:4,smartVideo:'',gymNamePt:'Teste',gymName:'Test',gymVideo:'',score:80,replacementTitle:''};
+ const rows=[{id:1,name:'Alfa',validated:true,comments:'ok',replacementVideo:'https://example.com/1.mp4'},{id:2,name:'Beta',validated:false,comments:'  ',replacementVideo:''},{id:3,name:'Gama',validated:false,comments:'revisar',replacementVideo:''},{id:4,name:'Delta',validated:true,comments:'',replacementVideo:'https://example.com/2.mp4'}].map((r,i)=>({...base,...r,order:i+3,rowNumber:i+4}));
+ await page.route('**/api/reviews',route=>{reads++;return route.fulfill({json:{rows,canEdit:false,updatedAt:new Date().toISOString()}});});
+ await page.goto('http://127.0.0.1:5198');
+ const cards=page.locator('.simple-card');
+ const ids=async()=>cards.evaluateAll(es=>es.map(e=>Number(e.getAttribute('data-review-id'))));
+ await cards.first().waitFor();
+ const initialReads=reads;
+ assert.deepEqual(await ids(),[2,3,1,4]);
+ const validation=page.getByLabel('Filtrar por validação'),comments=page.getByLabel('Filtrar por comentários'),replacement=page.getByLabel('Filtrar por vídeo substituto');
+ await validation.selectOption('yes');assert.deepEqual(await ids(),[1,4]);
+ await validation.selectOption('no');assert.deepEqual(await ids(),[2,3]);
+ await validation.selectOption('all');
+ await comments.selectOption('yes');assert.deepEqual(await ids(),[3,1]);
+ await comments.selectOption('no');assert.deepEqual(await ids(),[2,4]);
+ await comments.selectOption('all');
+ await replacement.selectOption('yes');assert.deepEqual(await ids(),[1,4]);
+ await replacement.selectOption('no');assert.deepEqual(await ids(),[2,3]);
+ await comments.selectOption('yes');assert.deepEqual(await ids(),[3]);
+ await page.getByLabel('Linha inicial',{exact:true}).fill('6');assert.deepEqual(await ids(),[3]);
+ await page.getByLabel('Buscar exercício').fill('gama');assert.deepEqual(await ids(),[3]);
+ const overview=page.getByRole('region',{name:'Resumo da revisão'});
+ assert((await overview.innerText()).includes('50% validado'));
+ assert.equal(await overview.locator('.review-metrics>div').nth(2).locator('strong').innerText(),'2');
+ assert.equal(await overview.locator('.review-metrics>div').nth(4).locator('strong').innerText(),'2');
+ await page.screenshot({path:'../out/comparativo/filters-desktop.png'});
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:'../out/comparativo/filters-mobile.png',fullPage:true});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ assert.equal(reads,initialReads);
+ console.log('Filters: all six choices, combined filters, global statistics and mobile layout passed; no extra sheet reads.');
+}finally{await browser.close();}
