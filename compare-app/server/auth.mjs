@@ -1,0 +1,14 @@
+import {createHmac,createHash,timingSafeEqual} from 'node:crypto';
+const hash=x=>createHash('sha256').update(x).digest();
+export const same=(a,b)=>timingSafeEqual(hash(a),hash(b));
+const secret=()=>{if(!process.env.REVIEW_PASSWORD)throw Object.assign(new Error('A senha de revisão ainda não foi configurada no servidor.'),{status:503});return process.env.REVIEW_PASSWORD;};
+const sign=value=>createHmac('sha256',secret()).update(value).digest('base64url');
+export function sessionCookie(){const value=String(Date.now()+7*86400000);return `${value}.${sign(value)}`;}
+export function authenticated(req){const cookie=(req.headers.cookie||'').split(';').map(s=>s.trim()).find(s=>s.startsWith('review_session='))?.slice(15);if(!cookie||!process.env.REVIEW_PASSWORD)return false;const [value,signature]=cookie.split('.');return Number(value)>Date.now()&&!!signature&&same(sign(value),signature);}
+export function checkOrigin(req){const origin=req.headers.origin;const host=req.headers.host;if(!origin||new URL(origin).host!==host)throw Object.assign(new Error('Origem da solicitação inválida.'),{status:403});}
+export function requireEditor(req){checkOrigin(req);if(!authenticated(req))throw Object.assign(new Error('Entre com a senha de revisão para salvar.'),{status:401});}
+const attempts=new Map();
+export function checkPassword(req,password){checkOrigin(req);const configured=secret();const ip=req.headers['x-forwarded-for']||req.socket?.remoteAddress||'unknown';const bucket=attempts.get(ip)||{count:0,reset:Date.now()+60000};if(Date.now()>bucket.reset){bucket.count=0;bucket.reset=Date.now()+60000;}if(attempts.size>10000)attempts.clear();attempts.set(ip,bucket);if(++bucket.count>10)throw Object.assign(new Error('Muitas tentativas. Aguarde um minuto.'),{status:429});if(typeof password!=='string'||!same(password,configured))throw Object.assign(new Error('Senha de revisão incorreta.'),{status:401});attempts.delete(ip);}
+export function json(res,status,body){res.setHeader('Cache-Control','no-store');res.setHeader('Content-Type','application/json; charset=utf-8');res.statusCode=status;res.end(JSON.stringify(body));}
+export function errorResponse(res,error){json(res,error.status||500,{error:error.status?error.message:'Não foi possível concluir a operação. Tente novamente.'});}
+export async function bodyOf(req){if(req.body){if(typeof req.body==='string'){if(req.body.length>12000)throw Object.assign(new Error('Solicitação muito grande.'),{status:413});return JSON.parse(req.body);}if(JSON.stringify(req.body).length>12000)throw Object.assign(new Error('Solicitação muito grande.'),{status:413});return req.body;}let raw='';for await(const chunk of req){raw+=chunk;if(raw.length>12000)throw Object.assign(new Error('Solicitação muito grande.'),{status:413});}try{return JSON.parse(raw||'{}');}catch{throw Object.assign(new Error('Solicitação inválida.'),{status:400});}}
