@@ -8,7 +8,7 @@ export function useReviewSheet(){
  const [rows,setRows]=useState<ReviewRow[]>([]),[loading,setLoading]=useState(true),[error,setError]=useState(''),[canEdit,setCanEdit]=useState(false),[updatedAt,setUpdatedAt]=useState('');
  const [access,setAccess]=useState<ReviewAccess|null>(null);
  const controller=useRef<AbortController>();
- const reload=useCallback(async()=>{controller.current?.abort();const c=new AbortController();controller.current=c;
+ const reload=useCallback(async()=>{setLoading(true);controller.current?.abort();const c=new AbortController();controller.current=c;
   try{const result=await request<{rows:ReviewRow[];canEdit:boolean;access:ReviewAccess|null;updatedAt:string}>('reviews',{signal:c.signal});if(!c.signal.aborted){setRows(result.rows);setAccess(result.access);setCanEdit(result.canEdit);setUpdatedAt(result.updatedAt);setError('');}}
   catch(e){if(!c.signal.aborted)setError(e instanceof Error?e.message:'Falha ao atualizar a planilha.');}finally{if(!c.signal.aborted)setLoading(false);}
  },[]);
@@ -16,7 +16,7 @@ export function useReviewSheet(){
  const save=async(id:number,base:ReviewFields,values:ReviewFields,confirmed?:ReviewFields)=>{const patch:Partial<ReviewFields>={};for(const k of Object.keys(values) as (keyof ReviewFields)[])if(values[k]!==base[k])Object.assign(patch,{[k]:values[k]});if(!Object.keys(patch).length)return;
   try{const {row}=await request<{row:ReviewRow}>('reviews',{method:'PATCH',body:JSON.stringify({id,base,patch,confirmed})});setRows(rs=>rs.map(r=>r.id===row.id?row:r));setUpdatedAt(new Date().toISOString());}catch(e){if((e as {status?:number}).status===401)setCanEdit(false);throw e;}
  };
- const login=async(password:string)=>{controller.current?.abort();setRows([]);const result=await request<{access:ReviewAccess}>('session',{method:'POST',body:JSON.stringify({password})});setAccess(result.access);setCanEdit(true);await reload();};
+ const login=async(password:string)=>{controller.current?.abort();setRows([]);const result=await request<{access:ReviewAccess}>('session',{method:'POST',body:JSON.stringify({password})});setAccess(result.access);setCanEdit(true);await reload();return result.access;};
  const logout=async()=>{await request('session',{method:'DELETE'});controller.current?.abort();setCanEdit(false);setAccess(null);setRows([]);};
  const acceptCurrent=(id:number,current:ReviewFields)=>{setRows(rs=>rs.map(r=>r.id===id?{...r,...current}:r));};
  return {rows,loading,error,canEdit,access,updatedAt,reload,save,login,logout,acceptCurrent};

@@ -1,13 +1,15 @@
-import { useReviewSheet } from './hooks/useReviewSheet';
-import { SimpleComparison } from './components/SimpleComparison';
+import {useEffect,useState} from 'react';
+import {useReviewSheet,type ReviewAccess} from './hooks/useReviewSheet';
+import {ReviewSkeleton} from './components/ReviewSkeleton';
+import {SimpleComparison} from './components/SimpleComparison';
 
-export function App() {
-  const comparison = useReviewSheet();
-  return <main className="app simple-app">
-    <header className="library-header">
-      <div><span className="eyebrow">REVISÃO DE EXERCÍCIOS</span><h1>personow.fit de/para</h1><p>Os vídeos lado a lado. A similaridade para guiar sua revisão.</p></div>
-      <nav aria-label="Bibliotecas"><a href="#gymvisual" aria-current="page">GymVisual</a></nav>
-    </header>
-    <SimpleComparison comparison={comparison} />
-  </main>;
+export function App(){
+ const comparison=useReviewSheet();
+ const [password,setPassword]=useState(''),[submitting,setSubmitting]=useState(false),[loginError,setLoginError]=useState('');
+ const [welcome,setWelcome]=useState<ReviewAccess|null>(null);
+ useEffect(()=>{if(!welcome)return;const timer=setTimeout(()=>setWelcome(null),3000);return()=>clearTimeout(timer);},[welcome]);
+ if(welcome)return <main className="entry-screen welcome-screen"><div className="welcome-full-content" role="status"><span className="entry-brand">personow.fit <span>de/para</span></span><div className="welcome-full-mark" aria-hidden="true">✓</div><p className="welcome-kicker">SEJA BEM-VINDO</p><h1>{welcome.name}<span>.</span></h1><p className="welcome-full-message">Sua revisão faz a diferença. Bom trabalho!</p><span className="welcome-range">{welcome.startRow?`Linhas ${welcome.startRow} a ${welcome.endRow}`:'Acesso a todas as linhas'}</span><div className="welcome-timer" aria-hidden="true"><span/></div><button type="button" className="welcome-skip" onClick={()=>setWelcome(null)}>Começar revisão →</button></div></main>;
+ if(comparison.loading&&!comparison.access&&!submitting)return <main className="app simple-app"><header className="library-header"><span className="entry-brand">personow.fit <span>de/para</span></span></header><ReviewSkeleton/></main>;
+ if(!comparison.canEdit||submitting)return <main className="entry-screen"><div className="entry-card"><span className="entry-brand">personow.fit <span>de/para</span></span><div className="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg></div><p className="entry-kicker">SEU ESPAÇO DE REVISÃO</p><h1>Vamos começar?</h1><p className="entry-description">Digite sua senha para acessar os exercícios da sua faixa de revisão.</p><form onSubmit={async e=>{e.preventDefault();if(submitting)return;setSubmitting(true);setLoginError('');try{const access=await comparison.login(password);setPassword('');setWelcome(access);}catch(e){setLoginError(e instanceof Error?e.message:'Não foi possível entrar.');}finally{setSubmitting(false);}}}><label htmlFor="review-entry-password">Senha de revisão</label><input id="review-entry-password" type="password" autoComplete="current-password" autoFocus value={password} onChange={e=>setPassword(e.target.value)} disabled={submitting} required aria-describedby={loginError?'entry-error':undefined}/>{loginError&&<p id="entry-error" className="erro" role="alert">{loginError}</p>}{comparison.error&&!loginError&&<p className="erro" role="alert">{comparison.error}</p>}<button type="submit" disabled={submitting}>{submitting?'Entrando…':'Entrar para revisar →'}</button></form><small>Sua senha identifica você e libera sua faixa de exercícios.</small></div></main>;
+ return <main className="app simple-app"><header className="library-header"><div><span className="eyebrow">REVISÃO DE EXERCÍCIOS</span><h1>personow.fit de/para</h1><p>Os vídeos lado a lado. A similaridade para guiar sua revisão.</p></div><nav aria-label="Bibliotecas"><a href="#gymvisual" aria-current="page">GymVisual</a></nav></header><SimpleComparison comparison={comparison}/></main>;
 }
