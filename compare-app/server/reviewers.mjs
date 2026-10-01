@@ -3,3 +3,5 @@ export const REVIEWERS=[{"id": "flavio", "name": "Flavio", "passwordHash": "1092
 export const passwordHash=value=>createHash('sha256').update(value).digest('hex');
 export const publicAccess=person=>person?{id:person.id,name:person.name,startRow:person.startRow??null,endRow:person.endRow??null}:null;
 export const canAccessRow=(person,row)=>!!person&&(person.id==='admin'||(row.rowNumber>=person.startRow&&row.rowNumber<=person.endRow));
+
+export const ICARO={id:'icaro',name:'Icaro',passwordHash:'8ed5a4374fd77ba6d6f7f9a187bc654bd242c056fb7893c665ffc122eff0cfd4'};
