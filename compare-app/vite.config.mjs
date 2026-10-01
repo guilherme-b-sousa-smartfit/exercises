@@ -17,9 +17,11 @@ export default defineConfig(({mode})=>({
    if(!process.env.REVIEW_PASSWORD&&existsSync(local)){const line=readFileSync(local,'utf8').split('\n').find(s=>s.startsWith('REVIEW_PASSWORD='));if(line)process.env.REVIEW_PASSWORD=line.slice(16);}
    const {default:reviews}=await import('./api/reviews.mjs');
    const {default:session}=await import('./api/session.mjs');
+   const {default:gymvisualPreview}=await import('./api/gymvisual-preview.mjs');
    server.middlewares.use((req,res,next)=>{
     const path=(req.url||'').split('?')[0];
     if(path==='/api/reviews')return void reviews(req,res);
+    if(path==='/api/gymvisual-preview')return void gymvisualPreview(req,res);
     if(path==='/api/session')return void session(req,res);
     next();
    });

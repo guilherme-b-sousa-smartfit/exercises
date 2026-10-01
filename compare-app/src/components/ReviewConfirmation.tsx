@@ -2,9 +2,10 @@ import {useEffect,useRef} from 'react';
 import type {ReviewFields} from '../hooks/useReviewSheet';
 export type ReviewDecision='confirm'|'back'|'discard';
 export type ReviewConfirmationData={name:string;rowNumber:number;current:ReviewFields;base:ReviewFields;values:ReviewFields};
-const labels:Record<keyof ReviewFields,string>={validated:'Validação',comments:'Comentários',replacementTitle:'Título do vídeo substituto',replacementVideo:'Vídeo substituto'};
+const labels:Record<keyof ReviewFields,string>={validated:'Validação',rejected:'Reprovado',comments:'Comentários',replacementTitle:'Título do vídeo substituto',replacementVideo:'Vídeo substituto'};
 const keys=Object.keys(labels) as (keyof ReviewFields)[];
 function Value({field,value}:{field:keyof ReviewFields;value:string|boolean}){
+ if(field==='rejected')return <span className={`review-state ${value?'rejected':''}`}>{value?'✕ Reprovado':'Não reprovado'}</span>;
  if(field==='validated')return <span className={`review-state ${value?'checked':''}`}>{value?'✓ Validado':'Não validado'}</span>;
  if(!value)return <span className="review-empty">Não preenchido</span>;
  if(field==='replacementVideo'&&/^https?:\/\//i.test(String(value)))return <a href={String(value)} target="_blank" rel="noreferrer">{value} ↗</a>;

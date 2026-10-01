@@ -5,8 +5,8 @@ const browser=await chromium.launch({channel:'chrome',headless:true});
 try {
  const page=await browser.newPage();
  let writes=0,confirmed;
- const row={id:1,order:3,rowNumber:4,name:'Exercício teste',smartVideo:'',gymNamePt:'Teste',gymName:'Test',gymVideo:'',score:80,validated:false,comments:'',replacementTitle:'',replacementVideo:''};
- const current={validated:true,comments:'Comentário de outro professor',replacementTitle:'Outro título',replacementVideo:'https://example.com/video.mp4'};
+ const row={id:1,order:3,rowNumber:4,name:'Exercício teste',smartVideo:'',gymNamePt:'Teste',gymName:'Test',gymVideo:'',score:80,validated:false,rejected:false,comments:'',replacementTitle:'',replacementVideo:''};
+ const current={validated:true,rejected:false,comments:'Comentário de outro professor',replacementTitle:'Outro título',replacementVideo:'https://example.com/video.mp4'};
  await page.route('**/api/reviews',async route=>{
   if(route.request().method()==='GET')return route.fulfill({json:{rows:[row],canEdit:true,updatedAt:new Date().toISOString()}});
   const body=route.request().postDataJSON();writes++;
@@ -31,7 +31,7 @@ try {
  assert((await modal.innerText()).includes(current.replacementTitle));
  assert((await modal.innerText()).includes('Minha revisão'));
  assert.equal(await modal.locator('.review-diff.changed').count(),1);
- assert.equal(await modal.locator('.review-diff:not(.changed)').count(),3);
+ assert.equal(await modal.locator('.review-diff:not(.changed)').count(),4);
  await mkdir('../out/comparativo',{recursive:true});
  await page.screenshot({path:'../out/comparativo/confirmation-desktop.png'});
  await page.setViewportSize({width:390,height:844});
@@ -64,5 +64,15 @@ try {
  assert(await page.getByRole('button',{name:'Salvar revisão'}).isDisabled());
  assert.equal(writes,5);
 
+ await page.getByRole('button',{name:'Linhas',exact:true}).click();
+ await page.getByLabel('Reprovado',{exact:true}).check();
+ await modal.waitFor();
+ assert((await modal.innerText()).includes('Reprovado'));
+ await modal.getByRole('button',{name:'Confirmar e salvar'}).click();
+ await page.getByText('Salvo na planilha',{exact:true}).waitFor();
+ assert.deepEqual(confirmed.patch,{rejected:true});
+ assert(await page.getByLabel('Reprovado',{exact:true}).isChecked());
+ await page.getByRole('button',{name:'Cards',exact:true}).click();
+ assert(await page.getByLabel('Reprovado',{exact:true}).isChecked());
  console.log('Browser: confirmation shows current data, cancel preserves draft, accept sends snapshot and only edited fields.');
 } finally {await browser.close();}
