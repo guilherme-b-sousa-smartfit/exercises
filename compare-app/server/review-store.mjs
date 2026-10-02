@@ -1,5 +1,6 @@
 import {canAccessRow} from './reviewers.mjs';
 import { sheets, SHEET_ID } from './google.mjs';
+import {MISSING_VIDEO_MESSAGE,hasReviewVideo} from './review-rules.mjs';
 export const HEADERS={name:'Nome Smart',smartVideo:'Vídeo Smart',gymNamePt:'Nome GymVisual em PTBR',gymName:'Nome GymVisual',gymVideo:'Vídeo GymVisual',score:'Porcentagem de certeza de comparação',validated:'Validado',rejected:'Reprovado',comments:'Comentários',replacementTitle:'Título do vídeo substituto',replacementVideo:'Vídeo substituto',updatedBy:'Alterado por'};
 export const EDITABLE=['validated','rejected','comments','replacementTitle','replacementVideo'];
 export const valueOf=c=>c?.effectiveValue?.stringValue??c?.effectiveValue?.numberValue??c?.effectiveValue?.boolValue??c?.userEnteredValue?.stringValue??c?.userEnteredValue?.numberValue??c?.userEnteredValue?.boolValue??'';
@@ -42,6 +43,7 @@ export async function saveReview(body,transport={read:readReviewData,write:(payl
  const keys=validatePatch(body),data=await transport.read(),row=data.rows.find(r=>r.id===body.id);
  if(access&&!canAccessRow(access,row||{}))throw fail('Este exercício está fora da sua faixa de revisão.',403);
  if(!row)throw fail('Este exercício foi removido ou mudou. Atualize a lista.',409);
+ if(body.patch.validated===true&&!hasReviewVideo(row.gymVideo,body.patch.replacementVideo??row.replacementVideo))throw fail(MISSING_VIDEO_MESSAGE);
  for(const key of keys){if(row._cells?.[data.columns[key]]?.userEnteredValue?.formulaValue)throw fail('Este campo contém uma fórmula. Edite pela planilha.',409);}
  const current=Object.fromEntries(EDITABLE.map(key=>[key,row[key]]));
  const filled=EDITABLE.some(key=>(key==='validated'||key==='rejected')?row[key]===true:row[key].trim()!=='');

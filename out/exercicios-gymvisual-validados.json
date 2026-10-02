@@ -1,0 +1,1550 @@
+[
+  {
+    "workout_name": "Supino Polia",
+    "new_name": "Supino na polia",
+    "video_url": "01511201-Cable-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "01511201-Cable-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Polia Unilateral",
+    "new_name": "Supino unilateral na polia",
+    "video_url": "79321201-Cable-Single-Arm-Bench-Press_Chest_.mp4",
+    "thumbnail_url": "79321201-Cable-Single-Arm-Bench-Press_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra W Inversa",
+    "new_name": "Rosca inversa com barra W (feminino)",
+    "video_url": "24981201-EZ-Barbell-Reverse-Grip-Curl-(female)_Forearms.mp4",
+    "thumbnail_url": "24981201-EZ-Barbell-Reverse-Grip-Curl-(female)_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Sentado com Halter",
+    "new_name": "Elevação frontal sentado com halteres",
+    "video_url": "03921201-Dumbbell-Seated-Front-Raise_Shoulders.mp4",
+    "thumbnail_url": "03921201-Dumbbell-Seated-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Neutra Unilateral com Halter",
+    "new_name": "Elevação frontal unilateral com halter e pegada neutra",
+    "video_url": "59441201-Dumbbell-Single-Arm-Neutral-Grip-Front-Raise_Shoul.mp4",
+    "thumbnail_url": "59441201-Dumbbell-Single-Arm-Neutral-Grip-Front-Raise_Shoul-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Supinada Unilateral com Halter",
+    "new_name": "Elevação frontal unilateral com halter e pegada supinada",
+    "video_url": "50921201-Dumbbell-Single-Arm-Underhand-Front-Raise_Shoulder.mp4",
+    "thumbnail_url": "50921201-Dumbbell-Single-Arm-Underhand-Front-Raise_Shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Sentado Alternado com Halter",
+    "new_name": "Elevação frontal alternada sentado com halteres",
+    "video_url": "03871201-Dumbbell-Seated-Alternate-Front-Raise_Shoulders.mp4",
+    "thumbnail_url": "03871201-Dumbbell-Seated-Alternate-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca 45 Graus com Halter",
+    "new_name": "Rosca bíceps com halteres no banco inclinado",
+    "video_url": "03151201-Dumbbell-Incline-Biceps-Curl_Upper-Arms.mp4",
+    "thumbnail_url": "03151201-Dumbbell-Incline-Biceps-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Concentrada com Halter",
+    "new_name": "Rosca concentrada com halter",
+    "video_url": "02971201-Dumbbell-Concentration-Curl_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "02971201-Dumbbell-Concentration-Curl_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo 45 Graus com Halter",
+    "new_name": "Rosca martelo com halteres no banco inclinado",
+    "video_url": "03201201-Dumbbell-Incline-Hammer-Curl_Upper-Arms.mp4",
+    "thumbnail_url": "03201201-Dumbbell-Incline-Hammer-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca 45 Graus Alternada com Halter",
+    "new_name": "Rosca bíceps alternada com halteres no banco inclinado",
+    "video_url": "36821201-Dumbbell-Incline-Alternate-Bicep-Curl_Upper-Arms_.mp4",
+    "thumbnail_url": "36821201-Dumbbell-Incline-Alternate-Bicep-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo 45 Graus Alternada com Halter",
+    "new_name": "Rosca martelo alternada com halteres no banco inclinado",
+    "video_url": "12331201-Dumbbell-Incline-Alternate-Hammer-Curl_Upper-Arms_.mp4",
+    "thumbnail_url": "12331201-Dumbbell-Incline-Alternate-Hammer-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Barra Frontal",
+    "new_name": "Agachamento frontal com barra (feminino)",
+    "video_url": "25021201-Barbell-Front-Squat-(female)_Thighs.mp4",
+    "thumbnail_url": "25021201-Barbell-Front-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Declinado com Halter",
+    "new_name": "Supino declinado com halteres",
+    "video_url": "03011201-Dumbbell-Decline-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "03011201-Dumbbell-Decline-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Declinado com Halter",
+    "new_name": "Crucifixo declinado com halteres",
+    "video_url": "03021201-Dumbbell-Decline-Fly_Chest-FIX_.mp4",
+    "thumbnail_url": "03021201-Dumbbell-Decline-Fly_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Spider",
+    "new_name": "Prancha aranha (feminino)",
+    "video_url": "39531201-Spider-Plank-(female)_Hips_.mp4",
+    "thumbnail_url": "39531201-Spider-Plank-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com Rubber'",
+    "new_name": "Agachamento com elástico",
+    "video_url": "10041201-Band-squat_Hips.mp4",
+    "thumbnail_url": "10041201-Band-squat_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão do Joelho em Pé Polia",
+    "new_name": "Flexão de joelho em pé na polia",
+    "video_url": "15471201-Cable-Standing-Leg-Curl_Thighs_.mp4",
+    "thumbnail_url": "15471201-Cable-Standing-Leg-Curl_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Máquina Declinado",
+    "new_name": "Supino declinado na máquina",
+    "video_url": "13001201-Lever-Decline-Chest-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "13001201-Lever-Decline-Chest-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com Cinto Articulado",
+    "new_name": "Agachamento na máquina com cinto",
+    "video_url": "29501201-Lever-Belt-Squat_Thighs_.mp4",
+    "thumbnail_url": "29501201-Lever-Belt-Squat_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Circundução de ombro",
+    "new_name": "Círculos com os braços (feminino)",
+    "video_url": "02541201-Circles-Arm-(female)_Shoulders.mp4",
+    "thumbnail_url": "02541201-Circles-Arm-(female)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Pélvica Guiada",
+    "new_name": "Elevação pélvica no Smith",
+    "video_url": "31101201-Smith-Hip-Thrust_Hips-FIX_.mp4",
+    "thumbnail_url": "31101201-Smith-Hip-Thrust_Hips-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inverso Polia Unilateral",
+    "new_name": "Crucifixo inverso unilateral na polia (masculino)",
+    "video_url": "41221201-Cable-One-Arm-Reverse-Fly-(male)_Shoulders_.mp4",
+    "thumbnail_url": "41221201-Cable-One-Arm-Reverse-Fly-(male)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Polia Alternado",
+    "new_name": "Crucifixo alternado na polia (masculino)",
+    "video_url": "93071201-Cable-Alternative-Fly-(male)_Chest_.mp4",
+    "thumbnail_url": "93071201-Cable-Alternative-Fly-(male)_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Cross Over Unilateral",
+    "new_name": "Crossover unilateral na polia (masculino)",
+    "video_url": "69491201-Cable-Single-Arm-Crossover-(male)_Chest_.mp4",
+    "thumbnail_url": "69491201-Cable-Single-Arm-Crossover-(male)_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Maquina Inclinado",
+    "new_name": "Supino inclinado na máquina",
+    "video_url": "12991201-Lever-Incline-Chest-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "12991201-Lever-Incline-Chest-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Alternada com Halter",
+    "new_name": "Rosca bíceps alternada com halteres",
+    "video_url": "02851201-Dumbbell-Alternate-Biceps-Curl_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "02851201-Dumbbell-Alternate-Biceps-Curl_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Gato",
+    "new_name": "Alongamento do gato (masculino)",
+    "video_url": "10511201-Cat-Stretch-m_Back.mp4",
+    "thumbnail_url": "10511201-Cat-Stretch-m_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Lombar Máquina",
+    "new_name": "Extensão lombar na máquina (feminino)",
+    "video_url": "36071201-Lever-Back-Extension-(female)_Waist.mp4",
+    "thumbnail_url": "36071201-Lever-Back-Extension-(female)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inverso Máquina",
+    "new_name": "Crucifixo inverso sentado na máquina",
+    "video_url": "06021201-Lever-Seated-Reverse-Fly_Shoulders-FIX_.mp4",
+    "thumbnail_url": "06021201-Lever-Seated-Reverse-Fly_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Aberta com Barra",
+    "new_name": "Remada curvada com barra e pegada aberta",
+    "video_url": "37211201-Barbell-Bent-Over-Wide-Grip-Row_Back_.mp4",
+    "thumbnail_url": "37211201-Barbell-Bent-Over-Wide-Grip-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inverso com Halter",
+    "new_name": "Crucifixo inverso com halteres",
+    "video_url": "03831201-Dumbbell-Reverse-Fly_Shoulders-FIX_.mp4",
+    "thumbnail_url": "03831201-Dumbbell-Reverse-Fly_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Leg Press 45",
+    "new_name": "Leg press 45°",
+    "video_url": "07391201-Sled-45-degrees-Leg-Press_Hips-FIX2_.mp4",
+    "thumbnail_url": "07391201-Sled-45-degrees-Leg-Press_Hips-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Flexora",
+    "new_name": "Cadeira flexora",
+    "video_url": "05991201-Lever-Seated-Leg-Curl_Thighs-FIX_.mp4",
+    "thumbnail_url": "05991201-Lever-Seated-Leg-Curl_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Afundo com Halter",
+    "new_name": "Afundo com halteres (feminino)",
+    "video_url": "29591201-Dumbbell-Split-Squat-(female)_Thighs_.mp4",
+    "thumbnail_url": "29591201-Dumbbell-Split-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Smith",
+    "new_name": "Agachamento no Smith",
+    "video_url": "07701201-Smith-Squat_Hips_.mp4",
+    "thumbnail_url": "07701201-Smith-Squat_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Gêmeos no Smith",
+    "new_name": "Elevação de panturrilha no Smith (versão 2)",
+    "video_url": "11641201-Smith-Calf-Raise-(version-2)_Calves-FIX_.mp4",
+    "thumbnail_url": "11641201-Smith-Calf-Raise-(version-2)_Calves-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Stiff com Halter",
+    "new_name": "Stiff com halteres",
+    "video_url": "04321201-Dumbbell-Stiff-Leg-Deadlift_Waist.mp4",
+    "thumbnail_url": "04321201-Dumbbell-Stiff-Leg-Deadlift_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Afundo Smith",
+    "new_name": "Afundo no Smith",
+    "video_url": "07691201-Smith-Split-Squat_Thighs_.mp4",
+    "thumbnail_url": "07691201-Smith-Split-Squat_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Máquina",
+    "new_name": "Supino na máquina",
+    "video_url": "05771201-Lever-Chest-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "05771201-Lever-Chest-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Reto com Halter",
+    "new_name": "Supino reto com halteres",
+    "video_url": "02891201-Dumbbell-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "02891201-Dumbbell-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Máquina",
+    "new_name": "Crucifixo sentado na máquina",
+    "video_url": "05961201-Lever-Seated-Fly_Chest-FIX_.mp4",
+    "thumbnail_url": "05961201-Lever-Seated-Fly_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Peck Deck",
+    "new_name": "Crucifixo no peck deck",
+    "video_url": "10301201-Lever-Pec-Deck-Fly_Chest_.mp4",
+    "thumbnail_url": "10301201-Lever-Pec-Deck-Fly_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Smith",
+    "new_name": "Supino reto no Smith",
+    "video_url": "07481201-Smith-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "07481201-Smith-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo com Halter",
+    "new_name": "Crucifixo com halteres",
+    "video_url": "03081201-Dumbbell-Fly_Chest-FIX2_.mp4",
+    "thumbnail_url": "03081201-Dumbbell-Fly_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Alta com Halter",
+    "new_name": "Remada alta com halteres",
+    "video_url": "04371201-Dumbbell-Upright-Row_Shoulders-FIX.mp4",
+    "thumbnail_url": "04371201-Dumbbell-Upright-Row_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Encolhimento com Halter",
+    "new_name": "Encolhimento de ombros com halteres",
+    "video_url": "04061201-Dumbbell-Shrug_Back-FIX_.mp4",
+    "thumbnail_url": "04061201-Dumbbell-Shrug_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Encolhimento Polia",
+    "new_name": "Encolhimento de ombros na polia",
+    "video_url": "02201201-Cable-Shrug_Back-FIX_.mp4",
+    "thumbnail_url": "02201201-Cable-Shrug_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Barra em pé",
+    "new_name": "Elevação frontal com barra",
+    "video_url": "00411201-Barbell-Front-Raise_Shoulders.mp4",
+    "thumbnail_url": "00411201-Barbell-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Encolhimento Barra",
+    "new_name": "Encolhimento de ombros com barra",
+    "video_url": "00951201-Barbell-Shrug_Back.mp4",
+    "thumbnail_url": "00951201-Barbell-Shrug_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Barra H em pé",
+    "new_name": "Desenvolvimento militar em pé com barra",
+    "video_url": "11621201-Barbell-Standing-Military-Press_Shoulders-FIX_.mp4",
+    "thumbnail_url": "11621201-Barbell-Standing-Military-Press_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Direta Polia",
+    "new_name": "Rosca bíceps na polia (feminino)",
+    "video_url": "01561201-Cable-Curl-(female)_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "01561201-Cable-Curl-(female)_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Direta com Barra",
+    "new_name": "Rosca direta com barra",
+    "video_url": "00311201-Barbell-Curl_Upper-Arms-FIX2_.mp4",
+    "thumbnail_url": "00311201-Barbell-Curl_Upper-Arms-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Simultânea com Halter",
+    "new_name": "Rosca bíceps com halteres (feminino)",
+    "video_url": "24831201-Dumbbell-Biceps-Curl-(female)_Upper-Arms.mp4",
+    "thumbnail_url": "24831201-Dumbbell-Biceps-Curl-(female)_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra W",
+    "new_name": "Rosca direta com barra W",
+    "video_url": "04471201-EZ-Barbell-Curl_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "04471201-EZ-Barbell-Curl_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Gráviton",
+    "new_name": "Tríceps na paralela assistida, ajoelhado",
+    "video_url": "00191201-Assisted-Triceps-Dip-(kneeling)_Upper-Arms.mp4",
+    "thumbnail_url": "00191201-Assisted-Triceps-Dip-(kneeling)_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Testa Barra W",
+    "new_name": "Tríceps testa deitado com barra W (feminino)",
+    "video_url": "36461201-EZ-Barbell-Lying-Triceps-Extension-(female)_Upper-Arms.mp4",
+    "thumbnail_url": "36461201-EZ-Barbell-Lying-Triceps-Extension-(female)_Upper--STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Paralela",
+    "new_name": "Tríceps na paralela",
+    "video_url": "08141201-Triceps-Dip_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "08141201-Triceps-Dip_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Banco",
+    "new_name": "Tríceps no banco com pés no chão",
+    "video_url": "13991201-Bench-Dip-on-Floor_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "13991201-Bench-Dip-on-Floor_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal com Roda",
+    "new_name": "Abdominal com roda (feminino)",
+    "video_url": "23321201-Wheel-Rollout-(female)_Waist.mp4",
+    "thumbnail_url": "23321201-Wheel-Rollout-(female)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Mesa Flexora",
+    "new_name": "Mesa flexora",
+    "video_url": "05861201-Lever-Lying-Leg-Curl_Thighs-FIX2_.mp4",
+    "thumbnail_url": "05861201-Lever-Lying-Leg-Curl_Thighs-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Livre Inclinado",
+    "new_name": "Supino inclinado com barra",
+    "video_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Livre Reto",
+    "new_name": "Supino reto com barra",
+    "video_url": "00251201-Barbell-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "00251201-Barbell-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Gêmeos no Leg 45",
+    "new_name": "Elevação de panturrilha no leg press 45°",
+    "video_url": "07381201-Sled-45-Calf-Press_Calves-FIX_.mp4",
+    "thumbnail_url": "07381201-Sled-45-Calf-Press_Calves-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Puxada Polia Barra Supinada",
+    "new_name": "Puxada na polia com pegada supinada",
+    "video_url": "02451201-Cable-Underhand-Pulldown_Back.mp4",
+    "thumbnail_url": "02451201-Cable-Underhand-Pulldown_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Puxada Polia Triângulo",
+    "new_name": "Puxada na polia com triângulo",
+    "video_url": "26161201-Cable-Lateral-Pulldown-with-V-bar_Back_.mp4",
+    "thumbnail_url": "26161201-Cable-Lateral-Pulldown-with-V-bar_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Barra Fixa no Gráviton Aberta",
+    "new_name": "Barra fixa assistida",
+    "video_url": "00171201-Assisted-Pull-up_Back.mp4",
+    "thumbnail_url": "00171201-Assisted-Pull-up_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Barra Fixa no Gráviton Fechada",
+    "new_name": "Barra fixa assistida com pegada paralela fechada",
+    "video_url": "00151201-Assisted-Parallel-Close-Grip-Pull-up_Back-FIX_.mp4",
+    "thumbnail_url": "00151201-Assisted-Parallel-Close-Grip-Pull-up_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Supinada Barra W",
+    "new_name": "Remada curvada com barra W e pegada supinada",
+    "video_url": "13441201-EZ-Bar-Reverse-Grip-Bent-Over-Row_Back_.mp4",
+    "thumbnail_url": "13441201-EZ-Bar-Reverse-Grip-Bent-Over-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Supinada Simultânea com Halter",
+    "new_name": "Remada com halteres e pegada supinada (feminino)",
+    "video_url": "23271201-Dumbbell-Reverse-Grip-Row-(female)_Back.mp4",
+    "thumbnail_url": "23271201-Dumbbell-Reverse-Grip-Row-(female)_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Neutra Sentado com Halter",
+    "new_name": "Desenvolvimento sentado com halteres e pegada paralela",
+    "video_url": "04041201-Dumbbell-Seated-Shoulder-Press-(parallel-grip)_Sho.mp4",
+    "thumbnail_url": "04041201-Dumbbell-Seated-Shoulder-Press-(parallel-grip)_Sho-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Aberta Alternado com Halter",
+    "new_name": "Desenvolvimento alternado com halteres (feminino)",
+    "video_url": "30731201-Dumbbell-Alternate-Shoulder-Press-(female)_Shoulders.mp4",
+    "thumbnail_url": "30731201-Dumbbell-Alternate-Shoulder-Press-(female)_Shoulde-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Aberto Sentado Alternado com Halter",
+    "new_name": "Desenvolvimento alternado sentado com halteres",
+    "video_url": "35461201-Dumbbell-Seated-Alternate-Shoulder-Press_Shoulders.mp4",
+    "thumbnail_url": "35461201-Dumbbell-Seated-Alternate-Shoulder-Press_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Máquina Aberto",
+    "new_name": "Desenvolvimento de ombros sentado na máquina",
+    "video_url": "14541201-Lever-Seated-Shoulder-Press_Shoulders-FIX_.mp4",
+    "thumbnail_url": "14541201-Lever-Seated-Shoulder-Press_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Leg Press 45 Unilateral",
+    "new_name": "Leg press 45° unilateral (feminino)",
+    "video_url": "26091201-Sled-45-degrees-One-Leg-Press-(female)_Hips_.mp4",
+    "thumbnail_url": "26091201-Sled-45-degrees-One-Leg-Press-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Extensora Unilateral",
+    "new_name": "Cadeira extensora unilateral",
+    "video_url": "15711201-Lever-One-Leg-Extension_Thighs_.mp4",
+    "thumbnail_url": "15711201-Lever-One-Leg-Extension_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Barra Frente em pé",
+    "new_name": "Desenvolvimento militar em pé com barra",
+    "video_url": "11621201-Barbell-Standing-Military-Press_Shoulders-FIX_.mp4",
+    "thumbnail_url": "11621201-Barbell-Standing-Military-Press_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Manguito Polia Interno",
+    "new_name": "Rotação interna de ombro na polia",
+    "video_url": "50881201-Cable-Shoulder-Internal-Rotation_Shoulders_.mp4",
+    "thumbnail_url": "50881201-Cable-Shoulder-Internal-Rotation_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Manguito Polia Externo",
+    "new_name": "Rotação externa de ombro em pé na polia",
+    "video_url": "02351201-Cable-Standing-Shoulder-External-Rotation_Back-FIX.mp4",
+    "thumbnail_url": "02351201-Cable-Standing-Shoulder-External-Rotation_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Smith Inclinado",
+    "new_name": "Supino inclinado no Smith",
+    "video_url": "07571201-Smith-Incline-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "07571201-Smith-Incline-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inclinado com Halter",
+    "new_name": "Crucifixo inclinado com halteres",
+    "video_url": "03191201-Dumbbell-Incline-Fly_Chest-FIX2_.mp4",
+    "thumbnail_url": "03191201-Dumbbell-Incline-Fly_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços de Joelhos",
+    "new_name": "Flexão de braços com joelhos apoiados (feminino)",
+    "video_url": "11821201-Push-up-(on-knees)-(female)_Chest-FIX_.mp4",
+    "thumbnail_url": "11821201-Push-up-(on-knees)-(female)_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Fechado de Joelhos",
+    "new_name": "Flexão de braços com pegada fechada e joelhos apoiados",
+    "video_url": "23981201-Close-grip-Push-up-(on-knees)_Upper-Arms_.mp4",
+    "thumbnail_url": "23981201-Close-grip-Push-up-(on-knees)_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra W Scott",
+    "new_name": "Rosca Scott com barra W",
+    "video_url": "64061201-EZ-Barbell-Preacher-Curl_Upper-Arms_.mp4",
+    "thumbnail_url": "64061201-EZ-Barbell-Preacher-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Infra Suspensão Joelho Flex",
+    "new_name": "Elevação de joelhos na barra fixa (masculino)",
+    "video_url": "98191201-Hanging-Knee-Raise-(male)_Waist_.mp4",
+    "thumbnail_url": "98191201-Hanging-Knee-Raise-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Infra Suspensão Oblíquo com Joelho Flexionado",
+    "new_name": "Elevação oblíqua de joelhos na barra fixa",
+    "video_url": "17611201-Hanging-Oblique-Knee-Raise_Waist.mp4",
+    "thumbnail_url": "17611201-Hanging-Oblique-Knee-Raise_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Testa com Halter",
+    "new_name": "Tríceps testa deitado com halteres",
+    "video_url": "03511201-Dumbbell-Lying-Triceps-Extension_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "03511201-Dumbbell-Lying-Triceps-Extension_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês Sentado com Halter",
+    "new_name": "Tríceps francês sentado com halter",
+    "video_url": "21881201-Dumbbell-Seated-Triceps-Extension_Upper-Arms.mp4",
+    "thumbnail_url": "21881201-Dumbbell-Seated-Triceps-Extension_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês em Pé com Halter",
+    "new_name": "Tríceps francês em pé com halter",
+    "video_url": "04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms-FIX.mp4",
+    "thumbnail_url": "04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês Sentado Unilateral com Halter",
+    "new_name": "Tríceps francês unilateral sentado com halter",
+    "video_url": "61581201-Dumbbell-Seated-Single-Arm-Overhead-Triceps-Extens.mp4",
+    "thumbnail_url": "61581201-Dumbbell-Seated-Single-Arm-Overhead-Triceps-Extens-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês em pé Barra",
+    "new_name": "Tríceps francês em pé com barra",
+    "video_url": "01091201-Barbell-Standing-Overhead-Triceps-Extension_Upper-.mp4",
+    "thumbnail_url": "01091201-Barbell-Standing-Overhead-Triceps-Extension_Upper--STEP1.png"
+  },
+  {
+    "workout_name": "Bíceps Máquina Scott",
+    "new_name": "Rosca Scott na máquina",
+    "video_url": "05921201-Lever-Preacher-Curl_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "05921201-Lever-Preacher-Curl_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês Barra W Sentado",
+    "new_name": "Tríceps francês sentado com barra W",
+    "video_url": "04531201-EZ-Barbell-Seated-Triceps-Extension_Upper-Arms_.mp4",
+    "thumbnail_url": "04531201-EZ-Barbell-Seated-Triceps-Extension_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Infra Paralela Estendida",
+    "new_name": "Elevação de pernas estendidas na cadeira romana",
+    "video_url": "29631201-Captains-Chair-Straight-Leg-Raise_Waist-FIX_.mp4",
+    "thumbnail_url": "29631201-Captains-Chair-Straight-Leg-Raise_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Supra Reto Polia em Pé",
+    "new_name": "Abdominal em pé na polia com corda",
+    "video_url": "08741201-Cable-Standing-Crunch-(with-rope-attachment)_Waist.mp4",
+    "thumbnail_url": "08741201-Cable-Standing-Crunch-(with-rope-attachment)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Supra Reto Polia Ajoelhado",
+    "new_name": "Abdominal ajoelhado na polia",
+    "video_url": "01751201-Cable-Kneeling-Crunch_Waist-FIX2_.mp4",
+    "thumbnail_url": "01751201-Cable-Kneeling-Crunch_Waist-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Neutra com Halter em pé",
+    "new_name": "Elevação frontal em pé com halteres e pegada neutra",
+    "video_url": "98581201-Dumbbell-Standing-Neutral-Grip-Front-Raises_Should.mp4",
+    "thumbnail_url": "98581201-Dumbbell-Standing-Neutral-Grip-Front-Raises_Should-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Supinada com Halter em pé",
+    "new_name": "Elevação frontal com halteres e pegada supinada",
+    "video_url": "110141201-Dumbbell-Underhand-Front-Raise_Shoulders_.mp4",
+    "thumbnail_url": "110141201-Dumbbell-Underhand-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Inclinado com Halter",
+    "new_name": "Supino inclinado com halteres",
+    "video_url": "03141201-Dumbbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "03141201-Dumbbell-Incline-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra Reta Inversa",
+    "new_name": "Rosca inversa com barra",
+    "video_url": "00801201-Barbell-Reverse-Curl_Forearm.mp4",
+    "thumbnail_url": "00801201-Barbell-Reverse-Curl_Forearm-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra Reta Inversa Scott",
+    "new_name": "Rosca Scott inversa com barra",
+    "video_url": "00811201-Barbell-Reverse-Preacher-Curl_Forearms_.mp4",
+    "thumbnail_url": "00811201-Barbell-Reverse-Preacher-Curl_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Polia Supinada em pé",
+    "new_name": "Elevação frontal na polia com pegada supinada (masculino)",
+    "video_url": "106351201-Cable-Reverse-Grip-Front-Raise-(male)_Shoulders_.mp4",
+    "thumbnail_url": "106351201-Cable-Reverse-Grip-Front-Raise-(male)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Scott Simultânea com Halter",
+    "new_name": "Rosca Scott com halteres",
+    "video_url": "03721201-Dumbbell-Preacher-Curl_Upper-Arms.mp4",
+    "thumbnail_url": "03721201-Dumbbell-Preacher-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão do Joelho em Pé",
+    "new_name": "Flexão de joelho em pé (feminino)",
+    "video_url": "64001201-Standing-Leg-Curl-(female)_Thighs_.mp4",
+    "thumbnail_url": "64001201-Standing-Leg-Curl-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Alta Barra Reta",
+    "new_name": "Remada alta com barra",
+    "video_url": "01211201-Barbell-Upright-Row_Shoulders.mp4",
+    "thumbnail_url": "01211201-Barbell-Upright-Row_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Barra Reto",
+    "new_name": "Supino reto com barra",
+    "video_url": "00251201-Barbell-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "00251201-Barbell-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Barra Inclinado",
+    "new_name": "Supino inclinado com barra",
+    "video_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Polia Barra V",
+    "new_name": "Tríceps na polia com barra V",
+    "video_url": "02411201-Cable-Triceps-Pushdown-(V-bar-attachment)_Upper-Arms.mp4",
+    "thumbnail_url": "02411201-Cable-Triceps-Pushdown-(V-bar-attachment)_Upper-Ar-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Polia Unilateral",
+    "new_name": "Tríceps unilateral na polia",
+    "video_url": "17231201-Cable-One-Arm-Tricep-Pushdown_Upper-Arms_.mp4",
+    "thumbnail_url": "17231201-Cable-One-Arm-Tricep-Pushdown_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Escalador",
+    "new_name": "Escalador",
+    "video_url": "06301201-Mountain-Climber_Cardio-FIX_.mp4",
+    "thumbnail_url": "06301201-Mountain-Climber_Cardio-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Escalador com TRX'",
+    "new_name": "Escalador na fita de suspensão (feminino)",
+    "video_url": "10841201-Suspender-Mountain-Climber-(female)_Hips.mp4",
+    "thumbnail_url": "10841201-Suspender-Mountain-Climber-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com TRX'",
+    "new_name": "Agachamento na fita de suspensão (feminino)",
+    "video_url": "11431201-Suspender-Squat-(female)_Thighs_.mp4",
+    "thumbnail_url": "11431201-Suspender-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Sumo com Halter",
+    "new_name": "Agachamento sumô com halter (feminino)",
+    "video_url": "23221201-Dumbbell-Sumo-Squat-(female)_Thighs_.mp4",
+    "thumbnail_url": "23221201-Dumbbell-Sumo-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Polichinelo",
+    "new_name": "Polichinelo (feminino)",
+    "video_url": "05161201-Jumping-Jack-(female)_Cardio-FIX_.mp4",
+    "thumbnail_url": "05161201-Jumping-Jack-(female)_Cardio-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Tesoura",
+    "new_name": "Abdominal tesoura deitado (feminino)",
+    "video_url": "06221201-Lying-Scissor-Kick-(female)_Hips_.mp4",
+    "thumbnail_url": "06221201-Lying-Scissor-Kick-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Borboleta",
+    "new_name": "Abdominal borboleta deitado (feminino)",
+    "video_url": "77351201-Lying-Butterfly-Crunch-(female)_Waist_.mp4",
+    "thumbnail_url": "77351201-Lying-Butterfly-Crunch-(female)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Canivete",
+    "new_name": "Abdominal canivete (masculino)",
+    "video_url": "36221201-V-up-(male)_Waist.mp4",
+    "thumbnail_url": "36221201-V-up-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Canivete Alternado",
+    "new_name": "Abdominal canivete com pernas alternadas (masculino)",
+    "video_url": "104521201-Alternating-Leg-V-Up-(male)_Waist_.mp4",
+    "thumbnail_url": "104521201-Alternating-Leg-V-Up-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Infra Alternado",
+    "new_name": "Elevação alternada de pernas (feminino)",
+    "video_url": "16131201-Alternate-Leg-Raise-(female)_Hips.mp4",
+    "thumbnail_url": "16131201-Alternate-Leg-Raise-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Mountain Climber",
+    "new_name": "Escalador",
+    "video_url": "06301201-Mountain-Climber_Cardio-FIX_.mp4",
+    "thumbnail_url": "06301201-Mountain-Climber_Cardio-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Inversa Isométrica",
+    "new_name": "Prancha invertida",
+    "video_url": "08671201-Reverse-plank_Back.mp4",
+    "thumbnail_url": "08671201-Reverse-plank_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Superman",
+    "new_name": "Superman (masculino)",
+    "video_url": "34361201-Superman-(male)_Waist.mp4",
+    "thumbnail_url": "34361201-Superman-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Pistol com Pliobox'",
+    "new_name": "Agachamento pistol até a caixa",
+    "video_url": "29841201-Pistol-Squat-to-Box_Thighs_.mp4",
+    "thumbnail_url": "29841201-Pistol-Squat-to-Box_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços com Pliobox",
+    "new_name": "Flexão de braços inclinada com apoio na caixa",
+    "video_url": "37851201-Incline-Push-Up-(on-box).mp4",
+    "thumbnail_url": "37851201-Incline-Push-Up-(on-box)-STEP1.png"
+  },
+  {
+    "workout_name": "Inclinação Lateral Esquerda com Halter",
+    "new_name": "Flexão lateral do tronco com halter",
+    "video_url": "04071201-Dumbbell-Side-Bend_Waist-FIX_.mp4",
+    "thumbnail_url": "04071201-Dumbbell-Side-Bend_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Alongamento Peitoral; Mãos Entrelaçadas Atrás",
+    "new_name": "Alongamento de peitoral em pé com mãos atrás do corpo (masculino)",
+    "video_url": "96821201-Standing-Hands-Behind-Chest-Stretch-(male)_Stretch.mp4",
+    "thumbnail_url": "96821201-Standing-Hands-Behind-Chest-Stretch-(male)_Stretch-STEP1.png"
+  },
+  {
+    "workout_name": "Alongamento Tríceps",
+    "new_name": "Alongamento de tríceps acima da cabeça",
+    "video_url": "06431201-Overhead-Triceps-Stretch_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "06431201-Overhead-Triceps-Stretch_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Cachorro Baixo",
+    "new_name": "Postura do cachorro olhando para baixo",
+    "video_url": "52181201-Downward-Dog_Stretching_.mp4",
+    "thumbnail_url": "52181201-Downward-Dog_Stretching-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Abdutora",
+    "new_name": "Cadeira abdutora",
+    "video_url": "05971201-Lever-Seated-Hip-Abduction_Hips-FIX_.mp4",
+    "thumbnail_url": "05971201-Lever-Seated-Hip-Abduction_Hips-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Livre Barra (Squat Rack)",
+    "new_name": "Agachamento completo com barra no suporte",
+    "video_url": "08781201-Barbell-Full-squat-(with-rack)_Thighs.mp4",
+    "thumbnail_url": "08781201-Barbell-Full-squat-(with-rack)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Extensora",
+    "new_name": "Cadeira extensora",
+    "video_url": "05851201-Lever-Leg-Extension_Thighs.mp4",
+    "thumbnail_url": "05851201-Lever-Leg-Extension_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Adutora",
+    "new_name": "Cadeira adutora",
+    "video_url": "05981201-Lever-Seated-Hip-Adduction_Thighs-FIX_.mp4",
+    "thumbnail_url": "05981201-Lever-Seated-Hip-Adduction_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Polia Inverso",
+    "new_name": "Tríceps na polia com pegada supinada",
+    "video_url": "02071201-Cable-Reverse-grip-Pushdown_Upper-Arms_.mp4",
+    "thumbnail_url": "02071201-Cable-Reverse-grip-Pushdown_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Livre Declinado",
+    "new_name": "Supino declinado com barra",
+    "video_url": "00331201-Barbell-Decline-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "00331201-Barbell-Decline-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Gêmeos em Pé",
+    "new_name": "Elevação de panturrilha em pé (feminino)",
+    "video_url": "30181201-Standing-Calf-Raise-(female)_Calves_.mp4",
+    "thumbnail_url": "30181201-Standing-Calf-Raise-(female)_Calves-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Livre",
+    "new_name": "Agachamento (feminino)",
+    "video_url": "07871201-Squat-(female)_Hips.mp4",
+    "thumbnail_url": "07871201-Squat-(female)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Supra Solo",
+    "new_name": "Abdominal curto no solo (masculino)",
+    "video_url": "02741201-Crunch-Floor-(male)_waist.mp4",
+    "thumbnail_url": "02741201-Crunch-Floor-(male)_waist-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Diamante",
+    "new_name": "Flexão de braços diamante",
+    "video_url": "02831201-Diamond-Push-up_Upper-Arms.mp4",
+    "thumbnail_url": "02831201-Diamond-Push-up_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Fechada",
+    "new_name": "Flexão de braços com pegada fechada",
+    "video_url": "02591201-Close-Grip-Push-up_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "02591201-Close-Grip-Push-up_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Jump Squat",
+    "new_name": "Agachamento com salto",
+    "video_url": "05141201-Jump-Squat_Thighs-FIX.mp4",
+    "thumbnail_url": "05141201-Jump-Squat_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Bicicleta",
+    "new_name": "Abdominal bicicleta (masculino)",
+    "video_url": "62111201-Bicycle-Crunch-(male)_Waist_.mp4",
+    "thumbnail_url": "62111201-Bicycle-Crunch-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Perdigueiro",
+    "new_name": "Perdigueiro (masculino)",
+    "video_url": "12411201-Bird-Dog-male_Back.mp4",
+    "thumbnail_url": "12411201-Bird-Dog-male_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Afundo Búlgaro",
+    "new_name": "Agachamento búlgaro",
+    "video_url": "35331201-Bulgarian-Split-Squat_Thighs-FIX_.mp4",
+    "thumbnail_url": "35331201-Bulgarian-Split-Squat_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Alta Unilateral com Halter",
+    "new_name": "Remada alta unilateral com halter",
+    "video_url": "03631201-Dumbbell-One-Arm-Upright-Row_Shoulders_.mp4",
+    "thumbnail_url": "03631201-Dumbbell-One-Arm-Upright-Row_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Scott Unilateral com Halter",
+    "new_name": "Rosca Scott unilateral com halter (feminino)",
+    "video_url": "30841201-Dumbbell-Single-Arm-Preacher-Curl-(female)_Upper-Arms.mp4",
+    "thumbnail_url": "30841201-Dumbbell-Single-Arm-Preacher-Curl-(female)_Upper-A-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo Simultânea com Halter",
+    "new_name": "Rosca martelo com halteres (versão 2)",
+    "video_url": "03121201-Dumbbell-Hammer-Curl-(version-2)_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "03121201-Dumbbell-Hammer-Curl-(version-2)_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Supinada com Halter",
+    "new_name": "Remada curvada com halteres e pegada supinada",
+    "video_url": "37991201-Dumbbell-Bent-Over-Reverse-Row_Back.mp4",
+    "thumbnail_url": "37991201-Dumbbell-Bent-Over-Reverse-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Alternada Sentado com Halter",
+    "new_name": "Rosca bíceps alternada sentado com halteres (feminino)",
+    "video_url": "37611201-Dumbbell-Seated-Alternate-Biceps-Curl-(female)_Upper-Arms.mp4",
+    "thumbnail_url": "37611201-Dumbbell-Seated-Alternate-Biceps-Curl-(female)_Upp-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Sentado Alternado com Halter",
+    "new_name": "Elevação lateral alternada sentado com halteres",
+    "video_url": "99331201-Dumbbell-Seated-Alternating-Lateral-Raise_Shoulder.mp4",
+    "thumbnail_url": "99331201-Dumbbell-Seated-Alternating-Lateral-Raise_Shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Sentado com Halter",
+    "new_name": "Elevação lateral sentado com halteres",
+    "video_url": "03951201-Dumbbell-Seated-Lateral-Raise_Shoulders_.mp4",
+    "thumbnail_url": "03951201-Dumbbell-Seated-Lateral-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Unilateral com Halter",
+    "new_name": "Elevação lateral unilateral com halter",
+    "video_url": "03551201-Dumbbell-One-Arm-Lateral-Raise_Shoulder.mp4",
+    "thumbnail_url": "03551201-Dumbbell-One-Arm-Lateral-Raise_Shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha com Remada Unilateral com Halter",
+    "new_name": "Remada na prancha com halter (masculino)",
+    "video_url": "74761201-Dumbbell-Plank-Row-(male)_Waist_.mp4",
+    "thumbnail_url": "74761201-Dumbbell-Plank-Row-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Francês com Halter em pé",
+    "new_name": "Tríceps francês em pé com halter",
+    "video_url": "04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms-FIX.mp4",
+    "thumbnail_url": "04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Barra Reta Frances em Pé",
+    "new_name": "Tríceps francês em pé com barra",
+    "video_url": "01091201-Barbell-Standing-Overhead-Triceps-Extension_Upper-.mp4",
+    "thumbnail_url": "01091201-Barbell-Standing-Overhead-Triceps-Extension_Upper--STEP1.png"
+  },
+  {
+    "workout_name": "Stiff Barra",
+    "new_name": "Stiff com barra",
+    "video_url": "15431201-Barbell-Stiff-Legged-Deadlift_Hips-FIX_.mp4",
+    "thumbnail_url": "15431201-Barbell-Stiff-Legged-Deadlift_Hips-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Inclinado Barra no Banco",
+    "new_name": "Supino inclinado com barra",
+    "video_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+    "thumbnail_url": "00471201-Barbell-Incline-Bench-Press_Chest-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Supinada com Barra",
+    "new_name": "Remada curvada com barra e pegada supinada",
+    "video_url": "01181201-Barbell-Underhand-Bent-Over-Row_Back-FIX_.mp4",
+    "thumbnail_url": "01181201-Barbell-Underhand-Bent-Over-Row_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Reto com Kettlebell'",
+    "new_name": "Supino reto com kettlebells (masculino)",
+    "video_url": "66191201-Kettlebell-Bench-Press-(male)_Chest_.mp4",
+    "thumbnail_url": "66191201-Kettlebell-Bench-Press-(male)_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Arnold Alternado com Kettlebell em pé'",
+    "new_name": "Desenvolvimento Arnold alternado em pé com kettlebells (masculino)",
+    "video_url": "118551201-Kettlebell-Standing-Alternating-Arnold-Press-(mal.mp4",
+    "thumbnail_url": "118551201-Kettlebell-Standing-Alternating-Arnold-Press-(mal-STEP1.png"
+  },
+  {
+    "workout_name": "Kneeling Roll Out (Rolinho com TRX Ajoelhado) com TRX'",
+    "new_name": "Extensão de tronco na fita de suspensão",
+    "video_url": "10911201-Suspender-Rollout-(female)_Waist_.mp4",
+    "thumbnail_url": "10911201-Suspender-Rollout-(female)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Alternado Sentado no Step'",
+    "new_name": "Rosca bíceps alternada sentado com halteres (feminino)",
+    "video_url": "37611201-Dumbbell-Seated-Alternate-Biceps-Curl-(female)_Upper-Arms.mp4",
+    "thumbnail_url": "37611201-Dumbbell-Seated-Alternate-Biceps-Curl-(female)_Upp-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo Sentado no Step'",
+    "new_name": "Rosca martelo sentado com halteres",
+    "video_url": "16781201-Dumbbell-Seated-Hammer-Curl_Upper-Arms-FIX2_.mp4",
+    "thumbnail_url": "16781201-Dumbbell-Seated-Hammer-Curl_Upper-Arms-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Bola",
+    "new_name": "Abdominal na bola suíça",
+    "video_url": "02711201-Crunch-(on-stability-ball)_waist.mp4",
+    "thumbnail_url": "02711201-Crunch-(on-stability-ball)_waist-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral com Halter em pé",
+    "new_name": "Elevação lateral em pé com halteres (feminino)",
+    "video_url": "22341201-Dumbbell-Standing-Lateral-Raise-(female)_Shoulders.mp4",
+    "thumbnail_url": "22341201-Dumbbell-Standing-Lateral-Raise-(female)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Pêndulo",
+    "new_name": "Agachamento pendular na máquina com anilhas",
+    "video_url": "49511201-Lever-Pendulum-Squat-(plate-loaded)_Thighs_.mp4",
+    "thumbnail_url": "49511201-Lever-Pendulum-Squat-(plate-loaded)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Estação Multi",
+    "new_name": "Elevação lateral na polia",
+    "video_url": "01781201-Cable-Lateral-Raise_shoulder.mp4",
+    "thumbnail_url": "01781201-Cable-Lateral-Raise_shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Articulada",
+    "new_name": "Elevação lateral na máquina",
+    "video_url": "05841201-Lever-Lateral-Raise_shoulder.mp4",
+    "thumbnail_url": "05841201-Lever-Lateral-Raise_shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Circundução de punho",
+    "new_name": "Circundução dos punhos",
+    "video_url": "14281201-Wrist-Circles_Forearms.mp4",
+    "thumbnail_url": "14281201-Wrist-Circles_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Circundação de Tornozelo",
+    "new_name": "Circundução dos tornozelos",
+    "video_url": "13681201-Ankle-Circles_Calves_.mp4",
+    "thumbnail_url": "13681201-Ankle-Circles_Calves-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Guiado Reto",
+    "new_name": "Supino reto no Smith",
+    "video_url": "07481201-Smith-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "07481201-Smith-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Scott Articulado",
+    "new_name": "Rosca Scott na máquina",
+    "video_url": "05921201-Lever-Preacher-Curl_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "05921201-Lever-Preacher-Curl_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Guiado",
+    "new_name": "Desenvolvimento de ombros no Smith",
+    "video_url": "07661201-Smith-Shoulder-Press_shoulder.mp4",
+    "thumbnail_url": "07661201-Smith-Shoulder-Press_shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Polia com Corda",
+    "new_name": "Rosca martelo na polia com corda (masculino)",
+    "video_url": "01651201-Cable-Hammer-Curl-(with-rope)-(male)_Forearms_.mp4",
+    "thumbnail_url": "01651201-Cable-Hammer-Curl-(with-rope)-(male)_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Supra Reto Banco Curto",
+    "new_name": "Abdominal curto no banco",
+    "video_url": "02701201-Crunch-(on-bench)_Waist.mp4",
+    "thumbnail_url": "02701201-Crunch-(on-bench)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdução Polia em Pé",
+    "new_name": "Abdução de quadril em pé na polia (versão 3)",
+    "video_url": "112661201-Cable-Standing-Hip-Abduction-(VERSION-3)_Hips_.mp4",
+    "thumbnail_url": "112661201-Cable-Standing-Hip-Abduction-(VERSION-3)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Inclinação Lateral Direita com Halter",
+    "new_name": "Flexão lateral do tronco com halter",
+    "video_url": "04071201-Dumbbell-Side-Bend_Waist-FIX_.mp4",
+    "thumbnail_url": "04071201-Dumbbell-Side-Bend_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Unilateral com Halter",
+    "new_name": "Rosca bíceps unilateral em pé com halter",
+    "video_url": "16701201-Dumbbell-One-Arm-Standing-Curl_Upper-Arms_.mp4",
+    "thumbnail_url": "16701201-Dumbbell-One-Arm-Standing-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Polia Barra Reta Fechada Sentada",
+    "new_name": "Remada baixa sentado na polia",
+    "video_url": "08611201-Cable-Seated-Row_Back-FIX_.mp4",
+    "thumbnail_url": "08611201-Cable-Seated-Row_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Polia Barra Reta Aberta Sentada",
+    "new_name": "Remada baixa na polia com pegada aberta",
+    "video_url": "02181201-Cable-Seated-Wide-grip-Row_Back-FIX_.mp4",
+    "thumbnail_url": "02181201-Cable-Seated-Wide-grip-Row_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Hack Inclinado",
+    "new_name": "Agachamento no hack (feminino)",
+    "video_url": "23841201-Sled-Hack-Squat-(female)_Thighs.mp4",
+    "thumbnail_url": "23841201-Sled-Hack-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Extensora Articulada",
+    "new_name": "Cadeira extensora",
+    "video_url": "18731201-Lever-Leg-Extension-(Plate-Loaded)_Thighs_.mp4",
+    "thumbnail_url": "18731201-Lever-Leg-Extension-(Plate-Loaded)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Guiado",
+    "new_name": "Desenvolvimento de ombros no Smith",
+    "video_url": "07661201-Smith-Shoulder-Press_shoulder.mp4",
+    "thumbnail_url": "07661201-Smith-Shoulder-Press_shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Inclinado Guiado",
+    "new_name": "Supino inclinado no Smith",
+    "video_url": "07571201-Smith-Incline-Bench-Press_Chest-FIX_.mp4",
+    "thumbnail_url": "07571201-Smith-Incline-Bench-Press_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Esteira",
+    "new_name": "Corrida na esteira",
+    "video_url": "06841201-Run-(equipment)_Cardio.mp4",
+    "thumbnail_url": "06841201-Run-(equipment)_Cardio-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com Halter",
+    "new_name": "Agachamento com halteres",
+    "video_url": "15551201-Dumbbell-Squat_Thighs.mp4",
+    "thumbnail_url": "15551201-Dumbbell-Squat_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Polia em pé",
+    "new_name": "Desenvolvimento de ombros na polia",
+    "video_url": "02191201-Cable-Shoulder-Press_Shoulders-FIX_.mp4",
+    "thumbnail_url": "02191201-Cable-Shoulder-Press_Shoulders-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Polia unilateral em pé",
+    "new_name": "Elevação lateral unilateral na polia",
+    "video_url": "01921201-Cable-One-Arm-Lateral-Raise_Shoulders.mp4",
+    "thumbnail_url": "01921201-Cable-One-Arm-Lateral-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Alta Polia",
+    "new_name": "Remada alta na polia",
+    "video_url": "02461201-Cable-Upright-Row_Shoulders-FIX2_.mp4",
+    "thumbnail_url": "02461201-Cable-Upright-Row_Shoulders-FIX2-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Polia Corda em pé",
+    "new_name": "Elevação frontal na polia com corda (feminino)",
+    "video_url": "65431201-Cable-Front-Raise-(rope-attachment)-(female)_Shoul.mp4",
+    "thumbnail_url": "65431201-Cable-Front-Raise-(rope-attachment)-(female)_Shoul-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Lateral Máquina",
+    "new_name": "Elevação lateral na máquina",
+    "video_url": "05841201-Lever-Lateral-Raise_shoulder.mp4",
+    "thumbnail_url": "05841201-Lever-Lateral-Raise_shoulder-STEP1.png"
+  },
+  {
+    "workout_name": "Retrocesso Smith",
+    "new_name": "Afundo para trás no Smith (versão 2, feminino)",
+    "video_url": "08871201-Smith-rear-lunge-(version-2)-(female)_Thighs_.mp4",
+    "thumbnail_url": "08871201-Smith-rear-lunge-(version-2)-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Desenvolvimento Fechado com Halter",
+    "new_name": "Desenvolvimento em pé com halteres e pegada fechada (masculino)",
+    "video_url": "86481201-Dumbbell-Standing-Close-Grip-Shoulder-Press-(male).mp4",
+    "thumbnail_url": "86481201-Dumbbell-Standing-Close-Grip-Shoulder-Press-(male)-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Polia Unilateral",
+    "new_name": "Remada curvada unilateral na polia",
+    "video_url": "01891201-Cable-One-Arm-Bent-over-Row_Back_.mp4",
+    "thumbnail_url": "01891201-Cable-One-Arm-Bent-over-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Polia Supinada",
+    "new_name": "Remada curvada na polia com pegada supinada",
+    "video_url": "43671201-Cable-Bent-Over-Reverse-Grip-Row_Back_.mp4",
+    "thumbnail_url": "43671201-Cable-Bent-Over-Reverse-Grip-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Barra Fixa Aberta",
+    "new_name": "Barra fixa com pegada aberta",
+    "video_url": "06511201-Pull-up-(wide-grip)_Back-FIX_.mp4",
+    "thumbnail_url": "06511201-Pull-up-(wide-grip)_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Barra Fixa Fechada",
+    "new_name": "Barra fixa com pegada fechada",
+    "video_url": "54791201-Close-Grip-Pull-Up_Back_.mp4",
+    "thumbnail_url": "54791201-Close-Grip-Pull-Up_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Barra Fixa Supinada",
+    "new_name": "Barra fixa com pegada supinada",
+    "video_url": "06741201-Reverse-grip-Pull-up_Back-FIX_.mp4",
+    "thumbnail_url": "06741201-Reverse-grip-Pull-up_Back-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Barra Sentado",
+    "new_name": "Elevação frontal sentado com barra",
+    "video_url": "37261201-Barbell-Seated-Front-Raise_Shoulders_.mp4",
+    "thumbnail_url": "37261201-Barbell-Seated-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Alternado com Halter",
+    "new_name": "Crucifixo alternado com halteres (masculino)",
+    "video_url": "93021201-Dumbbell-Alternative-Fly-(male)_Chest_.mp4",
+    "thumbnail_url": "93021201-Dumbbell-Alternative-Fly-(male)_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Unilateral com Halter",
+    "new_name": "Crucifixo unilateral com halter no banco",
+    "video_url": "12851201-Dumbbell-One-Arm-Bench-Fly_Chest_.mp4",
+    "thumbnail_url": "12851201-Dumbbell-One-Arm-Bench-Fly_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inclinado Alternado com Halter",
+    "new_name": "Crucifixo inclinado alternado com halteres",
+    "video_url": "79971201-Dumbbell-Incline-Alternate-Fly_Chest_.mp4",
+    "thumbnail_url": "79971201-Dumbbell-Incline-Alternate-Fly_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inclinado Unilateral com Halter",
+    "new_name": "Crucifixo inclinado unilateral com halter",
+    "video_url": "12791201-Dumbbell-Incline-One-Arm-Fly_Chest_.mp4",
+    "thumbnail_url": "12791201-Dumbbell-Incline-One-Arm-Fly_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inclinado Rotação com Halter",
+    "new_name": "Crucifixo inclinado com rotação e halteres",
+    "video_url": "03311201-Dumbbell-Incline-Twisted-Fly_Chest_.mp4",
+    "thumbnail_url": "03311201-Dumbbell-Incline-Twisted-Fly_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Barra W Inversa Scott",
+    "new_name": "Rosca Scott inversa com barra W",
+    "video_url": "04521201-EZ-Barbell-Reverse-grip-Preacher-Curl_Forearms_.mp4",
+    "thumbnail_url": "04521201-EZ-Barbell-Reverse-grip-Preacher-Curl_Forearms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rotação de Tronco Polia Média",
+    "new_name": "Rotação de tronco na polia",
+    "video_url": "02431201-Cable-Twist_Waist-FIX.mp4",
+    "thumbnail_url": "02431201-Cable-Twist_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Máquina Supinada",
+    "new_name": "Remada vertical na máquina com pegada supinada",
+    "video_url": "13481201-Lever-Reverse-Grip-Vertical-Row_Back_.mp4",
+    "thumbnail_url": "13481201-Lever-Reverse-Grip-Vertical-Row_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Alternado com Halter em pé",
+    "new_name": "Elevação frontal alternada com halteres (feminino)",
+    "video_url": "43411201-Dumbbell-Alternate-Front-Raise-(female)_Shoulders_.mp4",
+    "thumbnail_url": "43411201-Dumbbell-Alternate-Front-Raise-(female)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Elevação Frontal Unilateral com Halter",
+    "new_name": "Elevação frontal unilateral com halter",
+    "video_url": "39131201-Dumbbell-One-Arm-Front-Raise_Shoulders_.mp4",
+    "thumbnail_url": "39131201-Dumbbell-One-Arm-Front-Raise_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Supino Inclinado Unilateral com Halter",
+    "new_name": "Supino inclinado unilateral com halter",
+    "video_url": "12811201-Dumbbell-Incline-One-Arm-Press_Chest_.mp4",
+    "thumbnail_url": "12811201-Dumbbell-Incline-One-Arm-Press_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Puxada Máquina Unilateral",
+    "new_name": "Puxada aberta unilateral sentado na máquina (masculino)",
+    "video_url": "86921201-Lever-Seated-Single-Arm-Wide-Lat-Pulldown-(male)_B.mp4",
+    "thumbnail_url": "86921201-Lever-Seated-Single-Arm-Wide-Lat-Pulldown-(male)_B-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Smith Sumô",
+    "new_name": "Agachamento sumô no Smith",
+    "video_url": "31421201-Smith-Sumo-Squat_Hips-FIX_.mp4",
+    "thumbnail_url": "31421201-Smith-Sumo-Squat_Hips-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Direta Polia Inversa Unilateral",
+    "new_name": "Rosca inversa unilateral na polia",
+    "video_url": "14131201-Cable-Reverse-One-Arm-Curl_Forearms_.mp4",
+    "thumbnail_url": "14131201-Cable-Reverse-One-Arm-Curl_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo Scott com Halter",
+    "new_name": "Rosca Scott martelo com halteres (feminino)",
+    "video_url": "43371201-Dumbbell-Hammer-Preacher-Curl-(female)_Forearms_.mp4",
+    "thumbnail_url": "43371201-Dumbbell-Hammer-Preacher-Curl-(female)_Forearms-STEP1.png"
+  },
+  {
+    "workout_name": "Rosca Martelo Scott Unilateral com Halter",
+    "new_name": "Rosca Scott martelo unilateral com halter",
+    "video_url": "16631201-Dumbbell-One-Arm-Hammer-Preacher-Curl_Upper-Arms_.mp4",
+    "thumbnail_url": "16631201-Dumbbell-One-Arm-Hammer-Preacher-Curl_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Retrocesso Alternado com Halter",
+    "new_name": "Afundo para trás com halteres",
+    "video_url": "03811201-Dumbbell-Rear-Lunge_Thighs-FIX_.mp4",
+    "thumbnail_url": "03811201-Dumbbell-Rear-Lunge_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Retrocesso Step Alternado com Halter'",
+    "new_name": "Afundo para trás com halteres a partir do step (feminino)",
+    "video_url": "23671201-Dumbbell-Rear-Lunge-from-Step-(female)_Thighs_.mp4",
+    "thumbnail_url": "23671201-Dumbbell-Rear-Lunge-from-Step-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Adução Polia em Pé",
+    "new_name": "Adução de quadril em pé na polia (versão 3)",
+    "video_url": "112671201-Cable-Standing-Hip-Adduction-(VERSION-3)_Hips_.mp4",
+    "thumbnail_url": "112671201-Cable-Standing-Hip-Adduction-(VERSION-3)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Cadeira Flexora Unilateral",
+    "new_name": "Cadeira flexora unilateral",
+    "video_url": "15861201-Lever-Seated-One-Leg-Curl_Thighs_.mp4",
+    "thumbnail_url": "15861201-Lever-Seated-One-Leg-Curl_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Mesa Flexora Unilateral",
+    "new_name": "Mesa flexora unilateral",
+    "video_url": "15901201-Lever-Lying-Single-Leg-Curl_Thighs-FIX_.mp4",
+    "thumbnail_url": "15901201-Lever-Lying-Single-Leg-Curl_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Polia Francês Corda",
+    "new_name": "Tríceps francês na polia com corda",
+    "video_url": "01941201-Cable-Overhead-Triceps-Extension-(rope-attachment)_Upper-Arms-FIX_.mp4",
+    "thumbnail_url": "01941201-Cable-Overhead-Triceps-Extension-(rope-attachment)_Upper-Arms-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Twist",
+    "new_name": "Abdominal russo",
+    "video_url": "06871201-Russian-Twist_waist.mp4",
+    "thumbnail_url": "06871201-Russian-Twist_waist-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo com TRX'",
+    "new_name": "Crucifixo na fita de suspensão",
+    "video_url": "10741201-Suspender-Fly_Chest-FIX_.mp4",
+    "thumbnail_url": "10741201-Suspender-Fly_Chest-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Crucifixo Inverso com TRX'",
+    "new_name": "Crucifixo inverso na fita de suspensão (feminino)",
+    "video_url": "10901201-Suspender-Reverse-Fly-(female)_Shoulders.mp4",
+    "thumbnail_url": "10901201-Suspender-Reverse-Fly-(female)_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Tríceps Testa com TRX'",
+    "new_name": "Extensão de tríceps na fita de suspensão (feminino)",
+    "video_url": "11041201-Suspender-Triceps-Extension-(female)_Upper-Arms_.mp4",
+    "thumbnail_url": "11041201-Suspender-Triceps-Extension-(female)_Upper-Arms-STEP1.png"
+  },
+  {
+    "workout_name": "Meio Burpee",
+    "new_name": "Meio burpee (feminino)",
+    "video_url": "103371201-Half-Burpee-(female)_Plyometrics_.mp4",
+    "thumbnail_url": "103371201-Half-Burpee-(female)_Plyometrics-STEP1.png"
+  },
+  {
+    "workout_name": "Saltito Lateral'",
+    "new_name": "Saltos laterais",
+    "video_url": "47121201-Lateral-Hops_Plyometrics_.mp4",
+    "thumbnail_url": "47121201-Lateral-Hops_Plyometrics-STEP1.png"
+  },
+  {
+    "workout_name": "Moinho de Vento com Kettlebell'",
+    "new_name": "Moinho com kettlebell",
+    "video_url": "05541201-Kettlebell-Windmill_waist.mp4",
+    "thumbnail_url": "05541201-Kettlebell-Windmill_waist-STEP1.png"
+  },
+  {
+    "workout_name": "Swing com Kettlebell'",
+    "new_name": "Swing com kettlebell (feminino)",
+    "video_url": "25371201-Kettlebell-Swing-(female)_Hips-FIX_.mp4",
+    "thumbnail_url": "25371201-Kettlebell-Swing-(female)_Hips-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Swing Alternado com Kettlebell'",
+    "new_name": "Swing alternado com kettlebell (masculino)",
+    "video_url": "98421201-Kettlebell-Alternating-Swing-(male)_Hips_.mp4",
+    "thumbnail_url": "98421201-Kettlebell-Alternating-Swing-(male)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Thruster com Kettlebell'",
+    "new_name": "Agachamento com desenvolvimento com kettlebells (feminino)",
+    "video_url": "45171201-Kettlebell-Thruster-(female)_Weightlifting_.mp4",
+    "thumbnail_url": "45171201-Kettlebell-Thruster-(female)_Weightlifting-STEP1.png"
+  },
+  {
+    "workout_name": "Volta Ao Mundo com Kettlebell'",
+    "new_name": "Rotação do kettlebell ao redor da cabeça",
+    "video_url": "29391201-Kettlebell-Around-Head-Rotation_Back.mp4",
+    "thumbnail_url": "29391201-Kettlebell-Around-Head-Rotation_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Alta com Kettlebell'",
+    "new_name": "Remada alta com kettlebell",
+    "video_url": "44081201-Kettlebell-Upright-Row_Shoulders_.mp4",
+    "thumbnail_url": "44081201-Kettlebell-Upright-Row_Shoulders-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Aberta com Kettlebell'",
+    "new_name": "Remada curvada com kettlebell (feminino)",
+    "video_url": "45371201-Kettlebell-Bent-Over-Row-(female)_Back_.mp4",
+    "thumbnail_url": "45371201-Kettlebell-Bent-Over-Row-(female)_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Remada Curvada Fechada com Kettlebell'",
+    "new_name": "Remada curvada com kettlebell (feminino)",
+    "video_url": "45371201-Kettlebell-Bent-Over-Row-(female)_Back_.mp4",
+    "thumbnail_url": "45371201-Kettlebell-Bent-Over-Row-(female)_Back-STEP1.png"
+  },
+  {
+    "workout_name": "Saltito Unipodal'",
+    "new_name": "Saltitos unilaterais",
+    "video_url": "54821201-Single-Leg-Hopping_Plyometrics_.mp4",
+    "thumbnail_url": "54821201-Single-Leg-Hopping_Plyometrics-STEP1.png"
+  },
+  {
+    "workout_name": "Skipping Alto",
+    "new_name": "Skipping sem carga (masculino)",
+    "video_url": "61001201-Bodyweight-Skipping-(male)_Plyometrics_.mp4",
+    "thumbnail_url": "61001201-Bodyweight-Skipping-(male)_Plyometrics-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com Salto'",
+    "new_name": "Agachamento com salto",
+    "video_url": "05141201-Jump-Squat_Thighs-FIX.mp4",
+    "thumbnail_url": "05141201-Jump-Squat_Thighs-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Obliquo Decúbito Lateral",
+    "new_name": "Abdominal lateral deitado de lado (feminino)",
+    "video_url": "73961201-Side-Lying-Side-Crunch-(female)_Waist_.mp4",
+    "thumbnail_url": "73961201-Side-Lying-Side-Crunch-(female)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento Sumo com Kettlebell'",
+    "new_name": "Agachamento sumô com kettlebell (masculino)",
+    "video_url": "40891201-Kettlebell-Sumo-Squat-(male)_Hips_.mp4",
+    "thumbnail_url": "40891201-Kettlebell-Sumo-Squat-(male)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Stiff com Kettlebell'",
+    "new_name": "Stiff com kettlebells",
+    "video_url": "116931201-Kettlebell-Stiff-Leg-Deadlift_Hips_.mp4",
+    "thumbnail_url": "116931201-Kettlebell-Stiff-Leg-Deadlift_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Polichinelo",
+    "new_name": "Prancha com abertura e fechamento das pernas",
+    "video_url": "39301201-Plank-Jack_Waist-FIX_.mp4",
+    "thumbnail_url": "39301201-Plank-Jack_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Lateral com Rotação de Tronco",
+    "new_name": "Prancha lateral com rotação (masculino)",
+    "video_url": "71421201-Side-Plank-Twist-(male)_Waist_.mp4",
+    "thumbnail_url": "71421201-Side-Plank-Twist-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Perdigueiro",
+    "new_name": "Prancha perdigueiro (masculino)",
+    "video_url": "90021201-Bird-Dog-Plank-(male)_Waist_.mp4",
+    "thumbnail_url": "90021201-Bird-Dog-Plank-(male)_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Abdominal Twist com Kettlebell",
+    "new_name": "Abdominal russo com kettlebell",
+    "video_url": "43931201-Kettlebell-Russian-Twist_Waist-FIX_.mp4",
+    "thumbnail_url": "43931201-Kettlebell-Russian-Twist_Waist-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Prancha Tocando Ombros",
+    "new_name": "Prancha com toque nos ombros",
+    "video_url": "52731201-Plank-Shoulder-Tap_Waist_.mp4",
+    "thumbnail_url": "52731201-Plank-Shoulder-Tap_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Cobra",
+    "new_name": "Flexão de braços cobra",
+    "video_url": "34881201-Cobra-Push-up_Chest.mp4",
+    "thumbnail_url": "34881201-Cobra-Push-up_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Tocando Ombros",
+    "new_name": "Flexão de braços com toque nos ombros",
+    "video_url": "06991201-Shoulder-Tap-Push-up_Plyometrics-FIX_.mp4",
+    "thumbnail_url": "06991201-Shoulder-Tap-Push-up_Plyometrics-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Levantamento Terra com Sandbag'",
+    "new_name": "Levantamento terra com sandbag (masculino)",
+    "video_url": "103831201-Weighted-Sandbag-Deadlift-(male)_Hips_.mp4",
+    "thumbnail_url": "103831201-Weighted-Sandbag-Deadlift-(male)_Hips-STEP1.png"
+  },
+  {
+    "workout_name": "Shuttle Run Lateral",
+    "new_name": "Deslocamento lateral de ida e volta",
+    "video_url": "35511201-Side-Shuttle_Cardio_.mp4",
+    "thumbnail_url": "35511201-Side-Shuttle_Cardio-STEP1.png"
+  },
+  {
+    "workout_name": "Tsunami na Corda Naval",
+    "new_name": "Ondas com corda naval",
+    "video_url": "01281201-Battling-Ropes.mp4",
+    "thumbnail_url": "01281201-Battling-Ropes-STEP1.png"
+  },
+  {
+    "workout_name": "Tsunami na Corda Naval",
+    "new_name": "Ondas com corda naval",
+    "video_url": "01281201-Battling-Ropes.mp4",
+    "thumbnail_url": "01281201-Battling-Ropes-STEP1.png"
+  },
+  {
+    "workout_name": "Agachamento com Salto com TRX'",
+    "new_name": "Agachamento com salto na fita de suspensão (feminino)",
+    "video_url": "11171201-Suspender-Jump-Squat-(female)_Thighs_.mp4",
+    "thumbnail_url": "11171201-Suspender-Jump-Squat-(female)_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Salto com Saída Unipodal com Pliobox'",
+    "new_name": "Salto unilateral na caixa",
+    "video_url": "51661201-Single-Leg-Box-Jump_Plyometrics_.mp4",
+    "thumbnail_url": "51661201-Single-Leg-Box-Jump_Plyometrics-STEP1.png"
+  },
+  {
+    "workout_name": "Salto com Pliobox'",
+    "new_name": "Salto na caixa (feminino)",
+    "video_url": "05091201-Jump-Box-(female)_Plyometrics-FIX_.mp4",
+    "thumbnail_url": "05091201-Jump-Box-(female)_Plyometrics-FIX-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão de Braços Pliométrico",
+    "new_name": "Flexão de braços pliométrica",
+    "video_url": "13061201-Plyo-Push-Up_Chest_.mp4",
+    "thumbnail_url": "13061201-Plyo-Push-Up_Chest-STEP1.png"
+  },
+  {
+    "workout_name": "Retrocesso Alternado Overhead com Doublegrip'",
+    "new_name": "Afundo para trás com barra acima da cabeça no landmine",
+    "video_url": "76271201-Landmine-Overhead-Rear-Lunge_Thighs_.mp4",
+    "thumbnail_url": "76271201-Landmine-Overhead-Rear-Lunge_Thighs-STEP1.png"
+  },
+  {
+    "workout_name": "Rotação de Quadril Perna Estendida",
+    "new_name": "Elevação de pernas estendidas e quadril com rotação na barra fixa",
+    "video_url": "04761201-Hanging-Straight-Twisting-Leg-Hip-Raise_Waist_.mp4",
+    "thumbnail_url": "04761201-Hanging-Straight-Twisting-Leg-Hip-Raise_Waist-STEP1.png"
+  },
+  {
+    "workout_name": "Flexão Nórtica Reversa",
+    "new_name": "Flexão nórdica de joelhos (masculino)",
+    "video_url": "77461201-Nordic-Hamstring-Curl-(male)_Thighs_.mp4",
+    "thumbnail_url": "77461201-Nordic-Hamstring-Curl-(male)_Thighs-STEP1.png"
+  }
+]
